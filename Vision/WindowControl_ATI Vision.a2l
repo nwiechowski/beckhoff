@@ -1,0 +1,759 @@
+/******************************************************************************
+ *
+ *  ASAP2 file:     WindowControl.a2l
+ *
+ * Academic License - for use in teaching, academic research, and meeting
+ * course requirements at degree granting institutions only.  Not for
+ * government, commercial, or other organizational use. 
+ * 
+ * Code generation for model "WindowControl".
+ *
+ * Model version              : 19.37
+ * Simulink Coder version : 9.4 (R2020b) 29-Jul-2020
+ * C source code generated on : Tue Feb 22 12:52:57 2022
+ * 
+ * Target selection: vera_target.tlc
+ * Note: GRT includes extra infrastructure and instrumentation for prototyping
+ * Embedded hardware selection: 32-bit Generic
+ * Code generation objectives: Unspecified
+ * Validation result: Not run
+ *
+ * (add additional file header information here)
+ *
+ ******************************************************************************/
+
+ASAP2_VERSION  1 31   /* Version 1.31 */
+
+/begin PROJECT ProjectName "Project Comment Goes Here"
+  
+  /begin HEADER "Header Comments go here"
+    
+  /end HEADER
+  
+  
+  /begin MODULE ModuleName  "Module Comment Goes Here"
+    
+    
+	/begin IF_DATA VISION
+			/begin MEMORY_REGION
+				 Param_ROM 0x000C0000 0x00015000 0xf 14
+			/end MEMORY_REGION
+
+			/begin MEMORY_REGION
+				 Code 0x00010000 0x000A0000 0xd 14
+			/end MEMORY_REGION
+			
+			/begin MEMORY_REGION
+				 Signals 0x40015000 0x00015000 0x20 14
+			/end MEMORY_REGION
+			
+			DEVICE_SETTING	"XCP_AddressMapping1=0x000C0000,0x40000000,0x00015000"
+		/end IF_DATA
+    
+    /begin MOD_COMMON
+			"Declares the alignment of bytes in the complete module to 1"
+            ALIGNMENT_BYTE 1
+            ALIGNMENT_WORD 1
+            ALIGNMENT_LONG 1
+            ALIGNMENT_FLOAT32_IEEE 1
+            ALIGNMENT_FLOAT64_IEEE 1
+            BYTE_ORDER MSB_FIRST		  
+		/end MOD_COMMON
+	/begin IF_DATA XCP
+			/begin PROTOCOL_LAYER 
+				0x0100			/* XCP protocol layer 1.0 */
+				0x0500 			/* T1 [ms] */
+				0x0500 			/* T2 [ms] */
+				0x1500 			/* T3 [ms] PROGRAM_START, PROGRAM_PREPARE, PROGRAM_VERIFY */
+				0x5000 			/* T4 [ms] PROGRAM_CLEAR */
+				0x0500 			/* T5 [ms] */
+				0x0015 			/* T6 [ms] */
+				0x00C8 			/* T7 [ms] */
+				0x08 			/* MAX_CTO */
+				0x0008 			/* MAX_DTO */
+				BYTE_ORDER_MSB_FIRST
+				ADDRESS_GRANULARITY_BYTE
+				SEED_AND_KEY_EXTERNAL_FUNCTION "seedKey.dll"
+				OPTIONAL_CMD SET_MTA
+				OPTIONAL_CMD UPLOAD
+				OPTIONAL_CMD BUILD_CHECKSUM
+				OPTIONAL_CMD DOWNLOAD
+				OPTIONAL_CMD CLEAR_DAQ_LIST
+				OPTIONAL_CMD SET_DAQ_PTR
+				OPTIONAL_CMD WRITE_DAQ
+				OPTIONAL_CMD SET_DAQ_LIST_MODE
+				OPTIONAL_CMD START_STOP_DAQ_LIST
+				OPTIONAL_CMD START_STOP_SYNCH
+				OPTIONAL_CMD GET_DAQ_PROCESSOR_INFO
+				OPTIONAL_CMD GET_DAQ_RESOLUTION_INFO
+				OPTIONAL_CMD GET_DAQ_LIST_INFO
+				OPTIONAL_CMD GET_DAQ_EVENT_INFO
+				OPTIONAL_CMD GET_DAQ_LIST_MODE
+				OPTIONAL_CMD PROGRAM_START
+				OPTIONAL_CMD PROGRAM_CLEAR
+				OPTIONAL_CMD PROGRAM
+				OPTIONAL_CMD PROGRAM_RESET
+				OPTIONAL_CMD GET_PGM_PROCESSOR_INFO
+				OPTIONAL_CMD GET_SECTOR_INFO
+				OPTIONAL_CMD GET_ID
+				OPTIONAL_CMD_GET_SEED
+				OPTIONAL_CMD_UNLOCK
+			/end PROTOCOL_LAYER
+
+			/begin DAQ
+				STATIC          		/* DAQ_CONFIG_TYPE */
+				0x0004 					/* MAX_DAQ */
+				0x0008 					/* MAX_EVENT_CHANNEL */
+				0x00 					/* MIN_DAQ */	
+				OPTIMISATION_TYPE_DEFAULT
+				ADDRESS_EXTENSION_FREE
+				IDENTIFICATION_FIELD_TYPE_ABSOLUTE
+				GRANULARITY_ODT_ENTRY_SIZE_DAQ_BYTE
+				0x04            		/* MAX_ODT_ENTRY_SIZE_DAQ */
+				NO_OVERLOAD_INDICATION
+				
+				/begin DAQ_LIST
+					0x0000 				/* DAQ_LIST_NUMBER */
+					DAQ_LIST_TYPE 		DAQ
+					MAX_ODT 			0x19
+					MAX_ODT_ENTRIES 	0x08
+					FIRST_PID			0x00
+				/end DAQ_LIST
+
+				/begin DAQ_LIST
+					0x0001 				/* DAQ_LIST_NUMBER */				
+					DAQ_LIST_TYPE 		DAQ				
+					MAX_ODT 			0x19
+					MAX_ODT_ENTRIES 	0x08
+					FIRST_PID			0x19
+				/end DAQ_LIST
+				
+				/begin DAQ_LIST
+					0x0002 				/* DAQ_LIST_NUMBER */				
+					DAQ_LIST_TYPE 		DAQ				
+					MAX_ODT 			0x19
+					MAX_ODT_ENTRIES 	0x08
+					FIRST_PID			0x32
+				/end DAQ_LIST
+				
+				/begin DAQ_LIST
+					0x0003 				/* DAQ_LIST_NUMBER */				
+					DAQ_LIST_TYPE 		DAQ				
+					MAX_ODT 			0x19
+					MAX_ODT_ENTRIES 	0x08
+					FIRST_PID			0x4B
+				/end DAQ_LIST
+
+				/begin EVENT
+					"20_ms_event" 		/* name */
+					"20ms_ev" 			/* short name */
+					0x0000 				/* EVENT_CHANNEL_NUMBER */
+					DAQ
+					0x04 				/* MAX_DAQ_LIST */
+					0x14 				/* TIME_CYCLE */
+					0x06 				/* TIME_UNIT (1ms) */
+					0x00 				/* PRIORITY */
+				/end EVENT
+				
+				/begin EVENT
+					"200_ms_event" 		/* name */
+					"200ms_ev" 			/* short name */
+					0x0001 				/* EVENT_CHANNEL_NUMBER */
+					DAQ
+					0x04 				/* MAX_DAQ_LIST */
+					0xC8 				/* TIME_CYCLE */
+					0x06 				/* TIME_UNIT (1ms) */
+					0x00 				/* PRIORITY */
+				/end EVENT
+				
+				/begin EVENT
+					"100_ms_event" 		/* name */
+					"100ms_ev" 			/* short name */
+					0x0002 				/* EVENT_CHANNEL_NUMBER */
+					DAQ
+					0x04 				/* MAX_DAQ_LIST */
+					0x64 				/* TIME_CYCLE */
+					0x06 				/* TIME_UNIT (1ms) */
+					0x00 				/* PRIORITY */
+				/end EVENT
+				
+				/begin EVENT
+					"50_ms_event" 		/* name */
+					"50ms_ev" 			/* short name */
+					0x0003 				/* EVENT_CHANNEL_NUMBER */
+					DAQ
+					0x04 				/* MAX_DAQ_LIST */
+					0x32 				/* TIME_CYCLE */
+					0x06 				/* TIME_UNIT (1ms) */
+					0x00 				/* PRIORITY */
+				/end EVENT
+				
+				/begin EVENT
+					"10_ms_event" 		/* name */
+					"10ms_ev" 			/* short name */
+					0x0004 				/* EVENT_CHANNEL_NUMBER */
+					DAQ
+					0x04 				/* MAX_DAQ_LIST */
+					0x0A 				/* TIME_CYCLE */
+					0x06 				/* TIME_UNIT (1ms) */
+					0x00 				/* PRIORITY */
+				/end EVENT
+				
+				/begin EVENT
+					"5_ms_event" 		/* name */
+					"5ms_ev" 			/* short name */
+					0x0005 				/* EVENT_CHANNEL_NUMBER */
+					DAQ
+					0x04 				/* MAX_DAQ_LIST */
+					0x05 				/* TIME_CYCLE */
+					0x06 				/* TIME_UNIT (1ms) */
+					0x00 				/* PRIORITY */
+				/end EVENT
+				
+				/begin EVENT
+					"2_ms_event" 		/* name */
+					"2ms_ev" 			/* short name */
+					0x0006 				/* EVENT_CHANNEL_NUMBER */
+					DAQ
+					0x04 				/* MAX_DAQ_LIST */
+					0x02 				/* TIME_CYCLE */
+					0x06 				/* TIME_UNIT (1ms) */
+					0x00 				/* PRIORITY */
+				/end EVENT
+				
+				/begin EVENT
+					"1_ms_event" 		/* name */
+					"1ms_ev" 			/* short name */
+					0x0007 				/* EVENT_CHANNEL_NUMBER */
+					DAQ
+					0x04 				/* MAX_DAQ_LIST */
+					0x01 				/* TIME_CYCLE */
+					0x06 				/* TIME_UNIT (1ms) */
+					0x00 				/* PRIORITY */
+				/end EVENT
+			/end DAQ
+			  
+			/begin XCP_ON_CAN
+				0x0100                    			/* XCP on CAN version */
+				CAN_ID_BROADCAST 	0x0000 			/* auto-detection */
+				CAN_ID_MASTER 		0x0011      	/* CMD/STIM (CROs) */
+				CAN_ID_SLAVE  		0x0010      	/* RES/ERR/EV/SERV/DAQ (DTOs) */
+				BAUDRATE      		1000000      	/* BAUDRATE */
+				MAX_DLC_REQUIRED
+			/end XCP_ON_CAN
+		/end IF_DATA
+	
+/* Begin VEMAC XML Config Parameter List */
+
+/* End VEMAC XML Config Parameter List */
+
+
+    
+    /begin RECORD_LAYOUT Scalar_BOOLEAN
+      FNC_VALUES  1 UBYTE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_UBYTE
+      FNC_VALUES  1 UBYTE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_BYTE
+      FNC_VALUES  1 SBYTE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_UWORD
+      FNC_VALUES  1 UWORD COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_SWORD
+      FNC_VALUES 1 SWORD COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_ULONG
+      FNC_VALUES  1 ULONG COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_LONG
+      FNC_VALUES  1 SLONG COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_FLOAT32_IEEE
+      FNC_VALUES  1 FLOAT32_IEEE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_FLOAT64_IEEE
+      FNC_VALUES  1 FLOAT64_IEEE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    
+    /begin RECORD_LAYOUT Lookup1D_BOOLEAN
+      FNC_VALUES  1 UBYTE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_BOOLEAN
+      AXIS_PTS_X  1 UBYTE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_BYTE
+      FNC_VALUES  1 SBYTE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_BYTE
+      AXIS_PTS_X  1 SBYTE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_UBYTE
+      FNC_VALUES  1 UBYTE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_UBYTE
+      AXIS_PTS_X  1 UBYTE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_UWORD
+      FNC_VALUES  1 UWORD COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_UWORD
+      AXIS_PTS_X  1 UWORD INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_WORD
+      FNC_VALUES  1 SWORD COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_WORD
+      AXIS_PTS_X  1 SWORD INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_ULONG
+      FNC_VALUES  1 ULONG COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_ULONG
+      AXIS_PTS_X  1 ULONG INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_SLONG
+      FNC_VALUES  1 SLONG COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_LONG
+      AXIS_PTS_X  1 SLONG INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_FLOAT32_IEEE
+      FNC_VALUES  1 FLOAT32_IEEE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_FLOAT32_IEEE
+      AXIS_PTS_X  1 FLOAT32_IEEE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_FLOAT64_IEEE
+      FNC_VALUES  1 FLOAT64_IEEE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_FLOAT64_IEEE
+      AXIS_PTS_X  1 FLOAT64_IEEE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_BOOLEAN
+      FNC_VALUES  1 UBYTE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_BOOLEAN
+      AXIS_PTS_X  1 UBYTE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT    
+    
+    /begin RECORD_LAYOUT Lookup2D_UBYTE
+      FNC_VALUES  1 UBYTE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_UBYTE
+      AXIS_PTS_X  1 UBYTE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_BYTE
+      FNC_VALUES  1 SBYTE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_BYTE
+      AXIS_PTS_X  1 SBYTE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_UWORD
+      FNC_VALUES  1 UWORD COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_UWORD
+      AXIS_PTS_X  1 UWORD INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_WORD
+      FNC_VALUES  1 SWORD COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_WORD
+      AXIS_PTS_X  1 SWORD INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_ULONG
+      FNC_VALUES  1 ULONG COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_ULONG
+      AXIS_PTS_X  1 ULONG INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_LONG
+      FNC_VALUES  1 SLONG COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_LONG
+      AXIS_PTS_X  1 SLONG INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_FLOAT32_IEEE
+      FNC_VALUES  1 FLOAT32_IEEE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_FLOAT32_IEEE
+      AXIS_PTS_X 1 FLOAT32_IEEE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_FLOAT64_IEEE
+      FNC_VALUES  1  FLOAT64_IEEE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_FLOAT64_IEEE
+      AXIS_PTS_X 1 FLOAT64_IEEE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    
+    /begin CHARACTERISTIC
+      /* Name                   */      armature_position  
+      /* Long Identifier        */      "Window Starting Position"
+      /* Type                   */      VALUE 
+      /* ECU Address            */      0x000C0000 
+      /* Record Layout          */      Scalar_FLOAT64_IEEE 
+      /* Maximum Difference     */      0 
+      /* Conversion Method      */      WindowControl_CM_double 
+      /* Lower Limit            */      0.0 
+      /* Upper Limit            */      100.0
+    /end CHARACTERISTIC
+    
+    
+    /begin CHARACTERISTIC
+      /* Name                   */      energy_save_speed  
+      /* Long Identifier        */      "Threshold when driver information should happen"
+      /* Type                   */      VALUE 
+      /* ECU Address            */      0x000C0008 
+      /* Record Layout          */      Scalar_FLOAT64_IEEE 
+      /* Maximum Difference     */      0 
+      /* Conversion Method      */      WindowControl_CM_double 
+      /* Lower Limit            */      0.0 
+      /* Upper Limit            */      255.0
+    /end CHARACTERISTIC
+    
+    
+    /begin CHARACTERISTIC
+      /* Name                   */      window_speed  
+      /* Long Identifier        */      "Window move speed per second"
+      /* Type                   */      VALUE 
+      /* ECU Address            */      0x000C0010 
+      /* Record Layout          */      Scalar_FLOAT64_IEEE 
+      /* Maximum Difference     */      0 
+      /* Conversion Method      */      WindowControl_CM_double 
+      /* Lower Limit            */      0.0 
+      /* Upper Limit            */      100.0
+    /end CHARACTERISTIC
+    
+    
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */      WindowControl_CM_double
+      /* Long identifier        */      "Q = V"
+      /* Conversion Type        */      RAT_FUNC
+      /* Format                 */      "%15.10"
+      /* Units                  */      ""
+      /* Coefficients           */      COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+    
+    /begin GROUP 
+      /* Name                   */       WindowControl
+      /* Long identifier        */       "WindowControl"
+      /* Root                    */       ROOT
+      /begin SUB_GROUP
+        Root_Task_Time
+      /end SUB_GROUP
+    /end GROUP
+    
+    /begin GROUP 
+      /* Name                   */       Root_Task_Time
+      /* Long identifier        */       "WindowControl/Task_Time"
+      /begin SUB_GROUP
+        S1_Subsystem_Reference
+      /end SUB_GROUP
+    /end GROUP
+    
+    /begin GROUP 
+      /* Name                   */       S1_Subsystem_Reference
+      /* Long identifier        */       "WindowControl/Task_Time/Subsystem Reference"
+      /begin SUB_GROUP
+        S2_driver_information_system
+        S2_window_position
+      /end SUB_GROUP
+    /end GROUP
+    
+    /begin GROUP 
+      /* Name                   */       S2_driver_information_system
+      /* Long identifier        */       "WindowControl/Task_Time/Subsystem Reference/driver_information_system"
+      /begin REF_CHARACTERISTIC
+        energy_save_speed
+      /end REF_CHARACTERISTIC
+    /end GROUP
+    
+    /begin GROUP 
+      /* Name                   */       S2_window_position
+      /* Long identifier        */       "WindowControl/Task_Time/Subsystem Reference/window_position"
+      /begin REF_CHARACTERISTIC
+        armature_position
+        window_speed
+      /end REF_CHARACTERISTIC
+    /end GROUP
+    
+    
+  
+
+    /begin MEASUREMENT
+      /* Name                   */      ExecTime_Task_Time
+      /* Long identifier        */      "Task Execution Time"
+      /* Data type              */      ULONG
+      /* Conversion method      */      COMPU_METHOD_VEMAC_us
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0.0
+      /* Upper limit            */      4294967295.0
+      ECU_ADDRESS                       0x400151FD
+    /end MEASUREMENT
+
+    /begin MEASUREMENT
+      /* Name                   */      CPULoad_Task_Time
+      /* Long identifier        */      "Task CPU Load"
+      /* Data type              */      ULONG
+      /* Conversion method      */      COMPU_METHOD_VEMAC_load
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0.0
+      /* Upper limit            */      100.0
+      ECU_ADDRESS                       0x40015201
+    /end MEASUREMENT
+
+    /begin MEASUREMENT
+      /* Name                   */      ExecTime_VeRaComTask
+      /* Long identifier        */      "Task Execution Time"
+      /* Data type              */      ULONG
+      /* Conversion method      */      COMPU_METHOD_VEMAC_us
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0.0
+      /* Upper limit            */      4294967295.0
+      ECU_ADDRESS                       0x400152D9
+    /end MEASUREMENT
+
+    /begin MEASUREMENT
+      /* Name                   */      CPULoad_VeRaComTask
+      /* Long identifier        */      "Task CPU Load"
+      /* Data type              */      ULONG
+      /* Conversion method      */      COMPU_METHOD_VEMAC_load
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0.0
+      /* Upper limit            */      100.0
+      ECU_ADDRESS                       0x400152DD
+    /end MEASUREMENT
+
+    /begin MEASUREMENT
+      /* Name                   */      eTPU_Ram_Size
+      /* Long identifier        */      "eTPU Ram Size"
+      /* Data type              */      UWORD
+      /* Conversion method      */      COMPU_METHOD_VEMAC_void
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0.0
+      /* Upper limit            */      65535.0
+      ECU_ADDRESS                       0x000417C4
+    /end MEASUREMENT
+
+    /begin MEASUREMENT
+      /* Name                   */      eTPU_Ram_Used
+      /* Long identifier        */      "eTPU Ram Used"
+      /* Data type              */      UWORD
+      /* Conversion method      */      COMPU_METHOD_VEMAC_void
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0.0
+      /* Upper limit            */      65535.0
+      ECU_ADDRESS                       0x4001C690
+    /end MEASUREMENT
+
+    /begin MEASUREMENT
+      /* Name                   */      Det_Error_Count
+      /* Long identifier        */      "Number of Errors in error tracer"
+      /* Data type              */      UBYTE
+      /* Conversion method      */      COMPU_METHOD_VEMAC_void
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0.0
+      /* Upper limit            */      255.0
+      ECU_ADDRESS                       0x40018150
+    /end MEASUREMENT
+
+    /begin MEASUREMENT
+      /* Name                   */      Det_Error_Buffer_0
+      /* Long identifier        */      "Det Error Buffer 0"
+      /* Data type              */      ULONG
+      /* Conversion method      */      COMPU_METHOD_VEMAC_void
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0.0
+      /* Upper limit            */      255.0
+      ECU_ADDRESS                       0x40018154
+    /end MEASUREMENT
+
+    /begin MEASUREMENT
+      /* Name                   */      Det_Error_Buffer_1
+      /* Long identifier        */      "Det Error Buffer 1"
+      /* Data type              */      ULONG
+      /* Conversion method      */      COMPU_METHOD_VEMAC_void
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0.0
+      /* Upper limit            */      255.0
+      ECU_ADDRESS                       0x40018158
+    /end MEASUREMENT
+
+    /begin MEASUREMENT
+      /* Name                   */      Det_Error_Buffer_2
+      /* Long identifier        */      "Det Error Buffer 2"
+      /* Data type              */      ULONG
+      /* Conversion method      */      COMPU_METHOD_VEMAC_void
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0.0
+      /* Upper limit            */      255.0
+      ECU_ADDRESS                       0x4001815C
+    /end MEASUREMENT
+
+    /begin MEASUREMENT
+      /* Name                   */      Det_Error_Buffer_3
+      /* Long identifier        */      "Det Error Buffer 3"
+      /* Data type              */      ULONG
+      /* Conversion method      */      COMPU_METHOD_VEMAC_void
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0.0
+      /* Upper limit            */      255.0
+      ECU_ADDRESS                       0x40018160
+    /end MEASUREMENT
+
+    /begin GROUP
+      /* Name                   */      VEMAC
+      /* Long identifier        */      "VEMAC internal measurements"
+      /begin REF_MEASUREMENT
+        ExecTime_Task_Time
+        CPULoad_Task_Time
+        ExecTime_VeRaComTask
+        CPULoad_VeRaComTask
+        eTPU_Ram_Size
+        eTPU_Ram_Used
+        Det_Error_Count
+        Det_Error_Buffer_0
+        Det_Error_Buffer_1
+        Det_Error_Buffer_2
+        Det_Error_Buffer_3
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */      COMPU_METHOD_VEMAC_void
+      /* Long identifier        */      "Q = V"
+      /* Conversion Type        */      RAT_FUNC
+      /* Format                 */      "%10.0"
+      /* Units                  */      ""
+      /* Coefficients           */      COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */      COMPU_METHOD_VEMAC_us
+      /* Long identifier        */      "Q = V"
+      /* Conversion Type        */      RAT_FUNC
+      /* Format                 */      "%10.0"
+      /* Units                  */      "us"
+      /* Coefficients           */      COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */      COMPU_METHOD_VEMAC_load
+      /* Long identifier        */      "Q = V"
+      /* Conversion Type        */      RAT_FUNC
+      /* Format                 */      "%10.1"
+      /* Units                  */      "%"
+      /* Coefficients           */      COEFFS 0 10 0 0 0 1
+    /end COMPU_METHOD
+
+
+/* Start VEMAC COMPU_METHOD & RECORD_LAYOUT Section */
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */      COMPU_METHOD_VEMAC
+      /* Long identifier        */      "Q = V"
+      /* Conversion Type        */      RAT_FUNC
+      /* Format                 */      "%0.6f"
+      /* Units                  */      ""
+      /* Coefficients           */      COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+
+    /begin RECORD_LAYOUT Scalar_BOOLEAN_VEMAC
+      FNC_VALUES  1 UBYTE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_UBYTE_VEMAC
+      FNC_VALUES  1 UBYTE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_BYTE_VEMAC
+      FNC_VALUES  1 SBYTE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_UWORD_VEMAC
+      FNC_VALUES  1 UWORD COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_SWORD_VEMAC
+      FNC_VALUES 1 SWORD COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_ULONG_VEMAC
+      FNC_VALUES  1 ULONG COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_LONG_VEMAC
+      FNC_VALUES  1 SLONG COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_FLOAT32_IEEE_VEMAC
+      FNC_VALUES  1 FLOAT32_IEEE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_FLOAT64_IEEE_VEMAC
+      FNC_VALUES  1 FLOAT64_IEEE COLUMN_DIR DIRECT
+    /end   RECORD_LAYOUT
+/* End VEMAC COMPU_METHOD & RECORD_LAYOUT Section */
+
+
+/end MODULE
+  
+  
+/end PROJECT
+/* (add any file trailer comments here) */
+/* EOF WindowControl.a2l */
