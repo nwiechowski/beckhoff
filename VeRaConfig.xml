@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Blocks xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Block Name="DriverDown" createBlock="true" Type="GPDI">
+    <TPL_ID>f81a44da-96fb-4da7-a8e4-7e19e8894a74</TPL_ID>
+    <ID>62e7f1fa-9b7c-4aaf-9562-925a17605853</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>simInput</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>1</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>Output</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>1</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint16">
+      <Value>154</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="PinDriveMode" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="PinInputHysteresis" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+  </Block>
+  <Block Name="DriverUp" createBlock="true" Type="GPDI">
+    <TPL_ID>f81a44da-96fb-4da7-a8e4-7e19e8894a74</TPL_ID>
+    <ID>337ed23d-6971-44fb-87d5-83c18de4e956</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>simInput</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>1</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>Output</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>1</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint16">
+      <Value>155</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="PinDriveMode" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="PinInputHysteresis" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+  </Block>
+  <Block Name="MoveDown" createBlock="true" Type="GPDO">
+    <TPL_ID>9851d6f8-54c2-4dd3-844c-2ccf4a31a221</TPL_ID>
+    <ID>b9fe3cb5-7621-4b54-bd69-b1b90943b459</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Input</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>1</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>simOutput</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>1</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint16">
+      <Value>167</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="InitConf" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="PinDriveMode" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+  </Block>
+  <Block Name="MoveUp" createBlock="true" Type="GPDO">
+    <TPL_ID>9851d6f8-54c2-4dd3-844c-2ccf4a31a221</TPL_ID>
+    <ID>155f5b2b-344b-4e0f-9fe0-ea9596b58791</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Input</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>1</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>simOutput</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>1</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint16">
+      <Value>168</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="InitConf" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="PinDriveMode" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+  </Block>
+  <Block Name="PassengerDown" createBlock="true" Type="GPDI">
+    <TPL_ID>f81a44da-96fb-4da7-a8e4-7e19e8894a74</TPL_ID>
+    <ID>bf6f5c37-3fb3-44de-a0c5-a6eab0fdcc79</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>simInput</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>1</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>Output</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>1</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint16">
+      <Value>156</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="PinDriveMode" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="PinInputHysteresis" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+  </Block>
+  <Block Name="PassengerUp" createBlock="true" Type="GPDI">
+    <TPL_ID>f81a44da-96fb-4da7-a8e4-7e19e8894a74</TPL_ID>
+    <ID>a87fcaac-112d-4123-ba61-7e3d0e1ee470</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>simInput</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>1</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>Output</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>1</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint16">
+      <Value>116</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="PinDriveMode" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="PinInputHysteresis" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+  </Block>
+  <Block xsi:type="FileImportBlock" Name="Rec_123_obstacleDetected" createBlock="true" Type="CANDbcReceiveSignal">
+    <TPL_ID>4ed65558-e563-4bc7-ba8f-d56aad4f21ac</TPL_ID>
+    <ID>1cf7a297-0e3d-4297-987a-0161819305e6</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>simSignal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>Signal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>Status</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanID" Datatype="uint32">
+      <Value>123</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanIdType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="MessageSize" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Startbit" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Size" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ByteOrder" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ValueType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Factor" Datatype="float32">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Offset" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Min" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Max" Datatype="float32">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Timeout" Datatype="uint16">
+      <Value>1000</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <ft>DBC</ft>
+    <ImportFilename>WindowControl.dbc</ImportFilename>
+    <Signalname>obstacleDetected</Signalname>
+  </Block>
+  <Block xsi:type="FileImportBlock" Name="Send_124_currentPosition" createBlock="true" Type="CANDbcSendSignal">
+    <TPL_ID>a333242f-efdf-4a01-a2aa-fcf7f45cb6d1</TPL_ID>
+    <ID>c288527d-7eea-4045-b14f-843684c8b0e1</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Signal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>simSignal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanID" Datatype="uint32">
+      <Value>124</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanIdType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="MessageSize" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Startbit" Datatype="uint8">
+      <Value>16</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Size" Datatype="uint8">
+      <Value>32</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ByteOrder" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ValueType" Datatype="uint8">
+      <Value>2</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Factor" Datatype="float32">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Offset" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Min" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Max" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Interval" Datatype="uint16">
+      <Value>10</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <ft>DBC</ft>
+    <ImportFilename>WindowControl.dbc</ImportFilename>
+    <Signalname>currentPosition</Signalname>
+  </Block>
+  <Block xsi:type="FileImportBlock" Name="Send_124_driverInformation" createBlock="true" Type="CANDbcSendSignal">
+    <TPL_ID>a333242f-efdf-4a01-a2aa-fcf7f45cb6d1</TPL_ID>
+    <ID>fe8f1fb0-3bc6-44f2-977d-f0b229a60306</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Signal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>simSignal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanID" Datatype="uint32">
+      <Value>124</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanIdType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="MessageSize" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Startbit" Datatype="uint8">
+      <Value>48</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Size" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ByteOrder" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ValueType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Factor" Datatype="float32">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Offset" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Min" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Max" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Interval" Datatype="uint16">
+      <Value>10</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <ft>DBC</ft>
+    <ImportFilename>WindowControl.dbc</ImportFilename>
+    <Signalname>driverInformation</Signalname>
+  </Block>
+  <Block xsi:type="FileImportBlock" Name="Send_124_errorCounter" createBlock="true" Type="CANDbcSendSignal">
+    <TPL_ID>a333242f-efdf-4a01-a2aa-fcf7f45cb6d1</TPL_ID>
+    <ID>a7845b72-c23e-47cd-b51d-f74b5e98f160</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Signal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>simSignal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanID" Datatype="uint32">
+      <Value>124</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanIdType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="MessageSize" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Startbit" Datatype="uint8">
+      <Value>56</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Size" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ByteOrder" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ValueType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Factor" Datatype="float32">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Offset" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Min" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Max" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Interval" Datatype="uint16">
+      <Value>10</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <ft>DBC</ft>
+    <ImportFilename>WindowControl.dbc</ImportFilename>
+    <Signalname>errorCounter</Signalname>
+  </Block>
+  <Block xsi:type="FileImportBlock" Name="Send_124_moveDown" createBlock="true" Type="CANDbcSendSignal">
+    <TPL_ID>a333242f-efdf-4a01-a2aa-fcf7f45cb6d1</TPL_ID>
+    <ID>6a1ec5e4-9e22-4b99-94c3-ab8eb810612f</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Signal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>simSignal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanID" Datatype="uint32">
+      <Value>124</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanIdType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="MessageSize" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Startbit" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Size" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ByteOrder" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ValueType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Factor" Datatype="float32">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Offset" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Min" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Max" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Interval" Datatype="uint16">
+      <Value>100</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <ft>DBC</ft>
+    <ImportFilename>WindowControl.dbc</ImportFilename>
+    <Signalname>moveDown</Signalname>
+  </Block>
+  <Block xsi:type="FileImportBlock" Name="Send_124_moveUp" createBlock="true" Type="CANDbcSendSignal">
+    <TPL_ID>a333242f-efdf-4a01-a2aa-fcf7f45cb6d1</TPL_ID>
+    <ID>91754ba7-8631-4f63-98fe-ae63bce3cc47</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Signal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>simSignal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanID" Datatype="uint32">
+      <Value>124</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanIdType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="MessageSize" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Startbit" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Size" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ByteOrder" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ValueType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Factor" Datatype="float32">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Offset" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Min" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Max" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Interval" Datatype="uint16">
+      <Value>100</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <ft>DBC</ft>
+    <ImportFilename>WindowControl.dbc</ImportFilename>
+    <Signalname>moveUp</Signalname>
+  </Block>
+  <Block xsi:type="FileImportBlock" Name="Send_125_debug_driver_down" createBlock="true" Type="CANDbcSendSignal">
+    <TPL_ID>a333242f-efdf-4a01-a2aa-fcf7f45cb6d1</TPL_ID>
+    <ID>3b966dfa-db18-4756-a496-c057ec8c3f65</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Signal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>simSignal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanID" Datatype="uint32">
+      <Value>125</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanIdType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="MessageSize" Datatype="uint8">
+      <Value>5</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Startbit" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Size" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ByteOrder" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ValueType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Factor" Datatype="float32">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Offset" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Min" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Max" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Interval" Datatype="uint16">
+      <Value>10</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <ft>DBC</ft>
+    <ImportFilename>WindowControl.dbc</ImportFilename>
+    <Signalname>debug_driver_down</Signalname>
+  </Block>
+  <Block xsi:type="FileImportBlock" Name="Send_125_debug_driver_up" createBlock="true" Type="CANDbcSendSignal">
+    <TPL_ID>a333242f-efdf-4a01-a2aa-fcf7f45cb6d1</TPL_ID>
+    <ID>3d7509eb-5c9e-451c-8b36-b818947ca471</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Signal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>simSignal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanID" Datatype="uint32">
+      <Value>125</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanIdType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="MessageSize" Datatype="uint8">
+      <Value>5</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Startbit" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Size" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ByteOrder" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ValueType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Factor" Datatype="float32">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Offset" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Min" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Max" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Interval" Datatype="uint16">
+      <Value>10</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <ft>DBC</ft>
+    <ImportFilename>WindowControl.dbc</ImportFilename>
+    <Signalname>debug_driver_up</Signalname>
+  </Block>
+  <Block xsi:type="FileImportBlock" Name="Send_125_debug_obstacle_detected" createBlock="true" Type="CANDbcSendSignal">
+    <TPL_ID>a333242f-efdf-4a01-a2aa-fcf7f45cb6d1</TPL_ID>
+    <ID>cbe4317f-4f39-426e-a0e7-8b64aa0b52c3</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Signal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>simSignal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanID" Datatype="uint32">
+      <Value>125</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanIdType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="MessageSize" Datatype="uint8">
+      <Value>5</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Startbit" Datatype="uint8">
+      <Value>32</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Size" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ByteOrder" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ValueType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Factor" Datatype="float32">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Offset" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Min" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Max" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Interval" Datatype="uint16">
+      <Value>10</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <ft>DBC</ft>
+    <ImportFilename>WindowControl.dbc</ImportFilename>
+    <Signalname>debug_obstacle_detected</Signalname>
+  </Block>
+  <Block xsi:type="FileImportBlock" Name="Send_125_debug_passenger_down" createBlock="true" Type="CANDbcSendSignal">
+    <TPL_ID>a333242f-efdf-4a01-a2aa-fcf7f45cb6d1</TPL_ID>
+    <ID>2f92adc8-77e1-4cbd-9904-61dbdb8b101c</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Signal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>simSignal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanID" Datatype="uint32">
+      <Value>125</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanIdType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="MessageSize" Datatype="uint8">
+      <Value>5</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Startbit" Datatype="uint8">
+      <Value>24</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Size" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ByteOrder" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ValueType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Factor" Datatype="float32">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Offset" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Min" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Max" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Interval" Datatype="uint16">
+      <Value>10</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <ft>DBC</ft>
+    <ImportFilename>WindowControl.dbc</ImportFilename>
+    <Signalname>debug_passenger_down</Signalname>
+  </Block>
+  <Block xsi:type="FileImportBlock" Name="Send_125_debug_passenger_up" createBlock="true" Type="CANDbcSendSignal">
+    <TPL_ID>a333242f-efdf-4a01-a2aa-fcf7f45cb6d1</TPL_ID>
+    <ID>15853ca2-697f-4187-81f9-2948ba2e4031</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Signal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>simSignal</Name>
+      <Datatype>Float32</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Parameter Name="Channel" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanID" Datatype="uint32">
+      <Value>125</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CanIdType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="MessageSize" Datatype="uint8">
+      <Value>5</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Startbit" Datatype="uint8">
+      <Value>16</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Size" Datatype="uint8">
+      <Value>8</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ByteOrder" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ValueType" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Factor" Datatype="float32">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Offset" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Min" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Max" Datatype="float32">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Interval" Datatype="uint16">
+      <Value>10</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <ft>DBC</ft>
+    <ImportFilename>WindowControl.dbc</ImportFilename>
+    <Signalname>debug_passenger_up</Signalname>
+  </Block>
+  <Block Name="Task_Time" createBlock="true" Type="OSEKTask">
+    <TPL_ID>2fcf8f34-4588-48bb-94b8-c7ea4e12920e</TPL_ID>
+    <ID>ee4823b8-6192-4923-b36f-6a8fbb50660e</ID>
+    <FixName>false</FixName>
+    <Ports Direction="Input">
+      <Name>Input</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Ports Direction="Output">
+      <Name>Output</Name>
+      <Datatype>UInt8</Datatype>
+      <Width>0</Width>
+    </Ports>
+    <Parameter Name="Type" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Autostart" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="CounterBase" Datatype="uint8">
+      <Value>0</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Priority" Datatype="uint8">
+      <Value>15</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="MaxActivation" Datatype="uint16">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ActiveCycle" Datatype="uint32">
+      <Value>10</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="ReloadCycle" Datatype="uint32">
+      <Value>50</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="StackSize" Datatype="uint32">
+      <Value>2000</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+    <Parameter Name="Preemptive" Datatype="uint8">
+      <Value>1</Value>
+      <Export_to_A2L>false</Export_to_A2L>
+    </Parameter>
+  </Block>
+</Blocks>
+<!-- ID=951C6979D04A794E49E04ABF35EA9CF2 -->
