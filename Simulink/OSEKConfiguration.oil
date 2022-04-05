@@ -1,0 +1,7 @@
+TASK Task_Time
+{
+    SCHEDULE = FULL;
+    AUTOSTART = TRUE;
+    PRIORITY = 15;
+    ACTIVATION = 1;
+};
