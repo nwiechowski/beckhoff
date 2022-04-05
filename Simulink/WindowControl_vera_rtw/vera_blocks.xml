@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<model Name="WindowControl">
+<system path="WindowControl" name="WindowControl" type="root">
+<system path="WindowControl/Task_Time" name="Task_Time" type="fcncall">
+<system path="WindowControl/Task_Time/Subsystem Reference" name="Subsystem Reference" type="virtual">
+<system path="WindowControl/Task_Time/Subsystem Reference/Vehicle" name="Vehicle" type="virtual">
+<block path="WindowControl/Task_Time/Subsystem Reference/Vehicle/Constant" name="Constant" type="Constant"/>
+</system>
+<system path="WindowControl/Task_Time/Subsystem Reference/active_signal_filter" name="active_signal_filter" type="virtual">
+<block path="WindowControl/Task_Time/Subsystem Reference/active_signal_filter/zero" name="zero" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/active_signal_filter/Switch1" name="Switch1" type="Switch"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/active_signal_filter/Switch4" name="Switch4" type="Switch"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/active_signal_filter/check_obstacles" name="check_obstacles" type="Switch"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/active_signal_filter/driver_switch" name="driver_switch" type="Switch"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/active_signal_filter/passenger_switch" name="passenger_switch" type="Switch"/>
+</system>
+<system path="WindowControl/Task_Time/Subsystem Reference/check_errors" name="check_errors" type="virtual">
+<system path="WindowControl/Task_Time/Subsystem Reference/check_errors/pass_driver_signals" name="pass_driver_signals" type="virtual">
+<block path="WindowControl/Task_Time/Subsystem Reference/check_errors/pass_driver_signals/zero" name="zero" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/check_errors/pass_driver_signals/Relational Operator" name="Relational\nOperator" type="RelationalOperator"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/check_errors/pass_driver_signals/Switch" name="Switch" type="Switch"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/check_errors/pass_driver_signals/Switch1" name="Switch1" type="Switch"/>
+</system>
+<system path="WindowControl/Task_Time/Subsystem Reference/check_errors/pass_passenger_signals" name="pass_passenger_signals" type="virtual">
+<block path="WindowControl/Task_Time/Subsystem Reference/check_errors/pass_passenger_signals/zero" name="zero" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/check_errors/pass_passenger_signals/Relational Operator" name="Relational\nOperator" type="RelationalOperator"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/check_errors/pass_passenger_signals/Switch" name="Switch" type="Switch"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/check_errors/pass_passenger_signals/Switch1" name="Switch1" type="Switch"/>
+</system>
+<block path="WindowControl/Task_Time/Subsystem Reference/check_errors/pass_driver_signals" name="pass_driver_signals" type="SubSystem"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/check_errors/pass_passenger_signals" name="pass_passenger_signals" type="SubSystem"/>
+</system>
+<system path="WindowControl/Task_Time/Subsystem Reference/driver_information_system" name="driver_information_system" type="virtual">
+<system path="WindowControl/Task_Time/Subsystem Reference/driver_information_system/information_output" name="information_output" type="atomic">
+</system>
+<block path="WindowControl/Task_Time/Subsystem Reference/driver_information_system/information_output" name="information_output" type="Stateflow"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/driver_information_system/Constant" name="Constant" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/driver_information_system/Scope" name="Scope" type="Scope"/>
+</system>
+<system path="WindowControl/Task_Time/Subsystem Reference/error_sum" name="error_sum" type="virtual">
+<block path="WindowControl/Task_Time/Subsystem Reference/error_sum/Add" name="Add" type="Sum"/>
+</system>
+<system path="WindowControl/Task_Time/Subsystem Reference/signal_creator" name="signal_creator" type="virtual">
+<system path="WindowControl/Task_Time/Subsystem Reference/signal_creator/driver_signals" name="driver_signals" type="virtual">
+<system path="WindowControl/Task_Time/Subsystem Reference/signal_creator/driver_signals/check_driver_control" name="check_driver_control" type="virtual">
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/driver_signals/check_driver_control/Constant_One" name="Constant_One" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/driver_signals/check_driver_control/Relational Operator" name="Relational\nOperator" type="RelationalOperator"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/driver_signals/check_driver_control/Add" name="Add" type="Sum"/>
+</system>
+<system path="WindowControl/Task_Time/Subsystem Reference/signal_creator/driver_signals/validate_driver_signals" name="validate_driver_signals" type="virtual">
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/driver_signals/validate_driver_signals/two" name="two" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/driver_signals/validate_driver_signals/Relational Operator" name="Relational\nOperator" type="RelationalOperator"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/driver_signals/validate_driver_signals/Add" name="Add" type="Sum"/>
+</system>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/driver_signals/check_driver_control" name="check_driver_control" type="SubSystem"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/driver_signals/validate_driver_signals" name="validate_driver_signals" type="SubSystem"/>
+</system>
+<system path="WindowControl/Task_Time/Subsystem Reference/signal_creator/passenger_signals" name="passenger_signals" type="virtual">
+<system path="WindowControl/Task_Time/Subsystem Reference/signal_creator/passenger_signals/check_driver_control" name="check_driver_control" type="virtual">
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/passenger_signals/check_driver_control/Constant_One" name="Constant_One" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/passenger_signals/check_driver_control/Relational Operator" name="Relational\nOperator" type="RelationalOperator"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/passenger_signals/check_driver_control/Add" name="Add" type="Sum"/>
+</system>
+<system path="WindowControl/Task_Time/Subsystem Reference/signal_creator/passenger_signals/validate_driver_signals" name="validate_driver_signals" type="virtual">
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/passenger_signals/validate_driver_signals/two" name="two" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/passenger_signals/validate_driver_signals/Relational Operator" name="Relational\nOperator" type="RelationalOperator"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/passenger_signals/validate_driver_signals/Add" name="Add" type="Sum"/>
+</system>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/passenger_signals/check_driver_control" name="check_driver_control" type="SubSystem"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/passenger_signals/validate_driver_signals" name="validate_driver_signals" type="SubSystem"/>
+</system>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/driver_signals" name="driver_signals" type="SubSystem"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator/passenger_signals" name="passenger_signals" type="SubSystem"/>
+</system>
+<system path="WindowControl/Task_Time/Subsystem Reference/window_position" name="window_position" type="virtual">
+<system path="WindowControl/Task_Time/Subsystem Reference/window_position/Saturation Dynamic" name="Saturation\nDynamic" type="virtual">
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/Saturation Dynamic/LowerRelop1" name="LowerRelop1" type="RelationalOperator"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/Saturation Dynamic/UpperRelop" name="UpperRelop" type="RelationalOperator"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/Saturation Dynamic/Data Type Propagation" name="Data Type\nPropagation" type="S-Function"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/Saturation Dynamic/Switch" name="Switch" type="Switch"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/Saturation Dynamic/Switch2" name="Switch2" type="Switch"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/Saturation Dynamic/Data Type Duplicate" name="Data Type\nDuplicate" type="DataTypeDuplicate"/>
+</system>
+<system path="WindowControl/Task_Time/Subsystem Reference/window_position/check_direction" name="check_direction" type="atomic">
+</system>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/Saturation Dynamic" name="Saturation\nDynamic" type="SubSystem"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/check_direction" name="check_direction" type="Stateflow"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/down" name="down" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/lower_bound" name="lower_bound" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/neutral" name="neutral" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/start_value" name="start_value" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/up" name="up" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/upper_bound" name="upper_bound" type="Constant"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/initial_position_value" name="initial_position_value" type="InitialCondition"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/MultiportSwitch" name="MultiportSwitch" type="MultiPortSwitch"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/Product" name="Product" type="Product"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/Add" name="Add" type="Sum"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/UnitDelay" name="UnitDelay" type="UnitDelay"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position/UnitDelay1" name="UnitDelay1" type="UnitDelay"/>
+</system>
+<block path="WindowControl/Task_Time/Subsystem Reference/Vehicle" name="Vehicle" type="SubSystem"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/active_signal_filter" name="active_signal_filter" type="SubSystem"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/check_errors" name="check_errors" type="SubSystem"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/driver_information_system" name="driver_information_system" type="SubSystem"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/error_sum" name="error_sum" type="SubSystem"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/signal_creator" name="signal_creator" type="SubSystem"/>
+<block path="WindowControl/Task_Time/Subsystem Reference/window_position" name="window_position" type="SubSystem"/>
+</system>
+<block path="WindowControl/Task_Time/Subsystem Reference" name="Subsystem Reference" type="SubSystem"/>
+<block path="WindowControl/Task_Time/Constant" name="Constant" type="Constant"/>
+<block path="WindowControl/Task_Time/Constant1" name="Constant1" type="Constant"/>
+<block path="WindowControl/Task_Time/Constant2" name="Constant2" type="Constant"/>
+<block path="WindowControl/Task_Time/Constant3" name="Constant3" type="Constant"/>
+<block path="WindowControl/Task_Time/Constant4" name="Constant4" type="Constant"/>
+<block path="WindowControl/Task_Time/Data Type Conversion" name="Data Type Conversion" type="DataTypeConversion"/>
+<block path="WindowControl/Task_Time/Data Type Conversion1" name="Data Type Conversion1" type="DataTypeConversion"/>
+<block path="WindowControl/Task_Time/Data Type Conversion2" name="Data Type Conversion2" type="DataTypeConversion"/>
+<block path="WindowControl/Task_Time/Data Type Conversion3" name="Data Type Conversion3" type="DataTypeConversion"/>
+<block path="WindowControl/Task_Time/Data Type Conversion4" name="Data Type Conversion4" type="DataTypeConversion"/>
+<block path="WindowControl/Task_Time/Data Type Conversion5" name="Data Type Conversion5" type="DataTypeConversion"/>
+<block path="WindowControl/Task_Time/Data Type Conversion6" name="Data Type Conversion6" type="DataTypeConversion"/>
+<block path="WindowControl/Task_Time/Data Type Conversion7" name="Data Type Conversion7" type="DataTypeConversion"/>
+<block path="WindowControl/Task_Time/Data Type Conversion8" name="Data Type Conversion8" type="DataTypeConversion"/>
+<block path="WindowControl/Task_Time/Data Type Conversion9" name="Data Type Conversion9" type="DataTypeConversion"/>
+<block path="WindowControl/Task_Time/DriverDown" name="DriverDown" type="S-Function">
+<sfunction name="mdl_GPDI"/>
+</block>
+<block path="WindowControl/Task_Time/DriverUp" name="DriverUp" type="S-Function">
+<sfunction name="mdl_GPDI"/>
+</block>
+<block path="WindowControl/Task_Time/PassengerDown" name="PassengerDown" type="S-Function">
+<sfunction name="mdl_GPDI"/>
+</block>
+<block path="WindowControl/Task_Time/PassengerUp" name="PassengerUp" type="S-Function">
+<sfunction name="mdl_GPDI"/>
+</block>
+<block path="WindowControl/Task_Time/Rec_123_obstacleDetected" name="Rec_123_obstacleDetected" type="S-Function">
+<sfunction name="mdl_CANDbcReceiveSignal"/>
+</block>
+<block path="WindowControl/Task_Time/Send_124_currentPosition" name="Send_124_currentPosition" type="S-Function">
+<sfunction name="mdl_CANDbcSendSignal"/>
+</block>
+<block path="WindowControl/Task_Time/Send_124_driverInformation" name="Send_124_driverInformation" type="S-Function">
+<sfunction name="mdl_CANDbcSendSignal"/>
+</block>
+<block path="WindowControl/Task_Time/Send_124_errorCounter" name="Send_124_errorCounter" type="S-Function">
+<sfunction name="mdl_CANDbcSendSignal"/>
+</block>
+<block path="WindowControl/Task_Time/Send_124_moveDown" name="Send_124_moveDown" type="S-Function">
+<sfunction name="mdl_CANDbcSendSignal"/>
+</block>
+<block path="WindowControl/Task_Time/Send_124_moveUp" name="Send_124_moveUp" type="S-Function">
+<sfunction name="mdl_CANDbcSendSignal"/>
+</block>
+<block path="WindowControl/Task_Time/Send_125_debug_driver_down" name="Send_125_debug_driver_down" type="S-Function">
+<sfunction name="mdl_CANDbcSendSignal"/>
+</block>
+<block path="WindowControl/Task_Time/Send_125_debug_driver_up" name="Send_125_debug_driver_up" type="S-Function">
+<sfunction name="mdl_CANDbcSendSignal"/>
+</block>
+<block path="WindowControl/Task_Time/Send_125_debug_obstacle_detected" name="Send_125_debug_obstacle_detected" type="S-Function">
+<sfunction name="mdl_CANDbcSendSignal"/>
+</block>
+<block path="WindowControl/Task_Time/Send_125_debug_passenger_down" name="Send_125_debug_passenger_down" type="S-Function">
+<sfunction name="mdl_CANDbcSendSignal"/>
+</block>
+<block path="WindowControl/Task_Time/Send_125_debug_passenger_up" name="Send_125_debug_passenger_up" type="S-Function">
+<sfunction name="mdl_CANDbcSendSignal"/>
+</block>
+</system>
+<block path="WindowControl/Task_Time" name="Task_Time" type="SubSystem"/>
+<block path="WindowControl/Function-Call Generator" name="Function-Call\nGenerator" type="S-Function"/>
+</system>
+
+</model>

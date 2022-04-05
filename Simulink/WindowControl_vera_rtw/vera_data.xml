@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<model Name="WindowControl">
+ <data class="Parameter">
+  <Name>armature_position</Name>
+  <DataType>double</DataType>
+  <NativeType>real_T</NativeType>
+  <DefaultValue>0.0</DefaultValue>
+  <DefaultNativeValue>[0.0]</DefaultNativeValue>
+  <Description>Window Starting Position</Description>
+  <DocUnits></DocUnits>
+  <Max>100.0</Max>
+  <Min>0.0</Min>
+  <EnumInfo></EnumInfo>
+  <Sizeof>8</Sizeof>
+  <NumCols>1</NumCols>
+  <NumRows>1</NumRows>
+ </data>
+ <data class="Parameter">
+  <Name>energy_save_speed</Name>
+  <DataType>double</DataType>
+  <NativeType>real_T</NativeType>
+  <DefaultValue>10.0</DefaultValue>
+  <DefaultNativeValue>[10.0]</DefaultNativeValue>
+  <Description>Threshold when driver information should happen</Description>
+  <DocUnits></DocUnits>
+  <Max>255.0</Max>
+  <Min>0.0</Min>
+  <EnumInfo></EnumInfo>
+  <Sizeof>8</Sizeof>
+  <NumCols>1</NumCols>
+  <NumRows>1</NumRows>
+ </data>
+ <data class="Parameter">
+  <Name>window_speed</Name>
+  <DataType>double</DataType>
+  <NativeType>real_T</NativeType>
+  <DefaultValue>0.25</DefaultValue>
+  <DefaultNativeValue>[0.25]</DefaultNativeValue>
+  <Description>Window move speed per second</Description>
+  <DocUnits></DocUnits>
+  <Max>100.0</Max>
+  <Min>0.0</Min>
+  <EnumInfo></EnumInfo>
+  <Sizeof>8</Sizeof>
+  <NumCols>1</NumCols>
+  <NumRows>1</NumRows>
+ </data>
+</model>
