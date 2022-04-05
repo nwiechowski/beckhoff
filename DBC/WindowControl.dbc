@@ -1,0 +1,60 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: arttest vera
+
+
+BO_ 123 vera_inputs: 1 arttest
+ SG_ obstacleDetected : 0|1@1+ (1,0) [0|1] ""  vera
+
+BO_ 124 vera_outputs: 8 vera
+ SG_ errorCounter : 56|8@1+ (1,0) [0|0] ""  arttest
+ SG_ currentPosition : 16|32@1- (1,0) [0|0] ""  arttest
+ SG_ driverInformation : 48|8@1+ (1,0) [0|0] ""  arttest
+ SG_ moveUp : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ moveDown : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 125 vera_debug: 5 vera
+ SG_ debug_driver_up : 0|8@1+ (1,0) [0|0] ""  arttest
+ SG_ debug_driver_down : 8|8@1+ (1,0) [0|0] ""  arttest
+ SG_ debug_passenger_up : 16|8@1+ (1,0) [0|0] ""  arttest
+ SG_ debug_passenger_down : 24|8@1+ (1,0) [0|0] ""  arttest
+ SG_ debug_obstacle_detected : 32|8@1+ (1,0) [0|0] ""  arttest
+
+
+
+CM_ SG_ 123 obstacleDetected "Gives information about obstacle detection for the Arttest WindowControl demo project.";
+SIG_VALTYPE_ 124 currentPosition : 1;
+

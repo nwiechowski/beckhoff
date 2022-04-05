@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjektConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectName>WindowControl</ProjectName>
+  <ModelName>WindowControl</ModelName>
+  <ModelVersion>0</ModelVersion>
+  <ModelVersionAutoInc>false</ModelVersionAutoInc>
+  <ModelProtected>false</ModelProtected>
+  <DiagOptions>147</DiagOptions>
+  <ModelTool>
+    <id>0</id>
+    <name>Simulink</name>
+    <directory>Simulink</directory>
+  </ModelTool>
+  <FlashFileHash>cYgbBwv2uA0OqDVUyoDff7FCv9c1vBL07Srxbwkp+oZbzCmRqH76v6y2SiNKItj+x9sfzMic4k+o8P7vkEKQz6ffE705LM1MLXA59Kcp56U=</FlashFileHash>
+  <CalibrationTool>
+    <id>0</id>
+    <name>ATI Vision</name>
+    <directory>Vision</directory>
+  </CalibrationTool>
+  <VeRaOption>
+    <id>0</id>
+    <name>VeRa Option1</name>
+    <directory>Option1Dir</directory>
+  </VeRaOption>
+  <MemoryOption>
+    <id>0</id>
+    <name>VeRa 3.0</name>
+    <MakeFile>vera3.mk</MakeFile>
+    <ROMAddress>00010000</ROMAddress>
+    <ROMLength>003F0000</ROMLength>
+    <RAMAddress>40000000</RAMAddress>
+    <RAMLength>00030000</RAMLength>
+    <SectorList>
+      <string>00004000</string>
+      <string>00008000</string>
+      <string>0000C000</string>
+      <string>00010000</string>
+      <string>00014000</string>
+      <string>00018000</string>
+      <string>0001C000</string>
+      <string>00020000</string>
+      <string>00030000</string>
+      <string>00040000</string>
+      <string>00060000</string>
+      <string>00080000</string>
+      <string>000C0000</string>
+      <string>00100000</string>
+      <string>00180000</string>
+      <string>00200000</string>
+      <string>00280000</string>
+      <string>00300000</string>
+      <string>00380000</string>
+      <string>00400000</string>
+    </SectorList>
+    <IRTableLength>00010000</IRTableLength>
+    <StackLength>00010000</StackLength>
+    <DefaultProgramSize>00090000</DefaultProgramSize>
+    <DefaultCalMemorySize>00015000</DefaultCalMemorySize>
+    <DefaultProgramRAMSize>00015000</DefaultProgramRAMSize>
+    <DefaultCalRAMSize>00015000</DefaultCalRAMSize>
+  </MemoryOption>
+  <VeRaMemory>
+    <id>99</id>
+    <name>Neu</name>
+    <Code_ROM_Address>00020000</Code_ROM_Address>
+    <Code_ROM_Length>00090000</Code_ROM_Length>
+    <Param_ROM_Address>000C0000</Param_ROM_Address>
+    <Param_ROM_Length>00015000</Param_ROM_Length>
+    <Code_RAM_Address>40015000</Code_RAM_Address>
+    <Code_RAM_Length>00015000</Code_RAM_Length>
+    <Param_RAM_Address>40000000</Param_RAM_Address>
+    <Param_RAM_Length>00015000</Param_RAM_Length>
+  </VeRaMemory>
+</ProjektConfiguration>

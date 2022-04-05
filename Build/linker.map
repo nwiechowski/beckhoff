@@ -1,0 +1,2047 @@
+     VMA      LMA     Size Align Out     In      Symbol
+   10000    10000    10000     1 .IRTable
+   10000    10000        0     1         __IR_TABLE = ABSOLUTE ( . )
+   10000    10000     1ef0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(eppc_exception.o):(.IRTable)
+   10000    10000        0     1                 SW_Irq0
+   10010    10010        0     1                 SW_Irq1
+   10020    10020        0     1                 SW_Irq2
+   10030    10030        0     1                 SW_Irq3
+   10040    10040        0     1                 SW_Irq4
+   10050    10050        0     1                 SW_Irq5
+   10060    10060        0     1                 SW_Irq6
+   10070    10070        0     1                 SW_Irq7
+   10080    10080        0     1                 ECSM_SWTIR
+   10090    10090        0     1                 ECSM_ESR
+   100a0    100a0        0     1                 EDMA_A_ERL31_0
+   100b0    100b0        0     1                 EDMA_A_Irq00
+   100c0    100c0        0     1                 EDMA_A_Irq01
+   100d0    100d0        0     1                 EDMA_A_Irq02
+   100e0    100e0        0     1                 EDMA_A_Irq03
+   100f0    100f0        0     1                 EDMA_A_Irq04
+   10100    10100        0     1                 EDMA_A_Irq05
+   10110    10110        0     1                 EDMA_A_Irq06
+   10120    10120        0     1                 EDMA_A_Irq07
+   10130    10130        0     1                 EDMA_A_Irq08
+   10140    10140        0     1                 EDMA_A_Irq09
+   10150    10150        0     1                 EDMA_A_Irq10
+   10160    10160        0     1                 EDMA_A_Irq11
+   10170    10170        0     1                 EDMA_A_Irq12
+   10180    10180        0     1                 EDMA_A_Irq13
+   10190    10190        0     1                 EDMA_A_Irq14
+   101a0    101a0        0     1                 EDMA_A_Irq15
+   101b0    101b0        0     1                 EDMA_A_Irq16
+   101c0    101c0        0     1                 EDMA_A_Irq17
+   101d0    101d0        0     1                 EDMA_A_Irq18
+   101e0    101e0        0     1                 EDMA_A_Irq19
+   101f0    101f0        0     1                 EDMA_A_Irq20
+   10200    10200        0     1                 EDMA_A_Irq21
+   10210    10210        0     1                 EDMA_A_Irq22
+   10220    10220        0     1                 EDMA_A_Irq23
+   10230    10230        0     1                 EDMA_A_Irq24
+   10240    10240        0     1                 EDMA_A_Irq25
+   10250    10250        0     1                 EDMA_A_Irq26
+   10260    10260        0     1                 EDMA_A_Irq27
+   10270    10270        0     1                 EDMA_A_Irq28
+   10280    10280        0     1                 EDMA_A_Irq29
+   10290    10290        0     1                 EDMA_A_Irq30
+   102a0    102a0        0     1                 EDMA_A_Irq31
+   102b0    102b0        0     1                 FMPLL_SYNSR_LOCF
+   102c0    102c0        0     1                 FMPLL_SYNSR_LOLF
+   102d0    102d0        0     1                 SIU_OSR
+   102e0    102e0        0     1                 SIU_Irq0
+   102f0    102f0        0     1                 SIU_Irq1
+   10300    10300        0     1                 SIU_Irq2
+   10310    10310        0     1                 SIU_Irq3
+   10320    10320        0     1                 SIU_Irq15_4
+   10330    10330        0     1                 EMIOS_GFR_Flag00
+   10340    10340        0     1                 EMIOS_GFR_Flag01
+   10350    10350        0     1                 EMIOS_GFR_Flag02
+   10360    10360        0     1                 EMIOS_GFR_Flag03
+   10370    10370        0     1                 EMIOS_GFR_Flag04
+   10380    10380        0     1                 EMIOS_GFR_Flag05
+   10390    10390        0     1                 EMIOS_GFR_Flag06
+   103a0    103a0        0     1                 EMIOS_GFR_Flag07
+   103b0    103b0        0     1                 EMIOS_GFR_Flag08
+   103c0    103c0        0     1                 EMIOS_GFR_Flag09
+   103d0    103d0        0     1                 EMIOS_GFR_Flag10
+   103e0    103e0        0     1                 EMIOS_GFR_Flag11
+   103f0    103f0        0     1                 EMIOS_GFR_Flag12
+   10400    10400        0     1                 EMIOS_GFR_Flag13
+   10410    10410        0     1                 EMIOS_GFR_Flag14
+   10420    10420        0     1                 EMIOS_GFR_Flag15
+   10430    10430        0     1                 ETPU_MCR
+   10440    10440        0     1                 ETPU_CISR_A_Irq00
+   10450    10450        0     1                 ETPU_CISR_A_Irq01
+   10460    10460        0     1                 ETPU_CISR_A_Irq02
+   10470    10470        0     1                 ETPU_CISR_A_Irq03
+   10480    10480        0     1                 ETPU_CISR_A_Irq04
+   10490    10490        0     1                 ETPU_CISR_A_Irq05
+   104a0    104a0        0     1                 ETPU_CISR_A_Irq06
+   104b0    104b0        0     1                 ETPU_CISR_A_Irq07
+   104c0    104c0        0     1                 ETPU_CISR_A_Irq08
+   104d0    104d0        0     1                 ETPU_CISR_A_Irq09
+   104e0    104e0        0     1                 ETPU_CISR_A_Irq10
+   104f0    104f0        0     1                 ETPU_CISR_A_Irq11
+   10500    10500        0     1                 ETPU_CISR_A_Irq12
+   10510    10510        0     1                 ETPU_CISR_A_Irq13
+   10520    10520        0     1                 ETPU_CISR_A_Irq14
+   10530    10530        0     1                 ETPU_CISR_A_Irq15
+   10540    10540        0     1                 ETPU_CISR_A_Irq16
+   10550    10550        0     1                 ETPU_CISR_A_Irq17
+   10560    10560        0     1                 ETPU_CISR_A_Irq18
+   10570    10570        0     1                 ETPU_CISR_A_Irq19
+   10580    10580        0     1                 ETPU_CISR_A_Irq20
+   10590    10590        0     1                 ETPU_CISR_A_Irq21
+   105a0    105a0        0     1                 ETPU_CISR_A_Irq22
+   105b0    105b0        0     1                 ETPU_CISR_A_Irq23
+   105c0    105c0        0     1                 ETPU_CISR_A_Irq24
+   105d0    105d0        0     1                 ETPU_CISR_A_Irq25
+   105e0    105e0        0     1                 ETPU_CISR_A_Irq26
+   105f0    105f0        0     1                 ETPU_CISR_A_Irq27
+   10600    10600        0     1                 ETPU_CISR_A_Irq28
+   10610    10610        0     1                 ETPU_CISR_A_Irq29
+   10620    10620        0     1                 ETPU_CISR_A_Irq30
+   10630    10630        0     1                 ETPU_CISR_A_Irq31
+   10640    10640        0     1                 EQADC_A_FISRx
+   10650    10650        0     1                 EQADC_A_FISR0_NCF
+   10660    10660        0     1                 EQADC_A_FISR0_PF
+   10670    10670        0     1                 EQADC_A_FISR0_EOQF
+   10680    10680        0     1                 EQADC_A_FISR0_CFFF
+   10690    10690        0     1                 EQADC_A_FISR0_RFDF
+   106a0    106a0        0     1                 EQADC_A_FISR1_NCF
+   106b0    106b0        0     1                 EQADC_A_FISR1_PF
+   106c0    106c0        0     1                 EQADC_A_FISR1_EOQF
+   106d0    106d0        0     1                 EQADC_A_FISR1_CFFF
+   106e0    106e0        0     1                 EQADC_A_FISR1_RFDF
+   106f0    106f0        0     1                 EQADC_A_FISR2_NCF
+   10700    10700        0     1                 EQADC_A_FISR2_PF
+   10710    10710        0     1                 EQADC_A_FISR2_EOQF
+   10720    10720        0     1                 EQADC_A_FISR2_CFFF
+   10730    10730        0     1                 EQADC_A_FISR2_RFDF
+   10740    10740        0     1                 EQADC_A_FISR3_NCF
+   10750    10750        0     1                 EQADC_A_FISR3_PF
+   10760    10760        0     1                 EQADC_A_FISR3_EOQF
+   10770    10770        0     1                 EQADC_A_FISR3_CFFF
+   10780    10780        0     1                 EQADC_A_FISR3_RFDF
+   10790    10790        0     1                 EQADC_A_FISR4_NCF
+   107a0    107a0        0     1                 EQADC_A_FISR4_PF
+   107b0    107b0        0     1                 EQADC_A_FISR4_EOQF
+   107c0    107c0        0     1                 EQADC_A_FISR4_CFFF
+   107d0    107d0        0     1                 EQADC_A_FISR4_RFDF
+   107e0    107e0        0     1                 EQADC_A_FISR5_NCF
+   107f0    107f0        0     1                 EQADC_A_FISR5_PF
+   10800    10800        0     1                 EQADC_A_FISR5_EOQF
+   10810    10810        0     1                 EQADC_A_FISR5_CFFF
+   10820    10820        0     1                 EQADC_A_FISR5_RFDF
+   10830    10830        0     1                 DSPI_BSR_FLOW
+   10840    10840        0     1                 DSPI_BSR_EOQF
+   10850    10850        0     1                 DSPI_BSR_TFFF
+   10860    10860        0     1                 DSPI_BSR_TCF
+   10870    10870        0     1                 DSPI_BSR_RFDF
+   10880    10880        0     1                 DSPI_CSR_FLOW
+   10890    10890        0     1                 DSPI_CSR_EOQF
+   108a0    108a0        0     1                 DSPI_CSR_TFFF
+   108b0    108b0        0     1                 DSPI_CSR_TCF
+   108c0    108c0        0     1                 DSPI_CSR_RFDF
+   108d0    108d0        0     1                 DSPI_DSR_FLOW
+   108e0    108e0        0     1                 DSPI_DSR_EOQF
+   108f0    108f0        0     1                 DSPI_DSR_TFFF
+   10900    10900        0     1                 DSPI_DSR_TCF
+   10910    10910        0     1                 DSPI_DSR_RFDF
+   10920    10920        0     1                 ESCIA_SR
+   10950    10950        0     1                 ESCIB_SR
+   10980    10980        0     1                 CANA_ESR
+   10990    10990        0     1                 CANA_ESR_Error
+   109a0    109a0        0     1                 CANA_Wakeup
+   109b0    109b0        0     1                 CANA_IFRL_BUF00
+   109c0    109c0        0     1                 CANA_IFRL_BUF01
+   109d0    109d0        0     1                 CANA_IFRL_BUF02
+   109e0    109e0        0     1                 CANA_IFRL_BUF03
+   109f0    109f0        0     1                 CANA_IFRL_BUF04
+   10a00    10a00        0     1                 CANA_IFRL_BUF05
+   10a10    10a10        0     1                 CANA_IFRL_BUF06
+   10a20    10a20        0     1                 CANA_IFRL_BUF07
+   10a30    10a30        0     1                 CANA_IFRL_BUF08
+   10a40    10a40        0     1                 CANA_IFRL_BUF09
+   10a50    10a50        0     1                 CANA_IFRL_BUF10
+   10a60    10a60        0     1                 CANA_IFRL_BUF11
+   10a70    10a70        0     1                 CANA_IFRL_BUF12
+   10a80    10a80        0     1                 CANA_IFRL_BUF13
+   10a90    10a90        0     1                 CANA_IFRL_BUF14
+   10aa0    10aa0        0     1                 CANA_IFRL_BUF15
+   10ab0    10ab0        0     1                 CANA_IFRL_BUF31_16
+   10ac0    10ac0        0     1                 CANA_IFRL_BUF63_32
+   10ad0    10ad0        0     1                 CANC_ESR
+   10ae0    10ae0        0     1                 CANC_ESR_Error
+   10af0    10af0        0     1                 CANC_Wakeup
+   10b00    10b00        0     1                 CANC_IFRL_BUF00
+   10b10    10b10        0     1                 CANC_IFRL_BUF01
+   10b20    10b20        0     1                 CANC_IFRL_BUF02
+   10b30    10b30        0     1                 CANC_IFRL_BUF03
+   10b40    10b40        0     1                 CANC_IFRL_BUF04
+   10b50    10b50        0     1                 CANC_IFRL_BUF05
+   10b60    10b60        0     1                 CANC_IFRL_BUF06
+   10b70    10b70        0     1                 CANC_IFRL_BUF07
+   10b80    10b80        0     1                 CANC_IFRL_BUF08
+   10b90    10b90        0     1                 CANC_IFRL_BUF09
+   10ba0    10ba0        0     1                 CANC_IFRL_BUF10
+   10bb0    10bb0        0     1                 CANC_IFRL_BUF11
+   10bc0    10bc0        0     1                 CANC_IFRL_BUF12
+   10bd0    10bd0        0     1                 CANC_IFRL_BUF13
+   10be0    10be0        0     1                 CANC_IFRL_BUF14
+   10bf0    10bf0        0     1                 CANC_IFRL_BUF15
+   10c00    10c00        0     1                 CANC_IFRL_BUF31_16
+   10c10    10c10        0     1                 CANC_IFRL_BUF63_32
+   10c50    10c50        0     1                 DEC_A_Input
+   10c60    10c60        0     1                 DEC_A_Output
+   10c70    10c70        0     1                 DEC_A_Error
+   10c80    10c80        0     1                 STM0
+   10c90    10c90        0     1                 STM1_3
+   10ca0    10ca0        0     1                 EMIOS_GFR_Flag16
+   10cb0    10cb0        0     1                 EMIOS_GFR_Flag17
+   10cc0    10cc0        0     1                 EMIOS_GFR_Flag18
+   10cd0    10cd0        0     1                 EMIOS_GFR_Flag19
+   10ce0    10ce0        0     1                 EMIOS_GFR_Flag20
+   10cf0    10cf0        0     1                 EMIOS_GFR_Flag21
+   10d00    10d00        0     1                 EMIOS_GFR_Flag22
+   10d10    10d10        0     1                 EMIOS_GFR_Flag23
+   10d20    10d20        0     1                 EDMA_ERL63_32
+   10d30    10d30        0     1                 EDMA_Irq32
+   10d40    10d40        0     1                 EDMA_Irq33
+   10d50    10d50        0     1                 EDMA_Irq34
+   10d60    10d60        0     1                 EDMA_Irq35
+   10d70    10d70        0     1                 EDMA_Irq36
+   10d80    10d80        0     1                 EDMA_Irq37
+   10d90    10d90        0     1                 EDMA_Irq38
+   10da0    10da0        0     1                 EDMA_Irq39
+   10db0    10db0        0     1                 EDMA_Irq40
+   10dc0    10dc0        0     1                 EDMA_Irq41
+   10dd0    10dd0        0     1                 EDMA_Irq42
+   10de0    10de0        0     1                 EDMA_Irq43
+   10df0    10df0        0     1                 EDMA_Irq44
+   10e00    10e00        0     1                 EDMA_Irq45
+   10e10    10e10        0     1                 EDMA_Irq46
+   10e20    10e20        0     1                 EDMA_Irq47
+   10e30    10e30        0     1                 EDMA_Irq48
+   10e40    10e40        0     1                 EDMA_Irq49
+   10e50    10e50        0     1                 EDMA_Irq50
+   10e60    10e60        0     1                 EDMA_Irq51
+   10e70    10e70        0     1                 EDMA_Irq52
+   10e80    10e80        0     1                 EDMA_Irq53
+   10e90    10e90        0     1                 EDMA_Irq54
+   10ea0    10ea0        0     1                 EDMA_Irq55
+   10eb0    10eb0        0     1                 EDMA_Irq56
+   10ec0    10ec0        0     1                 EDMA_Irq57
+   10ed0    10ed0        0     1                 EDMA_Irq58
+   10ee0    10ee0        0     1                 EDMA_Irq59
+   10ef0    10ef0        0     1                 EDMA_Irq60
+   10f00    10f00        0     1                 EDMA_Irq61
+   10f10    10f10        0     1                 EDMA_Irq62
+   10f20    10f20        0     1                 EDMA_Irq63
+   10f30    10f30        0     1                 ETPU_CISR_B_Irq00
+   10f40    10f40        0     1                 ETPU_CISR_B_Irq01
+   10f50    10f50        0     1                 ETPU_CISR_B_Irq02
+   10f60    10f60        0     1                 ETPU_CISR_B_Irq03
+   10f70    10f70        0     1                 ETPU_CISR_B_Irq04
+   10f80    10f80        0     1                 ETPU_CISR_B_Irq05
+   10f90    10f90        0     1                 ETPU_CISR_B_Irq06
+   10fa0    10fa0        0     1                 ETPU_CISR_B_Irq07
+   10fb0    10fb0        0     1                 ETPU_CISR_B_Irq08
+   10fc0    10fc0        0     1                 ETPU_CISR_B_Irq09
+   10fd0    10fd0        0     1                 ETPU_CISR_B_Irq10
+   10fe0    10fe0        0     1                 ETPU_CISR_B_Irq11
+   10ff0    10ff0        0     1                 ETPU_CISR_B_Irq12
+   11000    11000        0     1                 ETPU_CISR_B_Irq13
+   11010    11010        0     1                 ETPU_CISR_B_Irq14
+   11020    11020        0     1                 ETPU_CISR_B_Irq15
+   11030    11030        0     1                 ETPU_CISR_B_Irq16
+   11040    11040        0     1                 ETPU_CISR_B_Irq17
+   11050    11050        0     1                 ETPU_CISR_B_Irq18
+   11060    11060        0     1                 ETPU_CISR_B_Irq19
+   11070    11070        0     1                 ETPU_CISR_B_Irq20
+   11080    11080        0     1                 ETPU_CISR_B_Irq21
+   11090    11090        0     1                 ETPU_CISR_B_Irq22
+   110a0    110a0        0     1                 ETPU_CISR_B_Irq23
+   110b0    110b0        0     1                 ETPU_CISR_B_Irq24
+   110c0    110c0        0     1                 ETPU_CISR_B_Irq25
+   110d0    110d0        0     1                 ETPU_CISR_B_Irq26
+   110e0    110e0        0     1                 ETPU_CISR_B_Irq27
+   110f0    110f0        0     1                 ETPU_CISR_B_Irq28
+   11100    11100        0     1                 ETPU_CISR_B_Irq29
+   11110    11110        0     1                 ETPU_CISR_B_Irq30
+   11120    11120        0     1                 ETPU_CISR_B_Irq31
+   11130    11130        0     1                 DSPI_ASR_FLOW
+   11140    11140        0     1                 DSPI_ASR_EOQF
+   11150    11150        0     1                 DSPI_ASR_TFFF
+   11160    11160        0     1                 DSPI_ASR_TCF
+   11170    11170        0     1                 DSPI_ASR_RFDF
+   11180    11180        0     1                 CANB_ESR
+   11190    11190        0     1                 CANB_ESR_Error
+   111a0    111a0        0     1                 CANB_Wakeup
+   111b0    111b0        0     1                 CANB_IFRL_BUF00
+   111c0    111c0        0     1                 CANB_IFRL_BUF01
+   111d0    111d0        0     1                 CANB_IFRL_BUF02
+   111e0    111e0        0     1                 CANB_IFRL_BUF03
+   111f0    111f0        0     1                 CANB_IFRL_BUF04
+   11200    11200        0     1                 CANB_IFRL_BUF05
+   11210    11210        0     1                 CANB_IFRL_BUF06
+   11220    11220        0     1                 CANB_IFRL_BUF07
+   11230    11230        0     1                 CANB_IFRL_BUF08
+   11240    11240        0     1                 CANB_IFRL_BUF09
+   11250    11250        0     1                 CANB_IFRL_BUF10
+   11260    11260        0     1                 CANB_IFRL_BUF11
+   11270    11270        0     1                 CANB_IFRL_BUF12
+   11280    11280        0     1                 CANB_IFRL_BUF13
+   11290    11290        0     1                 CANB_IFRL_BUF14
+   112a0    112a0        0     1                 CANB_IFRL_BUF15
+   112b0    112b0        0     1                 CANB_IFRL_BUF31_16
+   112c0    112c0        0     1                 CANB_IFRL_BUF63_32
+   112d0    112d0        0     1                 PIT_0
+   112e0    112e0        0     1                 PIT_1
+   112f0    112f0        0     1                 PIT_2
+   11300    11300        0     1                 PIT_3
+   11310    11310        0     1                 RTI
+   11320    11320        0     1                 PMC
+   11330    11330        0     1                 ECC_Corr
+   11340    11340        0     1                 CAND_ESR
+   11350    11350        0     1                 CAND_ESR_Error
+   11360    11360        0     1                 CAND_Wakeup
+   11370    11370        0     1                 CAND_IFRL_BUF00
+   11380    11380        0     1                 CAND_IFRL_BUF01
+   11390    11390        0     1                 CAND_IFRL_BUF02
+   113a0    113a0        0     1                 CAND_IFRL_BUF03
+   113b0    113b0        0     1                 CAND_IFRL_BUF04
+   113c0    113c0        0     1                 CAND_IFRL_BUF05
+   113d0    113d0        0     1                 CAND_IFRL_BUF06
+   113e0    113e0        0     1                 CAND_IFRL_BUF07
+   113f0    113f0        0     1                 CAND_IFRL_BUF08
+   11400    11400        0     1                 CAND_IFRL_BUF09
+   11410    11410        0     1                 CAND_IFRL_BUF10
+   11420    11420        0     1                 CAND_IFRL_BUF11
+   11430    11430        0     1                 CAND_IFRL_BUF12
+   11440    11440        0     1                 CAND_IFRL_BUF13
+   11450    11450        0     1                 CAND_IFRL_BUF14
+   11460    11460        0     1                 CAND_IFRL_BUF15
+   11470    11470        0     1                 CAND_IFRL_BUF31_16
+   11480    11480        0     1                 CAND_IFRL_BUF63_32
+   115e0    115e0        0     1                 GIFER_MIF
+   115f0    115f0        0     1                 GIFER_PRIF
+   11600    11600        0     1                 GIFER_CHIF
+   11610    11610        0     1                 GIFER_WUP_IF
+   11620    11620        0     1                 GIFER_FBNE_F
+   11630    11630        0     1                 GIFER_FANE_F
+   11640    11640        0     1                 GIFER_RBIF
+   11650    11650        0     1                 GIFER_TBIF
+   116e0    116e0        0     1                 DEC_B_Input
+   116f0    116f0        0     1                 DEC_B_Output
+   11700    11700        0     1                 DEC_B_Error
+   118a0    118a0        0     1                 EQADC_B_FISRx
+   118b0    118b0        0     1                 EQADC_B_FISR0_NCF
+   118c0    118c0        0     1                 EQADC_B_FISR0_PF
+   118d0    118d0        0     1                 EQADC_B_FISR0_EOQF
+   118e0    118e0        0     1                 EQADC_B_FISR0_CFFF
+   118f0    118f0        0     1                 EQADC_B_FISR0_RFDF
+   11900    11900        0     1                 EQADC_B_FISR1_NCF
+   11910    11910        0     1                 EQADC_B_FISR1_PF
+   11920    11920        0     1                 EQADC_B_FISR1_EOQF
+   11930    11930        0     1                 EQADC_B_FISR1_CFFF
+   11940    11940        0     1                 EQADC_B_FISR1_RFDF
+   11950    11950        0     1                 EQADC_B_FISR2_NCF
+   11960    11960        0     1                 EQADC_B_FISR2_PF
+   11970    11970        0     1                 EQADC_B_FISR2_EOQF
+   11980    11980        0     1                 EQADC_B_FISR2_CFFF
+   11990    11990        0     1                 EQADC_B_FISR2_RFDF
+   119a0    119a0        0     1                 EQADC_B_FISR3_NCF
+   119b0    119b0        0     1                 EQADC_B_FISR3_PF
+   119c0    119c0        0     1                 EQADC_B_FISR3_EOQF
+   119d0    119d0        0     1                 EQADC_B_FISR3_CFFF
+   119e0    119e0        0     1                 EQADC_B_FISR3_RFDF
+   119f0    119f0        0     1                 EQADC_B_FISR4_NCF
+   11a00    11a00        0     1                 EQADC_B_FISR4_PF
+   11a10    11a10        0     1                 EQADC_B_FISR4_EOQF
+   11a20    11a20        0     1                 EQADC_B_FISR4_CFFF
+   11a30    11a30        0     1                 EQADC_B_FISR4_RFDF
+   11a40    11a40        0     1                 EQADC_B_FISR5_NCF
+   11a50    11a50        0     1                 EQADC_B_FISR5_PF
+   11a60    11a60        0     1                 EQADC_B_FISR5_EOQF
+   11a70    11a70        0     1                 EQADC_B_FISR5_CFFF
+   11a80    11a80        0     1                 EQADC_B_FISR5_RFDF
+   11a90    11a90        0     1                 EDMA_B_ERL31_0
+   11aa0    11aa0        0     1                 EDMA_B_Irq00
+   11ab0    11ab0        0     1                 EDMA_B_Irq01
+   11ac0    11ac0        0     1                 EDMA_B_Irq02
+   11ad0    11ad0        0     1                 EDMA_B_Irq03
+   11ae0    11ae0        0     1                 EDMA_B_Irq04
+   11af0    11af0        0     1                 EDMA_B_Irq05
+   11b00    11b00        0     1                 EDMA_B_Irq06
+   11b10    11b10        0     1                 EDMA_B_Irq07
+   11b20    11b20        0     1                 EDMA_B_Irq08
+   11b30    11b30        0     1                 EDMA_B_Irq09
+   11b40    11b40        0     1                 EDMA_B_Irq10
+   11b50    11b50        0     1                 EDMA_B_Irq11
+   11b60    11b60        0     1                 EDMA_B_Irq12
+   11b70    11b70        0     1                 EDMA_B_Irq13
+   11b80    11b80        0     1                 EDMA_B_Irq14
+   11b90    11b90        0     1                 EDMA_B_Irq15
+   11ba0    11ba0        0     1                 EDMA_B_Irq16
+   11bb0    11bb0        0     1                 EDMA_B_Irq17
+   11bc0    11bc0        0     1                 EDMA_B_Irq18
+   11bd0    11bd0        0     1                 EDMA_B_Irq19
+   11be0    11be0        0     1                 EDMA_B_Irq20
+   11bf0    11bf0        0     1                 EDMA_B_Irq21
+   11c00    11c00        0     1                 EDMA_B_Irq22
+   11c10    11c10        0     1                 EDMA_B_Irq23
+   11c20    11c20        0     1                 EDMA_B_Irq24
+   11c30    11c30        0     1                 EDMA_B_Irq25
+   11c40    11c40        0     1                 EDMA_B_Irq26
+   11c50    11c50        0     1                 EDMA_B_Irq27
+   11c60    11c60        0     1                 EDMA_B_Irq28
+   11c70    11c70        0     1                 EDMA_B_Irq29
+   11c80    11c80        0     1                 EDMA_B_Irq30
+   11c90    11c90        0     1                 EDMA_B_Irq31
+   11cb0    11cb0        0     1                 EMIOS_GFR_Flag24
+   11cc0    11cc0        0     1                 EMIOS_GFR_Flag25
+   11cd0    11cd0        0     1                 EMIOS_GFR_Flag26
+   11ce0    11ce0        0     1                 EMIOS_GFR_Flag27
+   11cf0    11cf0        0     1                 EMIOS_GFR_Flag28
+   11d00    11d00        0     1                 EMIOS_GFR_Flag29
+   11d10    11d10        0     1                 EMIOS_GFR_Flag30
+   11d20    11d20        0     1                 EMIOS_GFR_Flag31
+   11d30    11d30        0     1                 DEC_C_Input
+   11d40    11d40        0     1                 DEC_C_Output
+   11d50    11d50        0     1                 DEC_C_Error
+   11d60    11d60        0     1                 DEC_D_Input
+   11d70    11d70        0     1                 DEC_D_Output
+   11d80    11d80        0     1                 DEC_D_Error
+   11d90    11d90        0     1                 ESCIC_SR
+   11dc0    11dc0        0     1                 IVOR0
+   11dd0    11dd0        0     1                 IVOR1
+   11de0    11de0        0     1                 IVOR2
+   11df0    11df0        0     1                 IVOR3
+   11e00    11e00        0     1                 IVOR4
+   11e10    11e10        0     1                 IVOR5
+   11e20    11e20        0     1                 IVOR6
+   11e30    11e30        0     1                 IVOR7
+   11e40    11e40        0     1                 IVOR8
+   11e50    11e50        0     1                 IVOR9
+   11e60    11e60        0     1                 IVOR10
+   11e70    11e70        0     1                 IVOR11
+   11e80    11e80        0     1                 IVOR12
+   11e90    11e90        0     1                 IVOR13
+   11ea0    11ea0        0     1                 IVOR14
+   11eb0    11eb0        0     1                 IVOR15
+   11ec0    11ec0        0     1                 IVOR32
+   11ed0    11ed0        0     1                 IVOR33
+   11ee0    11ee0        0     1                 IVOR34
+   11ef0    11ef0     e070     1         . = ORIGIN ( rom ) - 0xa0
+   1ff60    1ff60       80     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(baseconfig.o):(.baseconfig)
+   1ff60    1ff60       80     1                 _baseConfig
+   1ffe0    1ffe0        0     1         . = ORIGIN ( rom ) - 0x20
+   1ffe0    1ffe0        0     1         __OSINFO = ABSOLUTE ( . )
+   1ffe0    1ffe0       20     1         vera_proginfo.o:(.osinfo)
+   1ffe0    1ffe0       20     1                 __osinfo
+   20000    20000    27f60    16 .text
+   20000    20000      114    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(crt0.o):(.startup)
+   20000    20000        0     1                 init_SRAM
+   20000    20000        0     1                 _start
+   2002c    2002c        0     1                 init_sram_loop
+   20120    20120      694    16         WindowControl.o:(.text)
+   20120    20120       1c     1                 WindowControl_Task_Time_Init
+   20140    20140      11c     1                 WindowControl_Task_Time_Start
+   20260    20260      480     1                 WindowControl_Task_Time
+   206e0    206e0       20     1                 WindowControl_output
+   20700    20700        4     1                 WindowControl_update
+   20710    20710       98     1                 WindowControl_initialize
+   207b0    207b0        4     1                 WindowControl_terminate
+   207b4    207b4        0     4         DbcBuffer.o:(.text)
+   207c0    207c0      500    16         VeRaModelFrame.o:(.text)
+   207c0    207c0       58     1                 cTask_Time_TaskFunc
+   20820    20820       4c     1                 cTask_Time_Callback
+   20870    20870      41c     1                 VeRaModelInitialize
+   20c90    20c90        4     1                 VeRaModelTerminate
+   20ca0    20ca0       20     1                 VeRaComTaskLoop
+   20cc0    20cc0        0     4         vera_configuration.o:(.text)
+   20cc0    20cc0        0     4         vera_uds_data_map.o:(.text)
+   20cc0    20cc0        0     4         vera_uds_dtc_map.o:(.text)
+   20cc0    20cc0        0     4         vera_proginfo.o:(.text)
+   20cc0    20cc0      1c8    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CanDbc.o):(.text)
+   20cc0    20cc0       40     1                 CanDbc_MainFunction
+   20d00    20d00      188     1                 CanDbc_Process
+   20e90    20e90      358    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VeRaComTask.o):(.text)
+   20e90    20e90       20     1                 DAQ_EVENT_Callback
+   20eb0    20eb0       14     1                 ComTimer_1ms_Callback
+   20ed0    20ed0      270     1                 VeRaComTask_TaskFunc
+   21140    21140       a8     1                 VeRaComTask_Init
+   211e8    211e8        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(baseconfig.o):(.text)
+   211f0    211f0      45c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(syslog.o):(.text)
+   211f0    211f0       5c     1                 syslog_init
+   21250    21250       fc     1                 log_error
+   21350    21350      100     1                 log_warning
+   21450    21450       fc     1                 log_info
+   21550    21550       fc     1                 log_debug
+   21650    21650      634    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Alarm.o):(.text)
+   21650    21650       b4     1                 SetRelAlarm
+   21710    21710       b8     1                 SetAbsAlarm
+   217d0    217d0       44     1                 CancelAlarm
+   21820    21820       40     1                 ResetAlarm
+   21860    21860       98     1                 ResetAlarms
+   21900    21900        c     1                 GetAlarm
+   21910    21910       28     1                 GetAlarmBase
+   21940    21940      188     1                 TickToCounter
+   21ad0    21ad0       ec     1                 TickToAbsCounter
+   21bc0    21bc0       c4     1                 SortAbsAlarmList
+   21c90    21c90      25c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Boot.o):(.text)
+   21c90    21c90       fc     1                 _OSAutostartTasks
+   21d90    21d90      124     1                 StartOS
+   21ec0    21ec0       20     1                 ShutdownOS
+   21ee0    21ee0        c     1                 GetActiveApplicationMode
+   21ef0    21ef0      1c8    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VeRaApplication.o):(.text)
+   21ef0    21ef0      138     1                 StartupHook
+   22030    22030       20     1                 ShutdownHook
+   22050    22050       68     1                 eTPUSyncInt
+   220b8    220b8        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(version.o):(.text)
+   220c0    220c0       d4    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(timer.o):(.text)
+   220c0    220c0       8c     1                 _init_Timer
+   22150    22150       44     1                 _stop_Timer
+   221a0    221a0       ac    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Config.o):(.text)
+   221a0    221a0       ac     1                 OSInitOSArrays
+   22250    22250      24c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Event.o):(.text)
+   22250    22250       24     1                 GetEvent
+   22280    22280       64     1                 ClearEvent
+   222f0    222f0       c4     1                 WaitEvent
+   223c0    223c0       dc     1                 SetEvent
+   224a0    224a0      168    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Interrupt.o):(.text)
+   224a0    224a0       10     1                 startAtomic
+   224b0    224b0        c     1                 endAtomic
+   224c0    224c0       3c     1                 SuspendAllInterrupts
+   22500    22500       28     1                 ResumeAllInterrupts
+   22530    22530       58     1                 SuspendOSInterrupts
+   22590    22590       48     1                 ResumeOSInterrupts
+   225e0    225e0       28     1                 initInterrupts
+   22610    22610      4e8    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Platform_POWERPC.o):(.text)
+   22610    22610       9c     1                 initContext
+   226b0    226b0      164     1                 _OSInitTaskStack_User
+   22820    22820       6c     1                 _OSInitTaskStack_Static
+   22890    22890       24     1                 eabiReplacement
+   228c0    228c0       44     1                 SystemCounter
+   22910    22910       34     1                 CrankAngle
+   22950    22950       98     1                 Machine_check
+   229f0    229f0        8     1                 READ_R17
+   22a00    22a00       f8     1                 Exception_Interrupt
+   22b00    22b00       ec    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Profiler.o):(.text)
+   22b00    22b00       10     1                 OSEKProfiler_TaskStart
+   22b10    22b10       18     1                 OSEKProfiler_TaskEnd
+   22b30    22b30       10     1                 OSEKProfiler_TaskActivation
+   22b40    22b40       20     1                 OSEKProfiler_TaskSuspend
+   22b60    22b60       8c     1                 OSEKProfiler_MainLoop
+   22bf0    22bf0      4e8    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Scheduler.o):(.text)
+   22bf0    22bf0        4     1                 IdleTask_TaskFunc
+   22c00    22c00       54     1                 _OSPrepareTask
+   22c60    22c60       24     1                 Schedule
+   22c90    22c90        8     1                 OSSchedule
+   22ca0    22ca0      138     1                 OSScheduleNextTask
+   22de0    22de0      108     1                 _OSStartupScheduling
+   22ef0    22ef0      178     1                 _OSFindFreeScheduleItem
+   23070    23070       50     1                 _OSInsertScheduleItem
+   230c0    230c0       18     1                 _OSRemoveScheduleItem
+   230e0    230e0      538    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Task.o):(.text)
+   230e0    230e0       5c     1                 _OSValidTask
+   23140    23140       80     1                 OSGetIntResource
+   231c0    231c0       70     1                 OSReleaseIntResource
+   23230    23230      124     1                 ActivateTask
+   23360    23360      130     1                 TerminateTask
+   23490    23490       d8     1                 ChainTask
+   23570    23570       48     1                 GetTaskID
+   235c0    235c0       58     1                 GetTaskState
+   23620    23620     2fd0    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Adc.o):(.text)
+   23620    23620      3b0     1                 Adc_Init
+   239d0    239d0      144     1                 Adc_SetupResultBuffer
+   23b20    23b20      2d4     1                 Adc_StartGroupConversion
+   23e00    23e00      3ac     1                 Adc_SetupGroupDMA
+   241b0    241b0      1a8     1                 Adc_StopGroupConversion
+   24360    24360      298     1                 Adc_ReadGroup
+   24600    24600       f4     1                 Adc_DataReadStateTransitions
+   24700    24700      284     1                 Adc_EnableHardwareTrigger
+   24990    24990      1ec     1                 Adc_DisableHardwareTrigger
+   24b80    24b80      124     1                 Adc_EnableGroupNotification
+   24cb0    24cb0      124     1                 Adc_DisableGroupNotification
+   24de0    24de0       a0     1                 Adc_GetGroupStatus
+   24e80    24e80      188     1                 Adc_GetStreamLastPointer
+   25010    25010       6c     1                 Adc_GetVersionInfo
+   25080    25080      1a0     1                 Adc_resync
+   25220    25220      1d8     1                 Adc_rfifo_interrupt
+   25400    25400      140     1                 eDMA_ADCA_rfifo0_int
+   25540    25540      148     1                 eDMA_ADCA_rfifo1_int
+   25690    25690      148     1                 eDMA_ADCA_rfifo2_int
+   257e0    257e0      148     1                 eDMA_ADCA_rfifo3_int
+   25930    25930      148     1                 eDMA_ADCA_rfifo4_int
+   25a80    25a80      148     1                 eDMA_ADCA_rfifo5_int
+   25bd0    25bd0      148     1                 eDMA_ADCB_rfifo0_int
+   25d20    25d20      148     1                 eDMA_ADCB_rfifo1_int
+   25e70    25e70      148     1                 eDMA_ADCB_rfifo2_int
+   25fc0    25fc0      148     1                 eDMA_ADCB_rfifo3_int
+   26110    26110      148     1                 eDMA_ADCB_rfifo4_int
+   26260    26260      148     1                 eDMA_ADCB_rfifo5_int
+   263b0    263b0      120     1                 eQADC_A_FISRx_int
+   264d0    264d0      120     1                 eQADC_B_FISRx_int
+   265f0    265f0     125c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Can.o):(.text)
+   265f0    265f0        c     1                 Can_IsInitialized
+   26600    26600      2ec     1                 Can_Init
+   268f0    268f0      350     1                 Can_InitController
+   26c40    26c40       28     1                 getFlexCAN
+   26c70    26c70       64     1                 Can_GetVersionInfo
+   26ce0    26ce0       18     1                 calculateTimeQuantumFrequency
+   26d00    26d00       14     1                 Can_CreateHandle
+   26d20    26d20      158     1                 Can_SetControllerMode
+   26e80    26e80       84     1                 Can_DisableControllerInterrupts
+   26f10    26f10       84     1                 Can_EnableControllerInterrupts
+   26fa0    26fa0      10c     1                 Can_CheckWakeup
+   270b0    270b0      2b0     1                 Can_Write
+   27360    27360      23c     1                 Can_Read
+   275a0    275a0       c0     1                 Can_ReInit_Messagebuffer
+   27660    27660       40     1                 Can_MainFunction_Write
+   276a0    276a0       40     1                 Can_MainFunction_Read
+   276e0    276e0       40     1                 Can_MainFunction_BusOff
+   27720    27720       40     1                 Can_MainFunction_Wakeup
+   27760    27760       40     1                 Can_MainFunction_Mode
+   277a0    277a0       40     1                 Can_GetControllerStatus
+   277e0    277e0       6c     1                 Can_TxBufferIsReady
+   27850    27850      33c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CanConsole.o):(.text)
+   27850    27850       64     1                 CanConsole_Init
+   278c0    278c0       b8     1                 CanConsole_Append
+   27980    27980      20c     1                 CanConsole_MainFunction
+   27b90    27b90       d8    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Det.o):(.text)
+   27b90    27b90        4     1                 Det_Init
+   27ba0    27ba0       6c     1                 Det_ReportError
+   27c10    27c10       24     1                 Det_Start
+   27c40    27c40       28     1                 Det_GetVersionInfo
+   27c70    27c70       a0    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Fpga.o):(.text)
+   27c70    27c70       30     1                 FPGAStartup_Init
+   27ca0    27ca0       70     1                 FPGAStartup_Wait
+   27d10    27d10      154    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Dio.o):(.text)
+   27d10    27d10       78     1                 Dio_ReadChannel
+   27d90    27d90       70     1                 Dio_WriteChannel
+   27e00    27e00       64     1                 Dio_GetVersionInfo
+   27e70    27e70     2868    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Lin.o):(.text)
+   27e70    27e70      374     1                 Lin_Init
+   281f0    281f0      200     1                 LIN_Master_init
+   283f0    283f0      1f0     1                 LIN_Slave_init
+   285e0    285e0       64     1                 Lin_GetVersionInfo
+   28650    28650      238     1                 Lin_SendFrame
+   28890    28890       10     1                 LIN_Master_Send
+   288a0    288a0      16c     1                 Lin_GetStatus
+   28a10    28a10       80     1                 Lin_Calc_PID
+   28a90    28a90      110     1                 Lin_Calc_Chk
+   28ba0    28ba0       54     1                 Lin_Interrupt_Handler
+   28c00    28c00      290     1                 LIN_Master_Interrupt_Handler
+   28e90    28e90      520     1                 LIN_Slave_Interrupt_Handler
+   293b0    293b0      45c     1                 LIN_eSCIA_IRQ
+   29810    29810      4c0     1                 LIN_eSCIB_IRQ
+   29cd0    29cd0      4c0     1                 LIN_eSCIC_IRQ
+   2a190    2a190      160     1                 LIN_Slave_Add_to_Buff
+   2a2f0    2a2f0      118     1                 LIN_Slave_Set_Output_Buff
+   2a410    2a410      270     1                 LIN_Slave_Get_Input_Buff
+   2a680    2a680       14     1                 LIN_Slave_Read_Reg
+   2a6a0    2a6a0       1c     1                 LIN_Slave_Send
+   2a6c0    2a6c0       18     1                 LIN_Master_Read_Reg
+   2a6e0    2a6e0      a18    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Port.o):(.text)
+   2a6e0    2a6e0      42c     1                 Port_Init
+   2ab10    2ab10      210     1                 Port_SetPCR
+   2ad20    2ad20      190     1                 Port_SetPinDirection
+   2aeb0    2aeb0      1a8     1                 Port_RefreshPortDirection
+   2b060    2b060       98     1                 Port_GetVersionInfo
+   2b100    2b100      9b8    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Pwm.o):(.text)
+   2b100    2b100      3dc     1                 Pwm_Init
+   2b4e0    2b4e0       68     1                 Pwm_DeInit
+   2b550    2b550      150     1                 Pwm_SetDutyCycle
+   2b6a0    2b6a0      1e4     1                 Pwm_SetPeriodAndDuty
+   2b890    2b890       c0     1                 Pwm_SetOutputToIdle
+   2b950    2b950       c4     1                 Pwm_GetOutputState
+   2ba20    2ba20       98     1                 Pwm_GetVersionInfo
+   2bac0    2bac0     1a00    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Spi.o):(.text)
+   2bac0    2bac0     1158     1                 Spi_Init
+   2cc20    2cc20       f0     1                 Spi_DeInit
+   2cd10    2cd10       64     1                 Spi_GetStatus
+   2cd80    2cd80       a0     1                 Spi_SetupEB
+   2ce20    2ce20       9c     1                 Spi_GetJobResult
+   2cec0    2cec0       9c     1                 Spi_GetSequenceResult
+   2cf60    2cf60       6c     1                 Spi_GetVersionInfo
+   2cfd0    2cfd0      464     1                 Spi_SyncTransmit
+   2d440    2d440       40     1                 Spi_MainFunction_Handling
+   2d480    2d480       40     1                 Spi_MainFunction_Driving
+   2d4c0    2d4c0     1664    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Uds.o):(.text)
+   2d4c0    2d4c0      140     1                 Uds_Init
+   2d600    2d600       ac     1                 Uds_Indication
+   2d6b0    2d6b0       64     1                 Uds_MainFunction
+   2d720    2d720      f18     1                 Uds_HandleMessage
+   2e640    2e640      228     1                 Uds_GetDataForDataByIdentifier
+   2e870    2e870       78     1                 Uds_DtcGetIndexByIdentifier
+   2e8f0    2e8f0       28     1                 Uds_DtcSetStatus
+   2e920    2e920       2c     1                 Uds_DtcClearStatus
+   2e950    2e950       4c     1                 Uds_DtcGetPending
+   2e9a0    2e9a0       14     1                 Uds_DtcGetClearMask
+   2e9c0    2e9c0       58     1                 Uds_GetIndexForDataByIdentifier
+   2ea20    2ea20       2c     1                 Uds_SetDataForDataByIdentifier
+   2ea50    2ea50       b4     1                 Uds_GetDataByIndex
+   2eb10    2eb10       14     1                 Uds_AllowSessionChange
+   2eb30    2eb30      8b8    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(DoCAN.o):(.text)
+   2eb30    2eb30       9c     1                 DoCan_init
+   2ebd0    2ebd0       50     1                 DoCan_mainFunction
+   2ec20    2ec20      34c     1                 DoCan_rx_process
+   2ef70    2ef70      3bc     1                 DoCan_tx_process
+   2f330    2f330       b0     1                 DoCan_transmit
+   2f3e0    2f3e0        8     1                 DoCan_registerCallbackFunction
+   2f3f0    2f3f0      3c0    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(crcmodel.o):(.text)
+   2f3f0    2f3f0       54     1                 reflect
+   2f450    2f450        c     1                 cm_ini
+   2f460    2f460       40     1                 cm_nxt
+   2f4a0    2f4a0       54     1                 cm_blk
+   2f500    2f500       9c     1                 cm_crc
+   2f5a0    2f5a0      210     1                 cm_tab
+   2f7b0    2f7b0       50    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(SysReset.o):(.text)
+   2f7b0    2f7b0       24     1                 SysReset
+   2f7e0    2f7e0       20     1                 SysResetToBase
+   2f800    2f800     1d10    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Xcp.o):(.text)
+   2f800    2f800      15c     1                 Xcp_Init
+   2f960    2f960       e4     1                 xcpClearDaqList
+   2fa50    2fa50       ac     1                 Xcp_MainFunction
+   2fb00    2fb00       48     1                 Xcp_Response
+   2fb50    2fb50      388     1                 xcpSendDaq
+   2fee0    2fee0       64     1                 Xcp_GetVersionInfo
+   2ff50    2ff50      f6c     1                 Xcp_Command
+   30ec0    30ec0       58     1                 xcpStopAllDaqList
+   30f20    30f20       64     1                 xcpStopDaqList
+   30f90    30f90       30     1                 xcpStartDaqList
+   30fc0    30fc0       7c     1                 Xcp_crc_16_blk
+   31040    31040       80     1                 Xcp_SetFlag
+   310c0    310c0      450     1                 Xcp_SetEvents
+   31510    31510      274    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(drv_esci.o):(.text)
+   31510    31510       f4     1                 ESCI_init
+   31610    31610       e0     1                 ESCI_transmit_data
+   316f0    316f0       94     1                 ESCI_recieve_data
+   31790    31790     150c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(eTPU.o):(.text)
+   31790    31790       20     1                 chanMem
+   317b0    317b0        c     1                 eTPU_data24PSE
+   317c0    317c0        c     1                 eTPU_data
+   317d0    317d0       10     1                 eTPU_get_global_data32
+   317e0    317e0       14     1                 eTPU_get_global_data24
+   31800    31800       10     1                 eTPU_get_global_data24s
+   31810    31810       10     1                 eTPU_get_global_data16
+   31820    31820       10     1                 eTPU_get_global_data8
+   31830    31830       10     1                 eTPU_set_global_data32
+   31840    31840       10     1                 eTPU_set_global_data24
+   31850    31850       10     1                 eTPU_set_global_data16
+   31860    31860       10     1                 eTPU_set_global_data8
+   31870    31870       30     1                 eTPU_channel_data24PSE
+   318a0    318a0       2c     1                 eTPU_channel_data
+   318d0    318d0       2c     1                 eTPU_get_channel_data32
+   31900    31900       38     1                 eTPU_get_channel_data24
+   31940    31940       34     1                 eTPU_get_channel_data24s
+   31980    31980       2c     1                 eTPU_get_channel_data16
+   319b0    319b0       2c     1                 eTPU_get_channel_data8
+   319e0    319e0       2c     1                 eTPU_set_channel_data32
+   31a10    31a10       34     1                 eTPU_set_channel_data24
+   31a50    31a50       2c     1                 eTPU_set_channel_data16
+   31a80    31a80       2c     1                 eTPU_set_channel_data8
+   31ab0    31ab0      204     1                 eTPU_configure_channel
+   31cc0    31cc0       90     1                 eTPU_set_channelPriority
+   31d50    31d50       34     1                 eTPU_memcpy32
+   31d90    31d90       94     1                 eTPU_set_functionMode
+   31e30    31e30       80     1                 eTPU_set_FM0
+   31eb0    31eb0       80     1                 eTPU_set_FM1
+   31f30    31f30       94     1                 eTPU_HSR
+   31fd0    31fd0       68     1                 eTPU_HSRPending
+   32040    32040      70c     1                 eTPU_init
+   32750    32750       2c     1                 eTPU_setTCR1Prescaler
+   32780    32780       34     1                 eTPU_setTCR2Prescaler
+   327c0    327c0       dc     1                 eTPU_configure_watchdog
+   328a0    328a0       c0     1                 eTPU_coherentRead24
+   32960    32960       bc     1                 eTPU_coherentWrite24
+   32a20    32a20       bc     1                 eTPU_coherentRead24s
+   32ae0    32ae0       b8     1                 eTPU_coherentRead32
+   32ba0    32ba0       b8     1                 eTPU_coherentWrite32
+   32c60    32c60        8     1                 eTPU_ramSize
+   32c70    32c70        c     1                 eTPU_ramUsed
+   32c80    32c80        c     1                 eTPU_getFreeMemOffset
+   32c90    32c90        c     1                 eTPU_setFreeMemOffset
+   32ca0    32ca0      614    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_CANDbc.o):(.text)
+   32ca0    32ca0       7c     1                 VERA_CANDbc_Receive_Init
+   32d20    32d20       7c     1                 VERA_CANDbc_Send_Init
+   32da0    32da0      224     1                 VERA_CANDbc_Receive
+   32fd0    32fd0      2e4     1                 VERA_CANDbc_Send
+   332c0    332c0       44    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(vector64.o):(.text)
+   332c0    332c0       18     1                 reverseVector
+   332e0    332e0       24     1                 reverse_u64
+   33310    33310       a4    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_GPDI.o):(.text)
+   33310    33310       80     1                 VERA_GPDI_Init
+   33390    33390       24     1                 VERA_GPDI_Get
+   333c0    333c0     1678    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_ADC.o):(.text)
+   333c0    333c0      494     1                 VERA_ADC_Init
+   33860    33860       bc     1                 VERA_ADC_Get_ResultPtr
+   33920    33920      4f8     1                 VERA_ADC_Start_Conversion
+   33e20    33e20      418     1                 VERA_ADC_Update
+   34240    34240      1e0     1                 VERA_ADC_Calibration_A_Notify
+   34420    34420       28     1                 VERA_ADC_cal_constants
+   34450    34450       6c     1                 VERA_ADC_write_cal_constants
+   344c0    344c0      1e0     1                 VERA_ADC_Calibration_B_Notify
+   346a0    346a0       fc     1                 VERA_ADC_AnglesTriggered_A_Notify
+   347a0    347a0       fc     1                 VERA_ADC_AnglesTriggered_B_Notify
+   348a0    348a0      198     1                 VERA_ADC_SyncState_Notify
+   34a40    34a40      504    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_AngleEvents_Conf.o):(.text)
+   34a40    34a40       a8     1                 VERA_AngleEvents_Conf_setup
+   34af0    34af0       6c     1                 VERA_AngleEvents_Conf_init
+   34b60    34b60       24     1                 VERA_AngleEvents_Conf_disableChannel
+   34b90    34b90       28     1                 VERA_AngleEvents_Conf_setPinMode
+   34bc0    34bc0       28     1                 VERA_AngleEvents_Conf_setPulseWidth
+   34bf0    34bf0      138     1                 VERA_AngleEvents_Conf_setEnableInterrupt
+   34d30    34d30       28     1                 VERA_AngleEvents_Conf_setAngleMode
+   34d60    34d60       28     1                 VERA_AngleEvents_Conf_setRelStartAngle
+   34d90    34d90       2c     1                 VERA_AngleEvents_Conf_angleBuffer
+   34dc0    34dc0       48     1                 VERA_AngleEvents_Conf_getAngle
+   34e10    34e10       24     1                 VERA_AngleEvents_Conf_getNumberOfAngles
+   34e40    34e40       4c     1                 VERA_AngleEvents_Conf_commitPattern
+   34e90    34e90       24     1                 VERA_AngleEvents_Conf_commitPending
+   34ec0    34ec0       24     1                 VERA_AngleEvents_Conf_setLowActive
+   34ef0    34ef0       24     1                 VERA_AngleEvents_Conf_setHighActive
+   34f20    34f20       24     1                 VERA_AngleEvents_Conf_getStatus
+   34f50    34f50      240    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_CANDbc_Conf.o):(.text)
+   34f50    34f50      1b4     1                 VERA_CANDbc_Conf_Init
+   35110    35110       40     1                 VERA_CANDbc_Conf_dataPtr
+   35150    35150       40     1                 VERA_CANDbc_Conf_timeoutStatus
+   35190    35190      368    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_CAN_Conf.o):(.text)
+   35190    35190       54     1                 VERA_CAN_Conf_Setup
+   351f0    351f0      140     1                 VERA_CAN_Conf_Init
+   35330    35330       58     1                 VERA_CAN_Conf_Send
+   35390    35390       98     1                 VERA_CAN_Conf_Receive
+   35430    35430       7c     1                 VERA_CAN_Conf_ReInit
+   354b0    354b0       20     1                 VERA_CAN_Conf_ControllerStatus
+   354d0    354d0       28     1                 VERA_CAN_Conf_MessagebufferStatus
+   35500    35500      a94    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_Crank_Conf.o):(.text)
+   35500    35500      344     1                 VERA_Crank_Conf_setup
+   35850    35850       60     1                 VERA_Crank_Conf_init
+   358b0    358b0       ac     1                 VERA_Crank_Conf_setSmoothingFactor
+   35960    35960      148     1                 VERA_Crank_Conf_setEnableInterrupt
+   35ab0    35ab0       5c     1                 VERA_Crank_Conf_setStallTimeout
+   35b10    35b10       38     1                 VERA_Crank_Conf_setGapDetectPoint
+   35b50    35b50       38     1                 VERA_Crank_Conf_setMaxCamMiss
+   35b90    35b90       38     1                 VERA_Crank_Conf_setZeroAngleOffset
+   35bd0    35bd0       2c     1                 VERA_Crank_Conf_getZeroAngleOffset
+   35c00    35c00       2c     1                 VERA_Crank_Conf_forceSync
+   35c30    35c30       2c     1                 VERA_Crank_Conf_getCrankState
+   35c60    35c60       24     1                 VERA_Crank_Conf_getSyncState
+   35c90    35c90       24     1                 VERA_Crank_Conf_getTicksPerCycle
+   35cc0    35cc0       2c     1                 VERA_Crank_Conf_getLastToothPeriod
+   35cf0    35cf0       2c     1                 VERA_Crank_Conf_getLastToothDiff
+   35d20    35d20       2c     1                 VERA_Crank_Conf_getAvgToothPeriod
+   35d50    35d50       2c     1                 VERA_Crank_Conf_getAvgToothDiff
+   35d80    35d80       5c     1                 VERA_Crank_Conf_getEnginePos
+   35de0    35de0       5c     1                 VERA_Crank_Conf_getEngineRPM
+   35e40    35e40       5c     1                 VERA_Crank_Conf_getAvgEngineRPM
+   35ea0    35ea0       74     1                 VERA_Crank_Conf_getEngineAccRate
+   35f20    35f20       74     1                 VERA_Crank_Conf_getEngineAvgAccRate
+   35fa0    35fa0      20c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_DIO.o):(.text)
+   35fa0    35fa0      17c     1                 VERA_DIO_Init
+   36120    36120       34     1                 VERA_DIO_Output
+   36160    36160       4c     1                 VERA_DIO_Input
+   361ac    361ac        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Adc_Cfg.o):(.text)
+   361ac    361ac        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CAN_Cfg.o):(.text)
+   361ac    361ac        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Lin_Cfg.o):(.text)
+   361ac    361ac        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Port_Cfg.o):(.text)
+   361ac    361ac        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Pwm_Cfg.o):(.text)
+   361ac    361ac        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Spi_Cfg.o):(.text)
+   361b0    361b0       48    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Uds_Cfg.o):(.text)
+   361b0    361b0       48     1                 Uds_ValidateKey_Default
+   36200    36200       8c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Xcp_Cfg.o):(.text)
+   36200    36200       8c     1                 Xcp_ValidateKey_Default
+   3628c    3628c     56cc     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(eppc_exception.o):(.text)
+   3628c    3628c        0     1                 Eir_SW_Irq0
+   3628c    3628c        0     1                 eppc_exception
+   362b4    362b4        0     1                 Eir_SW_Irq1
+   362dc    362dc        0     1                 Eir_SW_Irq2
+   36304    36304        0     1                 Eir_SW_Irq3
+   3632c    3632c        0     1                 Eir_SW_Irq4
+   36354    36354        0     1                 Eir_SW_Irq5
+   3637c    3637c        0     1                 Eir_SW_Irq6
+   363a4    363a4        0     1                 Eir_SW_Irq7
+   363cc    363cc        0     1                 Eir_ECSM_SWTIR
+   363f4    363f4        0     1                 Eir_ECSM_ESR
+   3641c    3641c        0     1                 Eir_EDMA_A_ERL31_0
+   36444    36444        0     1                 Eir_EDMA_A_Irq00
+   3646c    3646c        0     1                 Eir_EDMA_A_Irq01
+   364d8    364d8        0     1                 EDMA_A_Irq01_NoScheduling
+   36550    36550        0     1                 Eir_EDMA_A_Irq02
+   36578    36578        0     1                 Eir_EDMA_A_Irq03
+   365e4    365e4        0     1                 EDMA_A_Irq03_NoScheduling
+   3665c    3665c        0     1                 Eir_EDMA_A_Irq04
+   36684    36684        0     1                 Eir_EDMA_A_Irq05
+   366f0    366f0        0     1                 EDMA_A_Irq05_NoScheduling
+   36768    36768        0     1                 Eir_EDMA_A_Irq06
+   36790    36790        0     1                 Eir_EDMA_A_Irq07
+   367fc    367fc        0     1                 EDMA_A_Irq07_NoScheduling
+   36874    36874        0     1                 Eir_EDMA_A_Irq08
+   3689c    3689c        0     1                 Eir_EDMA_A_Irq09
+   36908    36908        0     1                 EDMA_A_Irq09_NoScheduling
+   36980    36980        0     1                 Eir_EDMA_A_Irq10
+   369a8    369a8        0     1                 Eir_EDMA_A_Irq11
+   36a14    36a14        0     1                 EDMA_A_Irq11_NoScheduling
+   36a8c    36a8c        0     1                 Eir_EDMA_A_Irq12
+   36ab4    36ab4        0     1                 Eir_EDMA_A_Irq13
+   36adc    36adc        0     1                 Eir_EDMA_A_Irq14
+   36b04    36b04        0     1                 Eir_EDMA_A_Irq15
+   36b2c    36b2c        0     1                 Eir_EDMA_A_Irq16
+   36b54    36b54        0     1                 Eir_EDMA_A_Irq17
+   36b7c    36b7c        0     1                 Eir_EDMA_A_Irq18
+   36ba4    36ba4        0     1                 Eir_EDMA_A_Irq19
+   36bcc    36bcc        0     1                 Eir_EDMA_A_Irq20
+   36bf4    36bf4        0     1                 Eir_EDMA_A_Irq21
+   36c1c    36c1c        0     1                 Eir_EDMA_A_Irq22
+   36c44    36c44        0     1                 Eir_EDMA_A_Irq23
+   36c6c    36c6c        0     1                 Eir_EDMA_A_Irq24
+   36c94    36c94        0     1                 Eir_EDMA_A_Irq25
+   36cbc    36cbc        0     1                 Eir_EDMA_A_Irq26
+   36ce4    36ce4        0     1                 Eir_EDMA_A_Irq27
+   36d0c    36d0c        0     1                 Eir_EDMA_A_Irq28
+   36d34    36d34        0     1                 Eir_EDMA_A_Irq29
+   36d5c    36d5c        0     1                 Eir_EDMA_A_Irq30
+   36d84    36d84        0     1                 Eir_EDMA_A_Irq31
+   36dac    36dac        0     1                 Eir_FMPLL_SYNSR_LOCF
+   36dd4    36dd4        0     1                 Eir_FMPLL_SYNSR_LOLF
+   36dfc    36dfc        0     1                 Eir_SIU_OSR
+   36e24    36e24        0     1                 Eir_SIU_Irq0
+   36e4c    36e4c        0     1                 Eir_SIU_Irq1
+   36e74    36e74        0     1                 Eir_SIU_Irq2
+   36e9c    36e9c        0     1                 Eir_SIU_Irq3
+   36ec4    36ec4        0     1                 Eir_SIU_Irq15_4
+   36eec    36eec        0     1                 Eir_EMIOS_GFR_Flag00
+   36f14    36f14        0     1                 Eir_EMIOS_GFR_Flag01
+   36f3c    36f3c        0     1                 Eir_EMIOS_GFR_Flag02
+   36f64    36f64        0     1                 Eir_EMIOS_GFR_Flag03
+   36f8c    36f8c        0     1                 Eir_EMIOS_GFR_Flag04
+   36fb4    36fb4        0     1                 Eir_EMIOS_GFR_Flag05
+   36fdc    36fdc        0     1                 Eir_EMIOS_GFR_Flag06
+   37004    37004        0     1                 Eir_EMIOS_GFR_Flag07
+   3702c    3702c        0     1                 Eir_EMIOS_GFR_Flag08
+   37054    37054        0     1                 Eir_EMIOS_GFR_Flag09
+   3707c    3707c        0     1                 Eir_EMIOS_GFR_Flag10
+   370a4    370a4        0     1                 Eir_EMIOS_GFR_Flag11
+   370cc    370cc        0     1                 Eir_EMIOS_GFR_Flag12
+   370f4    370f4        0     1                 Eir_EMIOS_GFR_Flag13
+   3711c    3711c        0     1                 Eir_EMIOS_GFR_Flag14
+   37144    37144        0     1                 Eir_EMIOS_GFR_Flag15
+   3716c    3716c        0     1                 Eir_ETPU_MCR
+   37194    37194        0     1                 Eir_ETPU_CISR_A_Irq00
+   37218    37218        0     1                 ETPU_CISR_A_Irq00_NoScheduling
+   37290    37290        0     1                 Eir_ETPU_CISR_A_Irq01
+   37314    37314        0     1                 ETPU_CISR_A_Irq01_NoScheduling
+   3738c    3738c        0     1                 Eir_ETPU_CISR_A_Irq02
+   373b4    373b4        0     1                 Eir_ETPU_CISR_A_Irq03
+   373dc    373dc        0     1                 Eir_ETPU_CISR_A_Irq04
+   37404    37404        0     1                 Eir_ETPU_CISR_A_Irq05
+   3742c    3742c        0     1                 Eir_ETPU_CISR_A_Irq06
+   37454    37454        0     1                 Eir_ETPU_CISR_A_Irq07
+   3747c    3747c        0     1                 Eir_ETPU_CISR_A_Irq08
+   374a4    374a4        0     1                 Eir_ETPU_CISR_A_Irq09
+   374cc    374cc        0     1                 Eir_ETPU_CISR_A_Irq10
+   374f4    374f4        0     1                 Eir_ETPU_CISR_A_Irq11
+   3751c    3751c        0     1                 Eir_ETPU_CISR_A_Irq12
+   37544    37544        0     1                 Eir_ETPU_CISR_A_Irq13
+   3756c    3756c        0     1                 Eir_ETPU_CISR_A_Irq14
+   37594    37594        0     1                 Eir_ETPU_CISR_A_Irq15
+   375bc    375bc        0     1                 Eir_ETPU_CISR_A_Irq16
+   375e4    375e4        0     1                 Eir_ETPU_CISR_A_Irq17
+   3760c    3760c        0     1                 Eir_ETPU_CISR_A_Irq18
+   37634    37634        0     1                 Eir_ETPU_CISR_A_Irq19
+   3765c    3765c        0     1                 Eir_ETPU_CISR_A_Irq20
+   37684    37684        0     1                 Eir_ETPU_CISR_A_Irq21
+   376ac    376ac        0     1                 Eir_ETPU_CISR_A_Irq22
+   376d4    376d4        0     1                 Eir_ETPU_CISR_A_Irq23
+   376fc    376fc        0     1                 Eir_ETPU_CISR_A_Irq24
+   37724    37724        0     1                 Eir_ETPU_CISR_A_Irq25
+   3774c    3774c        0     1                 Eir_ETPU_CISR_A_Irq26
+   37774    37774        0     1                 Eir_ETPU_CISR_A_Irq27
+   3779c    3779c        0     1                 Eir_ETPU_CISR_A_Irq28
+   377c4    377c4        0     1                 Eir_ETPU_CISR_A_Irq29
+   377ec    377ec        0     1                 Eir_ETPU_CISR_A_Irq30
+   37814    37814        0     1                 Eir_ETPU_CISR_A_Irq31
+   37898    37898        0     1                 ETPU_CISR_A_Irq31_NoScheduling
+   37910    37910        0     1                 Eir_EQADC_A_FISRx
+   3797c    3797c        0     1                 EQADC_A_FISRx_NoScheduling
+   379f4    379f4        0     1                 Eir_EQADC_A_FISR0_NCF
+   37a1c    37a1c        0     1                 Eir_EQADC_A_FISR0_PF
+   37a44    37a44        0     1                 Eir_EQADC_A_FISR0_EOQF
+   37a6c    37a6c        0     1                 Eir_EQADC_A_FISR0_CFFF
+   37a94    37a94        0     1                 Eir_EQADC_A_FISR0_RFDF
+   37abc    37abc        0     1                 Eir_EQADC_A_FISR1_NCF
+   37ae4    37ae4        0     1                 Eir_EQADC_A_FISR1_PF
+   37b0c    37b0c        0     1                 Eir_EQADC_A_FISR1_EOQF
+   37b34    37b34        0     1                 Eir_EQADC_A_FISR1_CFFF
+   37b5c    37b5c        0     1                 Eir_EQADC_A_FISR1_RFDF
+   37b84    37b84        0     1                 Eir_EQADC_A_FISR2_NCF
+   37bac    37bac        0     1                 Eir_EQADC_A_FISR2_PF
+   37bd4    37bd4        0     1                 Eir_EQADC_A_FISR2_EOQF
+   37bfc    37bfc        0     1                 Eir_EQADC_A_FISR2_CFFF
+   37c24    37c24        0     1                 Eir_EQADC_A_FISR2_RFDF
+   37c4c    37c4c        0     1                 Eir_EQADC_A_FISR3_NCF
+   37c74    37c74        0     1                 Eir_EQADC_A_FISR3_PF
+   37c9c    37c9c        0     1                 Eir_EQADC_A_FISR3_EOQF
+   37cc4    37cc4        0     1                 Eir_EQADC_A_FISR3_CFFF
+   37cec    37cec        0     1                 Eir_EQADC_A_FISR3_RFDF
+   37d14    37d14        0     1                 Eir_EQADC_A_FISR4_NCF
+   37d3c    37d3c        0     1                 Eir_EQADC_A_FISR4_PF
+   37d64    37d64        0     1                 Eir_EQADC_A_FISR4_EOQF
+   37d8c    37d8c        0     1                 Eir_EQADC_A_FISR4_CFFF
+   37db4    37db4        0     1                 Eir_EQADC_A_FISR4_RFDF
+   37ddc    37ddc        0     1                 Eir_EQADC_A_FISR5_NCF
+   37e04    37e04        0     1                 Eir_EQADC_A_FISR5_PF
+   37e2c    37e2c        0     1                 Eir_EQADC_A_FISR5_EOQF
+   37e54    37e54        0     1                 Eir_EQADC_A_FISR5_CFFF
+   37e7c    37e7c        0     1                 Eir_EQADC_A_FISR5_RFDF
+   37ea4    37ea4        0     1                 Eir_DSPI_BSR_FLOW
+   37ecc    37ecc        0     1                 Eir_DSPI_BSR_EOQF
+   37ef4    37ef4        0     1                 Eir_DSPI_BSR_TFFF
+   37f1c    37f1c        0     1                 Eir_DSPI_BSR_TCF
+   37f44    37f44        0     1                 Eir_DSPI_BSR_RFDF
+   37f6c    37f6c        0     1                 Eir_DSPI_CSR_FLOW
+   37f94    37f94        0     1                 Eir_DSPI_CSR_EOQF
+   37fbc    37fbc        0     1                 Eir_DSPI_CSR_TFFF
+   37fe4    37fe4        0     1                 Eir_DSPI_CSR_TCF
+   3800c    3800c        0     1                 Eir_DSPI_CSR_RFDF
+   38034    38034        0     1                 Eir_DSPI_DSR_FLOW
+   3805c    3805c        0     1                 Eir_DSPI_DSR_EOQF
+   38084    38084        0     1                 Eir_DSPI_DSR_TFFF
+   380ac    380ac        0     1                 Eir_DSPI_DSR_TCF
+   380d4    380d4        0     1                 Eir_DSPI_DSR_RFDF
+   380fc    380fc        0     1                 Eir_ESCIA_SR
+   38168    38168        0     1                 ESCIA_SR_NoScheduling
+   381e0    381e0        0     1                 Eir_ESCIB_SR
+   3824c    3824c        0     1                 ESCIB_SR_NoScheduling
+   382c4    382c4        0     1                 Eir_CANA_ESR
+   382ec    382ec        0     1                 Eir_CANA_ESR_Error
+   38314    38314        0     1                 Eir_CANA_Wakeup
+   3833c    3833c        0     1                 Eir_CANA_IFRL_BUF00
+   38364    38364        0     1                 Eir_CANA_IFRL_BUF01
+   3838c    3838c        0     1                 Eir_CANA_IFRL_BUF02
+   383b4    383b4        0     1                 Eir_CANA_IFRL_BUF03
+   383dc    383dc        0     1                 Eir_CANA_IFRL_BUF04
+   38404    38404        0     1                 Eir_CANA_IFRL_BUF05
+   3842c    3842c        0     1                 Eir_CANA_IFRL_BUF06
+   38454    38454        0     1                 Eir_CANA_IFRL_BUF07
+   3847c    3847c        0     1                 Eir_CANA_IFRL_BUF08
+   384a4    384a4        0     1                 Eir_CANA_IFRL_BUF09
+   384cc    384cc        0     1                 Eir_CANA_IFRL_BUF10
+   384f4    384f4        0     1                 Eir_CANA_IFRL_BUF11
+   3851c    3851c        0     1                 Eir_CANA_IFRL_BUF12
+   38544    38544        0     1                 Eir_CANA_IFRL_BUF13
+   3856c    3856c        0     1                 Eir_CANA_IFRL_BUF14
+   385d8    385d8        0     1                 CANA_IFRL_BUF14_NoScheduling
+   38650    38650        0     1                 Eir_CANA_IFRL_BUF15
+   386bc    386bc        0     1                 CANA_IFRL_BUF15_NoScheduling
+   38734    38734        0     1                 Eir_CANA_IFRL_BUF31_16
+   3875c    3875c        0     1                 Eir_CANA_IFRL_BUF63_32
+   38784    38784        0     1                 Eir_CANC_ESR
+   387ac    387ac        0     1                 Eir_CANC_ESR_Error
+   387d4    387d4        0     1                 Eir_CANC_Wakeup
+   387fc    387fc        0     1                 Eir_CANC_IFRL_BUF00
+   38824    38824        0     1                 Eir_CANC_IFRL_BUF01
+   3884c    3884c        0     1                 Eir_CANC_IFRL_BUF02
+   38874    38874        0     1                 Eir_CANC_IFRL_BUF03
+   3889c    3889c        0     1                 Eir_CANC_IFRL_BUF04
+   388c4    388c4        0     1                 Eir_CANC_IFRL_BUF05
+   388ec    388ec        0     1                 Eir_CANC_IFRL_BUF06
+   38914    38914        0     1                 Eir_CANC_IFRL_BUF07
+   3893c    3893c        0     1                 Eir_CANC_IFRL_BUF08
+   38964    38964        0     1                 Eir_CANC_IFRL_BUF09
+   3898c    3898c        0     1                 Eir_CANC_IFRL_BUF10
+   389b4    389b4        0     1                 Eir_CANC_IFRL_BUF11
+   389dc    389dc        0     1                 Eir_CANC_IFRL_BUF12
+   38a04    38a04        0     1                 Eir_CANC_IFRL_BUF13
+   38a2c    38a2c        0     1                 Eir_CANC_IFRL_BUF14
+   38a98    38a98        0     1                 CANC_IFRL_BUF14_NoScheduling
+   38b10    38b10        0     1                 Eir_CANC_IFRL_BUF15
+   38b7c    38b7c        0     1                 CANC_IFRL_BUF15_NoScheduling
+   38bf4    38bf4        0     1                 Eir_CANC_IFRL_BUF31_16
+   38c1c    38c1c        0     1                 Eir_CANC_IFRL_BUF63_32
+   38c44    38c44        0     1                 Eir_DEC_A_Input
+   38c6c    38c6c        0     1                 Eir_DEC_A_Output
+   38c94    38c94        0     1                 Eir_DEC_A_Error
+   38cbc    38cbc        0     1                 Eir_STM0
+   38ce4    38ce4        0     1                 Eir_STM1_3
+   38d0c    38d0c        0     1                 Eir_EMIOS_GFR_Flag16
+   38d34    38d34        0     1                 Eir_EMIOS_GFR_Flag17
+   38d5c    38d5c        0     1                 Eir_EMIOS_GFR_Flag18
+   38d84    38d84        0     1                 Eir_EMIOS_GFR_Flag19
+   38dac    38dac        0     1                 Eir_EMIOS_GFR_Flag20
+   38dd4    38dd4        0     1                 Eir_EMIOS_GFR_Flag21
+   38dfc    38dfc        0     1                 Eir_EMIOS_GFR_Flag22
+   38e24    38e24        0     1                 Eir_EMIOS_GFR_Flag23
+   38e4c    38e4c        0     1                 Eir_EDMA_ERL63_32
+   38e74    38e74        0     1                 Eir_EDMA_Irq32
+   38e9c    38e9c        0     1                 Eir_EDMA_Irq33
+   38ec4    38ec4        0     1                 Eir_EDMA_Irq34
+   38eec    38eec        0     1                 Eir_EDMA_Irq35
+   38f14    38f14        0     1                 Eir_EDMA_Irq36
+   38f3c    38f3c        0     1                 Eir_EDMA_Irq37
+   38f64    38f64        0     1                 Eir_EDMA_Irq38
+   38f8c    38f8c        0     1                 Eir_EDMA_Irq39
+   38fb4    38fb4        0     1                 Eir_EDMA_Irq40
+   38fdc    38fdc        0     1                 Eir_EDMA_Irq41
+   39004    39004        0     1                 Eir_EDMA_Irq42
+   3902c    3902c        0     1                 Eir_EDMA_Irq43
+   39054    39054        0     1                 Eir_EDMA_Irq44
+   3907c    3907c        0     1                 Eir_EDMA_Irq45
+   390a4    390a4        0     1                 Eir_EDMA_Irq46
+   390cc    390cc        0     1                 Eir_EDMA_Irq47
+   390f4    390f4        0     1                 Eir_EDMA_Irq48
+   3911c    3911c        0     1                 Eir_EDMA_Irq49
+   39144    39144        0     1                 Eir_EDMA_Irq50
+   3916c    3916c        0     1                 Eir_EDMA_Irq51
+   39194    39194        0     1                 Eir_EDMA_Irq52
+   391bc    391bc        0     1                 Eir_EDMA_Irq53
+   391e4    391e4        0     1                 Eir_EDMA_Irq54
+   3920c    3920c        0     1                 Eir_EDMA_Irq55
+   39234    39234        0     1                 Eir_EDMA_Irq56
+   3925c    3925c        0     1                 Eir_EDMA_Irq57
+   39284    39284        0     1                 Eir_EDMA_Irq58
+   392ac    392ac        0     1                 Eir_EDMA_Irq59
+   392d4    392d4        0     1                 Eir_EDMA_Irq60
+   392fc    392fc        0     1                 Eir_EDMA_Irq61
+   39324    39324        0     1                 Eir_EDMA_Irq62
+   3934c    3934c        0     1                 Eir_EDMA_Irq63
+   39374    39374        0     1                 Eir_ETPU_CISR_B_Irq00
+   3939c    3939c        0     1                 Eir_ETPU_CISR_B_Irq01
+   393c4    393c4        0     1                 Eir_ETPU_CISR_B_Irq02
+   393ec    393ec        0     1                 Eir_ETPU_CISR_B_Irq03
+   39414    39414        0     1                 Eir_ETPU_CISR_B_Irq04
+   3943c    3943c        0     1                 Eir_ETPU_CISR_B_Irq05
+   39464    39464        0     1                 Eir_ETPU_CISR_B_Irq06
+   3948c    3948c        0     1                 Eir_ETPU_CISR_B_Irq07
+   394b4    394b4        0     1                 Eir_ETPU_CISR_B_Irq08
+   394dc    394dc        0     1                 Eir_ETPU_CISR_B_Irq09
+   39504    39504        0     1                 Eir_ETPU_CISR_B_Irq10
+   3952c    3952c        0     1                 Eir_ETPU_CISR_B_Irq11
+   39554    39554        0     1                 Eir_ETPU_CISR_B_Irq12
+   3957c    3957c        0     1                 Eir_ETPU_CISR_B_Irq13
+   395a4    395a4        0     1                 Eir_ETPU_CISR_B_Irq14
+   395cc    395cc        0     1                 Eir_ETPU_CISR_B_Irq15
+   395f4    395f4        0     1                 Eir_ETPU_CISR_B_Irq16
+   3961c    3961c        0     1                 Eir_ETPU_CISR_B_Irq17
+   39644    39644        0     1                 Eir_ETPU_CISR_B_Irq18
+   3966c    3966c        0     1                 Eir_ETPU_CISR_B_Irq19
+   39694    39694        0     1                 Eir_ETPU_CISR_B_Irq20
+   396bc    396bc        0     1                 Eir_ETPU_CISR_B_Irq21
+   396e4    396e4        0     1                 Eir_ETPU_CISR_B_Irq22
+   3970c    3970c        0     1                 Eir_ETPU_CISR_B_Irq23
+   39734    39734        0     1                 Eir_ETPU_CISR_B_Irq24
+   3975c    3975c        0     1                 Eir_ETPU_CISR_B_Irq25
+   39784    39784        0     1                 Eir_ETPU_CISR_B_Irq26
+   397ac    397ac        0     1                 Eir_ETPU_CISR_B_Irq27
+   397d4    397d4        0     1                 Eir_ETPU_CISR_B_Irq28
+   397fc    397fc        0     1                 Eir_ETPU_CISR_B_Irq29
+   39824    39824        0     1                 Eir_ETPU_CISR_B_Irq30
+   3984c    3984c        0     1                 Eir_ETPU_CISR_B_Irq31
+   39874    39874        0     1                 Eir_DSPI_ASR_FLOW
+   3989c    3989c        0     1                 Eir_DSPI_ASR_EOQF
+   398c4    398c4        0     1                 Eir_DSPI_ASR_TFFF
+   398ec    398ec        0     1                 Eir_DSPI_ASR_TCF
+   39914    39914        0     1                 Eir_DSPI_ASR_RFDF
+   3993c    3993c        0     1                 Eir_CANB_ESR
+   39964    39964        0     1                 Eir_CANB_ESR_Error
+   3998c    3998c        0     1                 Eir_CANB_Wakeup
+   399b4    399b4        0     1                 Eir_CANB_IFRL_BUF00
+   399dc    399dc        0     1                 Eir_CANB_IFRL_BUF01
+   39a04    39a04        0     1                 Eir_CANB_IFRL_BUF02
+   39a2c    39a2c        0     1                 Eir_CANB_IFRL_BUF03
+   39a54    39a54        0     1                 Eir_CANB_IFRL_BUF04
+   39a7c    39a7c        0     1                 Eir_CANB_IFRL_BUF05
+   39aa4    39aa4        0     1                 Eir_CANB_IFRL_BUF06
+   39acc    39acc        0     1                 Eir_CANB_IFRL_BUF07
+   39af4    39af4        0     1                 Eir_CANB_IFRL_BUF08
+   39b1c    39b1c        0     1                 Eir_CANB_IFRL_BUF09
+   39b44    39b44        0     1                 Eir_CANB_IFRL_BUF10
+   39b6c    39b6c        0     1                 Eir_CANB_IFRL_BUF11
+   39b94    39b94        0     1                 Eir_CANB_IFRL_BUF12
+   39bbc    39bbc        0     1                 Eir_CANB_IFRL_BUF13
+   39be4    39be4        0     1                 Eir_CANB_IFRL_BUF14
+   39c50    39c50        0     1                 CANB_IFRL_BUF14_NoScheduling
+   39cc8    39cc8        0     1                 Eir_CANB_IFRL_BUF15
+   39d34    39d34        0     1                 CANB_IFRL_BUF15_NoScheduling
+   39dac    39dac        0     1                 Eir_CANB_IFRL_BUF31_16
+   39dd4    39dd4        0     1                 Eir_CANB_IFRL_BUF63_32
+   39dfc    39dfc        0     1                 Eir_PIT_0
+   39e80    39e80        0     1                 PIT_0_NoScheduling
+   39ef8    39ef8        0     1                 Eir_PIT_1
+   39f20    39f20        0     1                 Eir_PIT_2
+   39f48    39f48        0     1                 Eir_PIT_3
+   39f70    39f70        0     1                 Eir_RTI
+   39f98    39f98        0     1                 Eir_PMC
+   39fc0    39fc0        0     1                 Eir_ECC_Corr
+   39fe8    39fe8        0     1                 Eir_CAND_ESR
+   3a010    3a010        0     1                 Eir_CAND_ESR_Error
+   3a038    3a038        0     1                 Eir_CAND_Wakeup
+   3a060    3a060        0     1                 Eir_CAND_IFRL_BUF00
+   3a088    3a088        0     1                 Eir_CAND_IFRL_BUF01
+   3a0b0    3a0b0        0     1                 Eir_CAND_IFRL_BUF02
+   3a0d8    3a0d8        0     1                 Eir_CAND_IFRL_BUF03
+   3a100    3a100        0     1                 Eir_CAND_IFRL_BUF04
+   3a128    3a128        0     1                 Eir_CAND_IFRL_BUF05
+   3a150    3a150        0     1                 Eir_CAND_IFRL_BUF06
+   3a178    3a178        0     1                 Eir_CAND_IFRL_BUF07
+   3a1a0    3a1a0        0     1                 Eir_CAND_IFRL_BUF08
+   3a1c8    3a1c8        0     1                 Eir_CAND_IFRL_BUF09
+   3a1f0    3a1f0        0     1                 Eir_CAND_IFRL_BUF10
+   3a218    3a218        0     1                 Eir_CAND_IFRL_BUF11
+   3a240    3a240        0     1                 Eir_CAND_IFRL_BUF12
+   3a268    3a268        0     1                 Eir_CAND_IFRL_BUF13
+   3a290    3a290        0     1                 Eir_CAND_IFRL_BUF14
+   3a2fc    3a2fc        0     1                 CAND_IFRL_BUF14_NoScheduling
+   3a374    3a374        0     1                 Eir_CAND_IFRL_BUF15
+   3a3e0    3a3e0        0     1                 CAND_IFRL_BUF15_NoScheduling
+   3a458    3a458        0     1                 Eir_CAND_IFRL_BUF31_16
+   3a480    3a480        0     1                 Eir_CAND_IFRL_BUF63_32
+   3a4a8    3a4a8        0     1                 Eir_GIFER_MIF
+   3a4d0    3a4d0        0     1                 Eir_GIFER_PRIF
+   3a4f8    3a4f8        0     1                 Eir_GIFER_CHIF
+   3a520    3a520        0     1                 Eir_GIFER_WUP_IF
+   3a548    3a548        0     1                 Eir_GIFER_FBNE_F
+   3a570    3a570        0     1                 Eir_GIFER_FANE_F
+   3a598    3a598        0     1                 Eir_GIFER_RBIF
+   3a5c0    3a5c0        0     1                 Eir_GIFER_TBIF
+   3a5e8    3a5e8        0     1                 Eir_DEC_B_Input
+   3a610    3a610        0     1                 Eir_DEC_B_Output
+   3a638    3a638        0     1                 Eir_DEC_B_Error
+   3a660    3a660        0     1                 Eir_EQADC_B_FISRx
+   3a6cc    3a6cc        0     1                 EQADC_B_FISRx_NoScheduling
+   3a744    3a744        0     1                 Eir_EQADC_B_FISR0_NCF
+   3a76c    3a76c        0     1                 Eir_EQADC_B_FISR0_PF
+   3a794    3a794        0     1                 Eir_EQADC_B_FISR0_EOQF
+   3a7bc    3a7bc        0     1                 Eir_EQADC_B_FISR0_CFFF
+   3a7e4    3a7e4        0     1                 Eir_EQADC_B_FISR0_RFDF
+   3a80c    3a80c        0     1                 Eir_EQADC_B_FISR1_NCF
+   3a834    3a834        0     1                 Eir_EQADC_B_FISR1_PF
+   3a85c    3a85c        0     1                 Eir_EQADC_B_FISR1_EOQF
+   3a884    3a884        0     1                 Eir_EQADC_B_FISR1_CFFF
+   3a8ac    3a8ac        0     1                 Eir_EQADC_B_FISR1_RFDF
+   3a8d4    3a8d4        0     1                 Eir_EQADC_B_FISR2_NCF
+   3a8fc    3a8fc        0     1                 Eir_EQADC_B_FISR2_PF
+   3a924    3a924        0     1                 Eir_EQADC_B_FISR2_EOQF
+   3a94c    3a94c        0     1                 Eir_EQADC_B_FISR2_CFFF
+   3a974    3a974        0     1                 Eir_EQADC_B_FISR2_RFDF
+   3a99c    3a99c        0     1                 Eir_EQADC_B_FISR3_NCF
+   3a9c4    3a9c4        0     1                 Eir_EQADC_B_FISR3_PF
+   3a9ec    3a9ec        0     1                 Eir_EQADC_B_FISR3_EOQF
+   3aa14    3aa14        0     1                 Eir_EQADC_B_FISR3_CFFF
+   3aa3c    3aa3c        0     1                 Eir_EQADC_B_FISR3_RFDF
+   3aa64    3aa64        0     1                 Eir_EQADC_B_FISR4_NCF
+   3aa8c    3aa8c        0     1                 Eir_EQADC_B_FISR4_PF
+   3aab4    3aab4        0     1                 Eir_EQADC_B_FISR4_EOQF
+   3aadc    3aadc        0     1                 Eir_EQADC_B_FISR4_CFFF
+   3ab04    3ab04        0     1                 Eir_EQADC_B_FISR4_RFDF
+   3ab2c    3ab2c        0     1                 Eir_EQADC_B_FISR5_NCF
+   3ab54    3ab54        0     1                 Eir_EQADC_B_FISR5_PF
+   3ab7c    3ab7c        0     1                 Eir_EQADC_B_FISR5_EOQF
+   3aba4    3aba4        0     1                 Eir_EQADC_B_FISR5_CFFF
+   3abcc    3abcc        0     1                 Eir_EQADC_B_FISR5_RFDF
+   3abf4    3abf4        0     1                 Eir_EDMA_B_ERL31_0
+   3ac1c    3ac1c        0     1                 Eir_EDMA_B_Irq00
+   3ac44    3ac44        0     1                 Eir_EDMA_B_Irq01
+   3acb0    3acb0        0     1                 EDMA_B_Irq01_NoScheduling
+   3ad28    3ad28        0     1                 Eir_EDMA_B_Irq02
+   3ad50    3ad50        0     1                 Eir_EDMA_B_Irq03
+   3adbc    3adbc        0     1                 EDMA_B_Irq03_NoScheduling
+   3ae34    3ae34        0     1                 Eir_EDMA_B_Irq04
+   3ae5c    3ae5c        0     1                 Eir_EDMA_B_Irq05
+   3aec8    3aec8        0     1                 EDMA_B_Irq05_NoScheduling
+   3af40    3af40        0     1                 Eir_EDMA_B_Irq06
+   3af68    3af68        0     1                 Eir_EDMA_B_Irq07
+   3afd4    3afd4        0     1                 EDMA_B_Irq07_NoScheduling
+   3b04c    3b04c        0     1                 Eir_EDMA_B_Irq08
+   3b074    3b074        0     1                 Eir_EDMA_B_Irq09
+   3b0e0    3b0e0        0     1                 EDMA_B_Irq09_NoScheduling
+   3b158    3b158        0     1                 Eir_EDMA_B_Irq10
+   3b180    3b180        0     1                 Eir_EDMA_B_Irq11
+   3b1ec    3b1ec        0     1                 EDMA_B_Irq11_NoScheduling
+   3b264    3b264        0     1                 Eir_EDMA_B_Irq12
+   3b28c    3b28c        0     1                 Eir_EDMA_B_Irq13
+   3b2b4    3b2b4        0     1                 Eir_EDMA_B_Irq14
+   3b2dc    3b2dc        0     1                 Eir_EDMA_B_Irq15
+   3b304    3b304        0     1                 Eir_EDMA_B_Irq16
+   3b32c    3b32c        0     1                 Eir_EDMA_B_Irq17
+   3b354    3b354        0     1                 Eir_EDMA_B_Irq18
+   3b37c    3b37c        0     1                 Eir_EDMA_B_Irq19
+   3b3a4    3b3a4        0     1                 Eir_EDMA_B_Irq20
+   3b3cc    3b3cc        0     1                 Eir_EDMA_B_Irq21
+   3b3f4    3b3f4        0     1                 Eir_EDMA_B_Irq22
+   3b41c    3b41c        0     1                 Eir_EDMA_B_Irq23
+   3b444    3b444        0     1                 Eir_EDMA_B_Irq24
+   3b46c    3b46c        0     1                 Eir_EDMA_B_Irq25
+   3b494    3b494        0     1                 Eir_EDMA_B_Irq26
+   3b4bc    3b4bc        0     1                 Eir_EDMA_B_Irq27
+   3b4e4    3b4e4        0     1                 Eir_EDMA_B_Irq28
+   3b50c    3b50c        0     1                 Eir_EDMA_B_Irq29
+   3b534    3b534        0     1                 Eir_EDMA_B_Irq30
+   3b55c    3b55c        0     1                 Eir_EDMA_B_Irq31
+   3b584    3b584        0     1                 Eir_EMIOS_GFR_Flag24
+   3b5ac    3b5ac        0     1                 Eir_EMIOS_GFR_Flag25
+   3b5d4    3b5d4        0     1                 Eir_EMIOS_GFR_Flag26
+   3b5fc    3b5fc        0     1                 Eir_EMIOS_GFR_Flag27
+   3b624    3b624        0     1                 Eir_EMIOS_GFR_Flag28
+   3b64c    3b64c        0     1                 Eir_EMIOS_GFR_Flag29
+   3b674    3b674        0     1                 Eir_EMIOS_GFR_Flag30
+   3b69c    3b69c        0     1                 Eir_EMIOS_GFR_Flag31
+   3b6c4    3b6c4        0     1                 Eir_DEC_C_Input
+   3b6ec    3b6ec        0     1                 Eir_DEC_C_Output
+   3b714    3b714        0     1                 Eir_DEC_C_Error
+   3b73c    3b73c        0     1                 Eir_DEC_D_Input
+   3b764    3b764        0     1                 Eir_DEC_D_Output
+   3b78c    3b78c        0     1                 Eir_DEC_D_Error
+   3b7b4    3b7b4        0     1                 Eir_ESCIC_SR
+   3b820    3b820        0     1                 ESCIC_SR_NoScheduling
+   3b898    3b898        0     1                 System_Call
+   3b960    3b960     1148    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CanBusConnector.o):(.text)
+   3b960    3b960      2ec     1                 CanBusConnector_Setup
+   3bc50    3bc50       44     1                 NextFreeTx
+   3bca0    3bca0      1c4     1                 CanA_Buf15
+   3be70    3be70      1b0     1                 CanB_Buf15
+   3c020    3c020      1c0     1                 CanC_Buf15
+   3c1e0    3c1e0      1d0     1                 CanD_Buf15
+   3c3b0    3c3b0      1bc     1                 CanA_Buf14
+   3c570    3c570      1a8     1                 CanB_Buf14
+   3c720    3c720      1b8     1                 CanC_Buf14
+   3c8e0    3c8e0      1c8     1                 CanD_Buf14
+   3caa8    3caa8        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(rand.c.o):(.text)
+   3cab0    3cab0       20    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(rand.c.o):(.text.rand)
+   3cab0    3cab0       20     1                 rand
+   3cad0    3cad0        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(random.c.o):(.text)
+   3cad0    3cad0       50    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(random.c.o):(.text.random)
+   3cad0    3cad0       50     1                 random
+   3cb20    3cb20        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srand.c.o):(.text)
+   3cb20    3cb20       20    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srand.c.o):(.text.srand)
+   3cb20    3cb20       20     1                 srand
+   3cb40    3cb40        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srandom.c.o):(.text)
+   3cb40    3cb40       18    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srandom.c.o):(.text.srandom)
+   3cb40    3cb40       18     1                 srandom
+   3cb58    3cb58        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memcpy.c.o):(.text)
+   3cb60    3cb60       80    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memcpy.c.o):(.text.memcpy)
+   3cb60    3cb60       80     1                 memcpy
+   3cbe0    3cbe0        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memset.c.o):(.text)
+   3cbe0    3cbe0       6c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memset.c.o):(.text.memset)
+   3cbe0    3cbe0       6c     1                 memset
+   3cc4c    3cc4c        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strlen.c.o):(.text)
+   3cc50    3cc50       24    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strlen.c.o):(.text.strlen)
+   3cc50    3cc50       24     1                 strlen
+   3cc74    3cc74        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vsprintf.c.o):(.text)
+   3cc80    3cc80       8c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vsprintf.c.o):(.text.vsprintf)
+   3cc80    3cc80       8c     1                 vsprintf
+   3cd0c    3cd0c        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(filestrput.c.o):(.text)
+   3cd10    3cd10       3c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(filestrput.c.o):(.text.__file_str_put)
+   3cd10    3cd10       3c     1                 __file_str_put
+   3cd4c    3cd4c        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vfprintf.c.o):(.text)
+   3cd50    3cd50     14e0    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vfprintf.c.o):(.text.vfprintf)
+   3cd50    3cd50     14e0     1                 __d_vfprintf
+   3cd50    3cd50     14e0     1                 vfprintf
+   3e230    3e230        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(fputc.c.o):(.text)
+   3e230    3e230       60    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(fputc.c.o):(.text.fputc)
+   3e230    3e230       60     1                 fputc
+   3e230    3e230       60     1                 putc
+   3e290    3e290        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strnlen.c.o):(.text)
+   3e290    3e290       3c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strnlen.c.o):(.text.strnlen)
+   3e290    3e290       3c     1                 strnlen
+   3e2cc    3e2cc        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(dtoa_ryu.c.o):(.text)
+   3e2d0    3e2d0      a50    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(dtoa_ryu.c.o):(.text.__dtoa_engine)
+   3e2d0    3e2d0      a50     1                 __dtoa_engine
+   3ed20    3ed20      350    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(dtoa_ryu.c.o):(.text.mulShiftAll64)
+   3ed20    3ed20      350     1                 mulShiftAll64
+   3f070    3f070        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.text)
+   3f070    3f070       cc    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.text.__pow5Factor)
+   3f070    3f070       cc     1                 __pow5Factor
+   3f140    3f140      214    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.text.__double_computePow5)
+   3f140    3f140      214     1                 __double_computePow5
+   3f360    3f360      228    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.text.__double_computeInvPow5)
+   3f360    3f360      228     1                 __double_computeInvPow5
+   3f588    3f588        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_log10.c.o):(.text)
+   3f590    3f590       14    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_log10.c.o):(.text.__log10Pow2)
+   3f590    3f590       14     1                 __log10Pow2
+   3f5b0    3f5b0       14    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_log10.c.o):(.text.__log10Pow5)
+   3f5b0    3f5b0       14     1                 __log10Pow5
+   3f5c4    3f5c4        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_pow5bits.c.o):(.text)
+   3f5d0    3f5d0       18    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_pow5bits.c.o):(.text.__pow5bits)
+   3f5d0    3f5d0       18     1                 __pow5bits
+   3f5e8    3f5e8        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_umul128.c.o):(.text)
+   3f5f0    3f5f0       50    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_umul128.c.o):(.text.__umul128)
+   3f5f0    3f5f0       50     1                 __umul128
+   3f640    3f640       4c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_umul128.c.o):(.text.__shiftright128)
+   3f640    3f640       4c     1                 __shiftright128
+   3f68c    3f68c      518     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(adddf3.c.o):(.text)
+   3f68c    3f68c      518     1                 __adddf3
+   3fba4    3fba4      22c     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(comparedf2.c.o):(.text)
+   3fba4    3fba4       ec     1                 __cmpdf2
+   3fba4    3fba4       ec     1                 __eqdf2
+   3fba4    3fba4       ec     1                 __ledf2
+   3fba4    3fba4       ec     1                 __ltdf2
+   3fba4    3fba4       ec     1                 __nedf2
+   3fc90    3fc90       e4     1                 __gedf2
+   3fc90    3fc90       e4     1                 __gtdf2
+   3fd74    3fd74       5c     1                 __unorddf2
+   3fdd0    3fdd0       c4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(extendsfdf2.c.o):(.text)
+   3fdd0    3fdd0       c4     1                 __extendsfdf2
+   3fe94    3fe94       68     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixsfdi.c.o):(.text)
+   3fe98    3fe98       64     1                 __fixsfdi
+   3fefc    3fefc       e8     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunssfdi.c.o):(.text)
+   3ff00    3ff00       e4     1                 __fixunssfdi
+   3ffe4    3ffe4       5c     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunsdfsi.c.o):(.text)
+   3ffe4    3ffe4       5c     1                 __fixunsdfsi
+   40040    40040      178     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatdisf.c.o):(.text)
+   40044    40044      174     1                 __floatdisf
+   401b8    401b8      14c     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatundisf.c.o):(.text)
+   401bc    401bc      148     1                 __floatundisf
+   40304    40304       48     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatunsidf.c.o):(.text)
+   40304    40304       48     1                 __floatunsidf
+   4034c    4034c       10     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fp_mode.c.o):(.text)
+   4034c    4034c        8     1                 __fe_getround
+   40354    40354        8     1                 __fe_raise_inexact
+   4035c    4035c      434     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(muldf3.c.o):(.text)
+   4035c    4035c      434     1                 __muldf3
+   40790    40790      160     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(truncdfsf2.c.o):(.text)
+   40790    40790      160     1                 __truncdfsf2
+   408f0    408f0      150     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(udivdi3.c.o):(.text)
+   408f0    408f0      150     1                 __udivdi3
+   40a40    40a40        0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(crt0.o):(.text)
+   40a40    40a40       7c    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(init.o):(.text)
+   40a40    40a40       7c     1                 __init_main
+   40ac0    40ac0       24    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Main.o):(.text)
+   40ac0    40ac0       24     1                 main
+   40af0    40af0       44    16         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK.o):(.text)
+   40af0    40af0       44     1                 OSEK
+   40b34    40b34        0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(adddf3.c.o):(.got2)
+   40b34    40b34        0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(comparedf2.c.o):(.got2)
+   40b34    40b34        0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(extendsfdf2.c.o):(.got2)
+   40b34    40b34        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixsfdi.c.o):(.got2)
+   40b38    40b38        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunssfdi.c.o):(.got2)
+   40b3c    40b3c        0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunsdfsi.c.o):(.got2)
+   40b3c    40b3c        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatdisf.c.o):(.got2)
+   40b40    40b40        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatundisf.c.o):(.got2)
+   40b44    40b44        0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatunsidf.c.o):(.got2)
+   40b44    40b44        0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fp_mode.c.o):(.got2)
+   40b44    40b44        0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(muldf3.c.o):(.got2)
+   40b44    40b44        0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(truncdfsf2.c.o):(.got2)
+   40b44    40b44        0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(udivdi3.c.o):(.got2)
+   40b44    40b44        0     4         <internal>:(.got2)
+   40b44    40b44        c     4         WindowControl.o:(.rodata.cst4)
+   40b50    40b50        2     2         DbcBuffer.o:(.rodata)
+   40b50    40b50        2     1                 DbcMsgBoxes_size
+   40b52    40b52       15     1         VeRaModelFrame.o:(.rodata)
+   40b52    40b52        c     1                 strModelBuildDate
+   40b5e    40b5e        9     1                 strModelBuildTime
+   40b67    40b67       a4     1         VeRaModelFrame.o:(.rodata.str1.1)
+   40c0b    40c0b        1     1         vera_configuration.o:(.rodata)
+   40c0b    40c0b        1     1                 diagConfig
+   40c0c    40c0c       11     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(syslog.o):(.rodata.str1.1)
+   40c1d    40c1d       30     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Boot.o):(.rodata.str1.1)
+   40c4d    40c4d       52     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VeRaApplication.o):(.rodata.str1.1)
+   40c9f    40c9f       2f     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(version.o):(.rodata)
+   40c9f    40c9f        9     1                 strDeviceInfo
+   40ca8    40ca8        c     1                 strOSEKLibBuildDate
+   40cb4    40cb4        9     1                 strOSEKLibBuildTime
+   40cbd    40cbd       11     1                 strOSEKLibVersion
+   40cce    40cce       d7     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Platform_POWERPC.o):(.rodata.str1.1)
+   40da5    40da5       3d     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Scheduler.o):(.rodata.str1.1)
+   40de2    40de2       5b     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Task.o):(.rodata.str1.1)
+   40e40    40e40       14     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Adc.o):(.rodata)
+   40e40    40e40       14     1                 StuAdcGeneralSet
+   40e54    40e54       1f     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Adc.o):(.rodata.str1.1)
+   40e74    40e74       20     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Can.o):(.rodata)
+   40e94    40e94       49     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Det.o):(.rodata.str1.1)
+   40ee0    40ee0       38     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Lin.o):(.rodata)
+   40f18    40f18       98     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Port.o):(.rodata)
+   40fb0    40fb0        c     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Pwm.o):(.rodata.cst4)
+   40fbc    40fbc        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Spi.o):(.rodata.cst4)
+   40fc0    40fc0       30     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Spi.o):(.rodata)
+   40ff0    40ff0       34     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Spi.o):(.rodata.str1.1)
+   41024    41024      140     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Uds.o):(.rodata)
+   41164    41164      2f0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Uds.o):(.rodata.str1.1)
+   41454    41454       28     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(DoCAN.o):(.rodata)
+   4147c    4147c      330     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Xcp.o):(.rodata)
+   4177c    4177c       30     1                 DAQ_EV
+   417ac    417ac       15     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Xcp.o):(.rodata.str1.1)
+   417c4    417c4     615c     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(eTPU.o):(.rodata)
+   417c4    417c4        2     1                 U16eTPURamSize
+   417c8    417c8     6000     1                 _SCM_code_mem_array
+   477c8    477c8      158     1                 _global_mem_init
+   47920    47920        8     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_CANDbc.o):(.rodata.cst4)
+   47928    47928       10     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_CANDbc.o):(.rodata)
+   47938    47938       55     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_CANDbc.o):(.rodata.str1.1)
+   4798d    4798d       1c     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_GPDI.o):(.rodata.str1.1)
+   479ac    479ac       18     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_AngleEvents_Conf.o):(.rodata)
+   479ac    479ac       18     1                 _angleEvents_frame_init
+   479c4    479c4       14     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_Crank_Conf.o):(.rodata.cst4)
+   479d8    479d8       50     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_Crank_Conf.o):(.rodata)
+   479d8    479d8       38     1                 _crank_frame_init
+   47a28    47a28       10     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_DIO.o):(.rodata.cst16)
+   47a38    47a38       2e     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Xcp_Cfg.o):(.rodata.str1.1)
+   47a66    47a66       2e     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CanBusConnector.o):(.rodata.str1.1)
+   47a94    47a94      14c     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vfprintf.c.o):(.rodata.vfprintf)
+   47be0    47be0        f     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vfprintf.c.o):(.rodata.str1.1)
+   47bf0    47bf0      2c8     8         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.rodata)
+   47bf0    47bf0       d0     1                 DOUBLE_POW5_SPLIT2
+   47cc0    47cc0       d0     1                 DOUBLE_POW5_TABLE
+   47d90    47d90       54     1                 POW5_OFFSETS
+   47de8    47de8       d0     1                 DOUBLE_POW5_INV_SPLIT2
+   47eb8    47eb8       4c     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.rodata.str4.4)
+   47eb8    47eb8       4c     1                 POW5_INV_OFFSETS
+   47f04    47f04        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixsfdi.c.o):(.rodata.cst4)
+   47f08    47f08        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunssfdi.c.o):(.rodata.cst4)
+   47f0c    47f0c        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatdisf.c.o):(.rodata.cst4)
+   47f10    47f10        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatundisf.c.o):(.rodata.cst4)
+   47f14    47f14       13     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK.o):(.rodata.str1.1)
+   47f28    47f28        4     4         WindowControl.o:(.data.rel.ro)
+   47f28    47f28        4     1                 WindowControl_M
+   47f2c    47f2c       18     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Uds_Cfg.o):(.data.rel.ro)
+   47f2c    47f2c       18     1                 Uds_GlobalConfiguration
+   47f44    47f44       18     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Xcp_Cfg.o):(.data.rel.ro)
+   47f44    47f44       18     1                 Xcp_GlobalConfiguration
+   47f5c    47f5c        0     1         _SDA2_BASE_ = ABSOLUTE ( . ) + 0x7ff0
+   47f5c    47f5c        4     1         . = ALIGN ( 8 )
+40015000    47f60     2b38     8 .data
+40015000    47f60        0     1         __DATA_RAM = ABSOLUTE ( . )
+40015000    47f60       8c     8         WindowControl.o:(.data)
+40015000    47f60        4     1                 WindowControl_M_
+40015008    47f68       28     1                 WindowControl_DW
+40015030    47f90       5c     1                 WindowControl_B
+4001508c    47fec      108     4         DbcBuffer.o:(.data)
+4001508c    47fec      108     1                 DbcMsgBoxes
+40015194    480f4       90     4         VeRaModelFrame.o:(.data)
+40015194    480f4        4     1                 U32WatchdogPeriod
+40015198    480f8        4     1                 TimerEvent
+4001519c    480fc       69     1                 cTask_Time_TCB
+40015208    48168        4     1                 cTask_Time
+4001520c    4816c       14     1                 cTask_Time_Alarm_ACB
+40015220    48180        4     1                 cTask_Time_Alarm
+40015224    48184        e     4         vera_uds_data_map.o:(.data)
+40015224    48184        c     1                 Uds_DataList
+40015230    48190        2     1                 U16Uds_DataListSize
+40015238    48198       10     8         vera_uds_dtc_map.o:(.data)
+40015238    48198        4     1                 U32Uds_DtcListSize
+40015240    481a0        8     1                 Uds_DtcList
+40015248    481a8       a0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VeRaComTask.o):(.data)
+40015248    481a8       14     1                 DAQ_EVENT_Alarm_ACB
+4001525c    481bc        4     1                 DAQ_EVENT_Alarm
+40015260    481c0       14     1                 ComTimer_1ms_Alarm_ACB
+40015274    481d4        4     1                 ComTimer_1ms_Alarm
+40015278    481d8       69     1                 VeRaComTask_TCB
+400152e4    48244        4     1                 VeRaComTask
+400152e8    48248       b4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Scheduler.o):(.data)
+400152e8    48248       69     1                 IdleTask_TCB
+40015354    482b4        4     1                 IdleTask
+40015358    482b8       20     1                 RES_SCHEDULER_RCB
+40015378    482d8        4     1                 RES_SCHEDULER
+4001537c    482dc       10     1                 OSEK_TICK
+4001538c    482ec       10     1                 OSEK_CRANK
+4001539c    482fc        8     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Spi.o):(.data)
+4001539c    482fc        4     1                 EnSpiSeqResult
+400153a0    48300        4     1                 EnSpiJobResult
+400153a4    48304        2     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Uds.o):(.data)
+400153a4    48304        1     1                 U8Uds_ExtendedSessionEnabled
+400153a5    48305        1     1                 U8Uds_ProgrammingSessionEnabled
+400153a6    48306        2     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_ADC.o):(.data)
+400153a6    48306        1     1                 S8CalCntA
+400153a7    48307        1     1                 S8CalCntB
+400153a8    48308      6c0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Adc_Cfg.o):(.data)
+400153a8    48308      6c0     1                 Adc_GlobalAdcConfiguration
+40015a68    489c8     20d0     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CAN_Cfg.o):(.data)
+40015a68    489c8     20d0     1                 Can_GlobalCanConfiguration
+40017b38    4aa98        0     1         _SDA_BASE_ = ABSOLUTE ( . ) + 0x7ff0
+40017b38    4aa98        0     1         . = ALIGN ( 8 )
+40017b38    4aa98        8     8 .tdata
+40017b38    4aa98        0     1         PROVIDE ( __tls_base = . + 0x7000 )
+40017b38    4aa98        8     8         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(random.c.o):(.tdata)
+       0 ffffffffc0032f60        8     1                 _rand_next
+40017b40    4aaa0        0     1         PROVIDE ( __DATA_END = ABSOLUTE ( . ) )
+40017b40    4aaa0        0     1 PROVIDE ( __DATA_ROM = LOADADDR ( .data ) )
+40017b40 40017b40        0     1 .tbss
+40017b40 40017b40        0     1         __BSS_START = ABSOLUTE ( . )
+40017b40 40017b40        0     1         PROVIDE ( __tls_end = . )
+40017b40 40017b40        0     1 PROVIDE ( __tbss_size = SIZEOF ( .tbss ) )
+40017b40 40017b40        0     1 .tbss_space
+40017b40 40017b40        0     1         . = . + __tbss_size
+40017b40 40017b40     a558     8 .bss
+40017b40 40017b40        2     2         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CanDbc.o):(.bss)
+40017b40 40017b40        2     1                 CanDbc_MainFunction.u16Timer1msPrev
+40017b42 40017b42        2     2         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VeRaComTask.o):(.bss)
+40017b42 40017b42        2     1                 U16ComTimer1ms
+40017b44 40017b44        1     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Alarm.o):(.bss)
+40017b44 40017b44        1     1                 TickToAbsCounter.u8NextAlarm
+40017b48 40017b48        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Boot.o):(.bss)
+40017b48 40017b48        4     1                 _OSActiveAppMode
+40017b4c 40017b4c       78     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Config.o):(.bss)
+40017b4c 40017b4c       28     1                 _OSTasks
+40017b74 40017b74       28     1                 _OSAlarms
+40017b9c 40017b9c       28     1                 _OSAbsAlarms
+40017bc4 40017bc4        4     2         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Interrupt.o):(.bss)
+40017bc4 40017bc4        2     1                 U16OSallSuspendNesting
+40017bc6 40017bc6        2     1                 U16OSosSuspendNesting
+40017bc8 40017bc8        8     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Platform_POWERPC.o):(.bss)
+40017bc8 40017bc8        4     1                 SystemTime
+40017bcc 40017bcc        4     1                 _OSStackBasePtr
+40017bd0 40017bd0        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Profiler.o):(.bss)
+40017bd0 40017bd0        4     1                 OSEKProfiler_MainLoop.u32lastProfilerCalc
+40017bd4 40017bd4      160     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Scheduler.o):(.bss)
+40017bd4 40017bd4        1     1                 BolHasToSchedule
+40017bd8 40017bd8        4     1                 _OSContextPtr
+40017bdc 40017bdc        4     1                 _OSActiveTask
+40017be0 40017be0       10     1                 ScheduleQueueList
+40017bf0 40017bf0      140     1                 ScheduleItems
+40017d30 40017d30        4     1                 EntryPtr
+40017d34 40017d34      27c     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Adc.o):(.bss)
+40017d34 40017d34        1     1                 BolAdcGlobalInit
+40017d38 40017d38       f0     1                 AdcGroupStatus
+40017e28 40017e28      180     1                 AdcCfifoBuffer
+40017fa8 40017fa8        2     1                 adcCFifoBufferNext
+40017fac 40017fac        4     1                 AdcConfigPtr
+40017fb0 40017fb0        8     2         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Can.o):(.bss)
+40017fb0 40017fb0        1     1                 BolCanDriverInit
+40017fb1 40017fb1        4     1                 BolCanControllerInit
+40017fb6 40017fb6        2     1                 Can_CreateHandle.nextFreeHandle
+40017fb8 40017fb8      198     2         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CanConsole.o):(.bss)
+40017fb8 40017fb8        1     1                 U8CanConsoleInitialized
+40017fba 40017fba        2     1                 S16CanConsoleSendHandle
+40017fbc 40017fbc        2     1                 U16CanConsoleTxBuf_WriteIdx
+40017fbe 40017fbe        2     1                 U16CanConsoleTxBuf_ReadIdx
+40017fc0 40017fc0      190     1                 CanConsoleTxBuf
+40018150 40018150       14     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Det.o):(.bss)
+40018150 40018150        1     1                 Det_ErrorCounter
+40018154 40018154       10     1                 Det_ErrorBuffer
+40018164 40018164       bc     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Lin.o):(.bss)
+40018164 40018164        4     1                 Lin_DriverState
+40018168 40018168        c     1                 Lin_Channel_Used_As
+40018174 40018174        8     1                 PduOutputBuffer
+4001817c 4001817c        8     1                 PduInputBuffer
+40018184 40018184        c     1                 LinIRQStatus
+40018190 40018190       48     1                 MasterIrq_Buffer
+400181d8 400181d8       48     1                 SlaveIrq_Buffer
+40018220 40018220        8     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Port.o):(.bss)
+40018220 40018220        1     1                 BolPortGlobalInit
+40018224 40018224        4     1                 StuPortConfigPtr
+40018228 40018228      314     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Pwm.o):(.bss)
+40018228 40018228        1     1                 BolPwmGlobalInit
+4001822c 4001822c      310     1                 StuPwmConfig
+4001853c 4001853c      12c     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Spi.o):(.bss)
+4001853c 4001853c        1     1                 BolSpiGlobalInit
+40018540 40018540        4     1                 EnSpiStatus
+40018544 40018544      120     1                 SpiExternalBuffer
+40018664 40018664        4     1                 BolSPI_Init
+40018668 40018668     22a4     8         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Uds.o):(.bss)
+40018670 40018670        4     1                 Uds_State
+40018674 40018674        4     1                 Uds_DiagnosticSession
+40018678 40018678        4     1                 Uds_SecurityLevel
+4001867c 4001867c        4     1                 U32UdsCurrentTime1us
+40018680 40018680        4     1                 U32UdsTimeoutCounter
+40018684 40018684        4     1                 U32Uds_ClearMask
+40018688 40018688        4     1                 Uds_ActiveConfiguration
+4001868c 4001868c     1038     1                 uds_docan_handle
+400196c4 400196c4        2     1                 U16Uds_RxPduLength
+400196c6 400196c6        2     1                 U16Uds_TxPduLength
+400196c8 400196c8        4     1                 U32Uds_MemoryAddress
+400196cc 400196cc        4     1                 U32Uds_MemorySize
+400196d0 400196d0        1     1                 U8Uds_MemoryAddressLength
+400196d1 400196d1        1     1                 U8Uds_MemorySizeLength
+400196d4 400196d4       18     1                 uds_crc_16
+400196ec 400196ec        4     1                 p_uds_crc_16
+400196f0 400196f0      200     1                 uds_crc_16_tbl
+400198f0 400198f0        2     1                 Uds_MainFunction.u16UdsLastTime1ms
+400198f2 400198f2      800     1                 Uds_rxPdu
+4001a0f2 4001a0f2      800     1                 Uds_txPdu
+4001a90c 4001a90c     1d81     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Xcp.o):(.bss)
+4001a90c 4001a90c        4     1                 Xcp_ActiveConfiguration
+4001a910 4001a910        2     1                 s16CanSendHandle
+4001a912 4001a912        2     1                 s16CanReceiveHandle
+4001a914 4001a914       18     1                 xcp_crc_16
+4001a92c 4001a92c        4     1                 p_xcp_crc_16
+4001a930 4001a930      200     1                 xcp_crc_16_tbl
+4001ab30 4001ab30        1     1                 U8ProtectionStatus
+4001ab31 4001ab31        1     1                 U8SessionStatus
+4001ab34 4001ab34        4     1                 U8MTAPtr
+4001ab38 4001ab38        1     1                 U8XCPSeedReqResource
+4001ab39 4001ab39        1     1                 U8KeyBytesReceived
+4001ab3a 4001ab3a       40     1                 U8XCPSeed
+4001ab7a 4001ab7a        1     1                 U8SeedBytesSent
+4001ab7b 4001ab7b       40     1                 U8XCPKey
+4001abbc 4001abbc     1ac0     1                 DAQ_T
+4001c67c 4001c67c        4     1                 DAQ_Flag
+4001c680 4001c680        2     1                 Xcp_SetEvents.u16DAQ1msCounter
+4001c684 4001c684        4     1                 DAQptr.0
+4001c688 4001c688        2     1                 DAQptr.1
+4001c68a 4001c68a        1     1                 DAQptr.2
+4001c68c 4001c68c        1     1                 DAQptr.3
+4001c68d 4001c68d        3     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(drv_esci.o):(.bss)
+4001c68d 4001c68d        3     1                 BolESCI_initialized
+4001c690 4001c690        5     2         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(eTPU.o):(.bss)
+4001c690 4001c690        2     1                 U16eTPURamUsed
+4001c692 4001c692        1     1                 U16CDCBufParam1Offset
+4001c694 4001c694        1     1                 U16CDCBufParam2Offset
+4001c698 4001c698      a7a     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_ADC.o):(.bss)
+4001c698 4001c698        1     1                 U8FlagGlobalInitDone
+4001c69a 4001c69a      960     1                 U16ResultBuffer
+4001cffa 4001cffa       f0     1                 stuAngleTrigRes
+4001d0ea 4001d0ea        1     1                 VERA_ADC_Update.u8AnglesUpdated
+4001d0eb 4001d0eb        1     1                 VERA_ADC_Update.u8AnglesInserted
+4001d0ec 4001d0ec        1     1                 U8NumAngles
+4001d0ed 4001d0ed        1     1                 U8WaitCommitA
+4001d0ee 4001d0ee        1     1                 U8WaitCommitB
+4001d0f0 4001d0f0        4     1                 U32CalRaw_A0_75
+4001d0f4 4001d0f4        4     1                 U32CalRaw_A0_25
+4001d0f8 4001d0f8        4     1                 U32CalRaw_A1_75
+4001d0fc 4001d0fc        4     1                 U32CalRaw_A1_25
+4001d100 4001d100        4     1                 U32CalRaw_B0_75
+4001d104 4001d104        4     1                 U32CalRaw_B0_25
+4001d108 4001d108        4     1                 U32CalRaw_B1_75
+4001d10c 4001d10c        4     1                 U32CalRaw_B1_25
+4001d110 4001d110        1     1                 U8TrigIndexA
+4001d111 4001d111        1     1                 U8TrigIndexB
+4001d112 4001d112        2     2         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_CANDbc_Conf.o):(.bss)
+4001d112 4001d112        2     1                 VERA_CANDbc_Conf_Init.s16NextFreeBuf
+4001d114 4001d114        c     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_CAN_Conf.o):(.bss)
+4001d114 4001d114        c     1                 VERA_CAN_Conf_Init.CanNumberOfUsedBuffers
+4001d120 4001d120        8     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_Crank_Conf.o):(.bss)
+4001d120 4001d120        1     1                 U8CrankChannel
+4001d124 4001d124        4     1                 U32TeethPerRev
+4001d128 4001d128       18     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Lin_Cfg.o):(.bss)
+4001d128 4001d128       18     1                 Lin_GlobalConfiguration
+4001d140 4001d140     4288     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Port_Cfg.o):(.bss)
+4001d140 4001d140     4288     1                 Port_GlobalPortConfiguration
+400213c8 400213c8      300     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Pwm_Cfg.o):(.bss)
+400213c8 400213c8      300     1                 Pwm_GlobalPwmConfiguration
+400216c8 400216c8      9c8     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Spi_Cfg.o):(.bss)
+400216c8 400216c8      9c8     1                 Spi_GlobalSpiConfiguration
+40022090 40022090        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CanBusConnector.o):(.bss)
+40022090 40022090        4     1                 CanBusConnected
+40022094 40022094        4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(init.o):(.bss)
+40022094 40022094        4     1                 environ
+40022098 40022098        0     1         __BSS_END = ABSOLUTE ( . )
+40022098 40022098        0     1         __HEAP_START = ABSOLUTE ( . )
+40000000    c0000      16f     8 .param_ram
+40000000    c0000        0     1         __PARAM_RAM = ABSOLUTE ( . )
+40000000    c0000       18     8         WindowControl.o:(.param_data)
+40000000    c0000        8     1                 armature_position
+40000008    c0008        8     1                 energy_save_speed
+40000010    c0010        8     1                 window_speed
+40000018    c0018      157     1         vera_configuration.o:(.param_data)
+40000018    c0018        4     1                 DriverDown
+4000001c    c001c        4     1                 DriverUp
+40000020    c0020        4     1                 MoveDown
+40000024    c0024        4     1                 MoveUp
+40000028    c0028        4     1                 PassengerDown
+4000002c    c002c        4     1                 PassengerUp
+40000030    c0030       1d     1                 Rec_123_obstacleDetected
+4000004d    c004d       1d     1                 Send_124_currentPosition
+4000006a    c006a       1d     1                 Send_124_driverInformation
+40000087    c0087       1d     1                 Send_124_errorCounter
+400000a4    c00a4       1d     1                 Send_124_moveDown
+400000c1    c00c1       1d     1                 Send_124_moveUp
+400000de    c00de       1d     1                 Send_125_debug_driver_down
+400000fb    c00fb       1d     1                 Send_125_debug_driver_up
+40000118    c0118       1d     1                 Send_125_debug_obstacle_detected
+40000135    c0135       1d     1                 Send_125_debug_passenger_down
+40000152    c0152       1d     1                 Send_125_debug_passenger_up
+4000016f    c016f        0     1         __PARAM_END = ABSOLUTE ( . )
+4000016f    c016f        0     1 PROVIDE ( __PARAM_ROM = LOADADDR ( .param_ram ) )
+4002a000 4002a000    10000     1 .stack
+4002a000 4002a000        0     1         __SP_END = ABSOLUTE ( . )
+4002a000 4002a000    10000     1         . += LENGTH ( stack )
+4003a000 4003a000        0     1         __SP_INIT = ( . & ~ 3 )
+4003a000 4003a000        0     1         __USER_STACK_TOP = ( . & ~ 3 )
+4003a000 4003a000        0     1 __BASEINFO = 0x1000
+4003a000 4003a000        0     1 __HEAP_END = ORIGIN ( ram ) + LENGTH ( ram )
+4003a000 4003a000        0     1 __SRAM_BASE_ADDR = ORIGIN ( param_ram )
+4003a000 4003a000        0     1 __SRAM_SIZE = LENGTH ( param_ram ) + LENGTH ( ram ) + LENGTH ( stack )
+       0        0      f29     1 .comment
+       0        0       16     1         WindowControl.o:(.comment)
+      16       16       16     1         DbcBuffer.o:(.comment)
+      2c       2c       16     1         VeRaModelFrame.o:(.comment)
+      42       42       16     1         vera_configuration.o:(.comment)
+      58       58       16     1         vera_uds_data_map.o:(.comment)
+      6e       6e       16     1         vera_uds_dtc_map.o:(.comment)
+      84       84       16     1         vera_proginfo.o:(.comment)
+      9a       9a       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CanDbc.o):(.comment)
+      b0       b0       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VeRaComTask.o):(.comment)
+      c6       c6       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(baseconfig.o):(.comment)
+      dc       dc       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(syslog.o):(.comment)
+      f2       f2       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Alarm.o):(.comment)
+     108      108       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Boot.o):(.comment)
+     11e      11e       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VeRaApplication.o):(.comment)
+     134      134       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(version.o):(.comment)
+     14a      14a       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(timer.o):(.comment)
+     160      160       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Config.o):(.comment)
+     176      176       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Event.o):(.comment)
+     18c      18c       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Interrupt.o):(.comment)
+     1a2      1a2       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Platform_POWERPC.o):(.comment)
+     1b8      1b8       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Profiler.o):(.comment)
+     1ce      1ce       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Scheduler.o):(.comment)
+     1e4      1e4       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK_Task.o):(.comment)
+     1fa      1fa       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Adc.o):(.comment)
+     210      210       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Can.o):(.comment)
+     226      226       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CanConsole.o):(.comment)
+     23c      23c       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Det.o):(.comment)
+     252      252       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Fpga.o):(.comment)
+     268      268       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Dio.o):(.comment)
+     27e      27e       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Lin.o):(.comment)
+     294      294       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Port.o):(.comment)
+     2aa      2aa       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Pwm.o):(.comment)
+     2c0      2c0       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Spi.o):(.comment)
+     2d6      2d6       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Uds.o):(.comment)
+     2ec      2ec       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(DoCAN.o):(.comment)
+     302      302       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(crcmodel.o):(.comment)
+     318      318       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(SysReset.o):(.comment)
+     32e      32e       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Xcp.o):(.comment)
+     344      344       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(drv_esci.o):(.comment)
+     35a      35a       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(eTPU.o):(.comment)
+     370      370       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_CANDbc.o):(.comment)
+     386      386       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(vector64.o):(.comment)
+     39c      39c       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_GPDI.o):(.comment)
+     3b2      3b2       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_ADC.o):(.comment)
+     3c8      3c8       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_AngleEvents_Conf.o):(.comment)
+     3de      3de       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_CANDbc_Conf.o):(.comment)
+     3f4      3f4       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_CAN_Conf.o):(.comment)
+     40a      40a       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_Crank_Conf.o):(.comment)
+     420      420       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(VERA_DIO.o):(.comment)
+     436      436       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Adc_Cfg.o):(.comment)
+     44c      44c       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CAN_Cfg.o):(.comment)
+     462      462       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Lin_Cfg.o):(.comment)
+     478      478       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Port_Cfg.o):(.comment)
+     48e      48e       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Pwm_Cfg.o):(.comment)
+     4a4      4a4       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Spi_Cfg.o):(.comment)
+     4ba      4ba       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Uds_Cfg.o):(.comment)
+     4d0      4d0       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Xcp_Cfg.o):(.comment)
+     4e6      4e6       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(CanBusConnector.o):(.comment)
+     4fc      4fc       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(rand.c.o):(.comment)
+     550      550       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(random.c.o):(.comment)
+     5a4      5a4       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srand.c.o):(.comment)
+     5f8      5f8       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srandom.c.o):(.comment)
+     64c      64c       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memcpy.c.o):(.comment)
+     6a0      6a0       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memset.c.o):(.comment)
+     6f4      6f4       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strlen.c.o):(.comment)
+     748      748       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vsprintf.c.o):(.comment)
+     79c      79c       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(filestrput.c.o):(.comment)
+     7f0      7f0       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vfprintf.c.o):(.comment)
+     844      844       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(fputc.c.o):(.comment)
+     898      898       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strnlen.c.o):(.comment)
+     8ec      8ec       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(dtoa_ryu.c.o):(.comment)
+     940      940       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.comment)
+     994      994       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_log10.c.o):(.comment)
+     9e8      9e8       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_pow5bits.c.o):(.comment)
+     a3c      a3c       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_umul128.c.o):(.comment)
+     a90      a90       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(adddf3.c.o):(.comment)
+     ae4      ae4       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(comparedf2.c.o):(.comment)
+     b38      b38       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(extendsfdf2.c.o):(.comment)
+     b8c      b8c       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixsfdi.c.o):(.comment)
+     be0      be0       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunssfdi.c.o):(.comment)
+     c34      c34       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunsdfsi.c.o):(.comment)
+     c88      c88       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatdisf.c.o):(.comment)
+     cdc      cdc       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatundisf.c.o):(.comment)
+     d30      d30       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatunsidf.c.o):(.comment)
+     d84      d84       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fp_mode.c.o):(.comment)
+     dd8      dd8       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(muldf3.c.o):(.comment)
+     e2c      e2c       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(truncdfsf2.c.o):(.comment)
+     e80      e80       54     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(udivdi3.c.o):(.comment)
+     ed4      ed4       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(init.o):(.comment)
+     eea      eea       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(Main.o):(.comment)
+     f00      f00       16     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libvera3.a(OSEK.o):(.comment)
+     f16      f16       13     1         <internal>:(.comment)
+       0        0     13a4     1 .debug_abbrev
+       0        0       36     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(rand.c.o):(.debug_abbrev)
+      36       36       47     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(random.c.o):(.debug_abbrev)
+      7d       7d       43     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srand.c.o):(.debug_abbrev)
+      c0       c0       43     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srandom.c.o):(.debug_abbrev)
+     103      103       a4     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memcpy.c.o):(.debug_abbrev)
+     1a7      1a7       7a     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memset.c.o):(.debug_abbrev)
+     221      221       6f     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strlen.c.o):(.debug_abbrev)
+     290      290       db     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vsprintf.c.o):(.debug_abbrev)
+     36b      36b       bf     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(filestrput.c.o):(.debug_abbrev)
+     42a      42a      1e1     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vfprintf.c.o):(.debug_abbrev)
+     60b      60b       a1     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(fputc.c.o):(.debug_abbrev)
+     6ac      6ac       7c     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strnlen.c.o):(.debug_abbrev)
+     728      728      1aa     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(dtoa_ryu.c.o):(.debug_abbrev)
+     8d2      8d2      10c     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.debug_abbrev)
+     9de      9de       59     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_log10.c.o):(.debug_abbrev)
+     a37      a37       59     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_pow5bits.c.o):(.debug_abbrev)
+     a90      a90       8b     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_umul128.c.o):(.debug_abbrev)
+     b1b      b1b       d9     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(adddf3.c.o):(.debug_abbrev)
+     bf4      bf4       80     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(comparedf2.c.o):(.debug_abbrev)
+     c74      c74      11d     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(extendsfdf2.c.o):(.debug_abbrev)
+     d91      d91       52     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixsfdi.c.o):(.debug_abbrev)
+     de3      de3       6e     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunssfdi.c.o):(.debug_abbrev)
+     e51      e51       ac     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunsdfsi.c.o):(.debug_abbrev)
+     efd      efd       82     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatdisf.c.o):(.debug_abbrev)
+     f7f      f7f       82     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatundisf.c.o):(.debug_abbrev)
+    1001     1001       84     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatunsidf.c.o):(.debug_abbrev)
+    1085     1085       59     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fp_mode.c.o):(.debug_abbrev)
+    10de     10de      10e     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(muldf3.c.o):(.debug_abbrev)
+    11ec     11ec      103     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(truncdfsf2.c.o):(.debug_abbrev)
+    12ef     12ef       b5     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(udivdi3.c.o):(.debug_abbrev)
+       0        0     405e     1 .debug_info
+       0        0       45     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(rand.c.o):(.debug_info)
+      45       45       5f     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(random.c.o):(.debug_info)
+      a4       a4       51     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srand.c.o):(.debug_info)
+      f5       f5       4f     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srandom.c.o):(.debug_info)
+     144      144       c0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memcpy.c.o):(.debug_info)
+     204      204       99     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memset.c.o):(.debug_info)
+     29d      29d       80     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strlen.c.o):(.debug_info)
+     31d      31d      1e0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vsprintf.c.o):(.debug_info)
+     4fd      4fd      18f     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(filestrput.c.o):(.debug_info)
+     68c      68c      a6d     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vfprintf.c.o):(.debug_info)
+    10f9     10f9      141     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(fputc.c.o):(.debug_info)
+    123a     123a       8b     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strnlen.c.o):(.debug_info)
+    12c5     12c5      cf1     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(dtoa_ryu.c.o):(.debug_info)
+    1fb6     1fb6      39d     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.debug_info)
+    2353     2353       b4     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_log10.c.o):(.debug_info)
+    2407     2407       8d     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_pow5bits.c.o):(.debug_info)
+    2494     2494      205     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_umul128.c.o):(.debug_info)
+    2699     2699      362     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(adddf3.c.o):(.debug_info)
+    29fb     29fb      21c     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(comparedf2.c.o):(.debug_info)
+    2c17     2c17      336     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(extendsfdf2.c.o):(.debug_info)
+    2f4d     2f4d       7d     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixsfdi.c.o):(.debug_info)
+    2fca     2fca       d1     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunssfdi.c.o):(.debug_info)
+    309b     309b      152     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunsdfsi.c.o):(.debug_info)
+    31ed     31ed      172     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatdisf.c.o):(.debug_info)
+    335f     335f      136     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatundisf.c.o):(.debug_info)
+    3495     3495       f1     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatunsidf.c.o):(.debug_info)
+    3586     3586       8f     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fp_mode.c.o):(.debug_info)
+    3615     3615      450     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(muldf3.c.o):(.debug_info)
+    3a65     3a65      46e     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(truncdfsf2.c.o):(.debug_info)
+    3ed3     3ed3      18b     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(udivdi3.c.o):(.debug_info)
+       0        0     2a96     1 .debug_str
+       0        0       a4     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(rand.c.o):(.debug_str)
+      a4       a4       c6     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(random.c.o):(.debug_str)
+     16a      16a       b4     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srand.c.o):(.debug_str)
+     21e      21e       b8     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srandom.c.o):(.debug_str)
+     2d6      2d6       de     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memcpy.c.o):(.debug_str)
+     3b4      3b4       ce     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memset.c.o):(.debug_str)
+     482      482       cc     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strlen.c.o):(.debug_str)
+     54e      54e      18c     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vsprintf.c.o):(.debug_str)
+     6da      6da      165     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(filestrput.c.o):(.debug_str)
+     83f      83f      38a     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vfprintf.c.o):(.debug_str)
+     bc9      bc9      132     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(fputc.c.o):(.debug_str)
+     cfb      cfb       d0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strnlen.c.o):(.debug_str)
+     dcb      dcb      3c1     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(dtoa_ryu.c.o):(.debug_str)
+    118c     118c      1fc     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.debug_str)
+    1388     1388       f4     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_log10.c.o):(.debug_str)
+    147c     147c       ea     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_pow5bits.c.o):(.debug_str)
+    1566     1566      17e     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_umul128.c.o):(.debug_str)
+    16e4     16e4      1ac     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(adddf3.c.o):(.debug_str)
+    1890     1890      19e     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(comparedf2.c.o):(.debug_str)
+    1a2e     1a2e      239     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(extendsfdf2.c.o):(.debug_str)
+    1c67     1c67       d3     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixsfdi.c.o):(.debug_str)
+    1d3a     1d3a      11f     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunssfdi.c.o):(.debug_str)
+    1e59     1e59      14d     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunsdfsi.c.o):(.debug_str)
+    1fa6     1fa6      169     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatdisf.c.o):(.debug_str)
+    210f     210f      144     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatundisf.c.o):(.debug_str)
+    2253     2253      134     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatunsidf.c.o):(.debug_str)
+    2387     2387      10b     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fp_mode.c.o):(.debug_str)
+    2492     2492      1fc     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(muldf3.c.o):(.debug_str)
+    268e     268e      2ca     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(truncdfsf2.c.o):(.debug_str)
+    2958     2958      13e     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(udivdi3.c.o):(.debug_str)
+       0        0      6e4     4 .debug_frame
+       0        0       28     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(rand.c.o):(.debug_frame)
+      28       28       20     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(random.c.o):(.debug_frame)
+      48       48       28     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srand.c.o):(.debug_frame)
+      70       70       20     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srandom.c.o):(.debug_frame)
+      90       90       20     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memcpy.c.o):(.debug_frame)
+      b0       b0       20     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memset.c.o):(.debug_frame)
+      d0       d0       20     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strlen.c.o):(.debug_frame)
+      f0       f0       34     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vsprintf.c.o):(.debug_frame)
+     124      124       20     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(filestrput.c.o):(.debug_frame)
+     144      144       94     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vfprintf.c.o):(.debug_frame)
+     1d8      1d8       2c     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(fputc.c.o):(.debug_frame)
+     204      204       20     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strnlen.c.o):(.debug_frame)
+     224      224       f4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(dtoa_ryu.c.o):(.debug_frame)
+     318      318       d4     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.debug_frame)
+     3ec      3ec       30     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_log10.c.o):(.debug_frame)
+     41c      41c       20     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_pow5bits.c.o):(.debug_frame)
+     43c      43c       30     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_umul128.c.o):(.debug_frame)
+     46c      46c       40     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(adddf3.c.o):(.debug_frame)
+     4ac      4ac       40     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(comparedf2.c.o):(.debug_frame)
+     4ec      4ec       24     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(extendsfdf2.c.o):(.debug_frame)
+     510      510       2c     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixsfdi.c.o):(.debug_frame)
+     53c      53c       40     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunssfdi.c.o):(.debug_frame)
+     57c      57c       20     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunsdfsi.c.o):(.debug_frame)
+     59c      59c       34     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatdisf.c.o):(.debug_frame)
+     5d0      5d0       2c     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatundisf.c.o):(.debug_frame)
+     5fc      5fc       20     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatunsidf.c.o):(.debug_frame)
+     61c      61c       30     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fp_mode.c.o):(.debug_frame)
+     64c      64c       44     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(muldf3.c.o):(.debug_frame)
+     690      690       24     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(truncdfsf2.c.o):(.debug_frame)
+     6b4      6b4       30     4         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(udivdi3.c.o):(.debug_frame)
+       0        0     3553     1 .debug_line
+       0        0       55     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(rand.c.o):(.debug_line)
+      55       55       6c     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(random.c.o):(.debug_line)
+      c1       c1       55     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srand.c.o):(.debug_line)
+     116      116       56     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srandom.c.o):(.debug_line)
+     16c      16c       ae     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memcpy.c.o):(.debug_line)
+     21a      21a       a5     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memset.c.o):(.debug_line)
+     2bf      2bf       9a     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strlen.c.o):(.debug_line)
+     359      359       da     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vsprintf.c.o):(.debug_line)
+     433      433       f3     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(filestrput.c.o):(.debug_line)
+     526      526      b02     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vfprintf.c.o):(.debug_line)
+    1028     1028       d9     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(fputc.c.o):(.debug_line)
+    1101     1101       a3     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strnlen.c.o):(.debug_line)
+    11a4     11a4      8d9     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(dtoa_ryu.c.o):(.debug_line)
+    1a7d     1a7d      2bc     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.debug_line)
+    1d39     1d39       d8     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_log10.c.o):(.debug_line)
+    1e11     1e11       c2     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_pow5bits.c.o):(.debug_line)
+    1ed3     1ed3      134     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_umul128.c.o):(.debug_line)
+    2007     2007      365     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(adddf3.c.o):(.debug_line)
+    236c     236c      1b2     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(comparedf2.c.o):(.debug_line)
+    251e     251e      195     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(extendsfdf2.c.o):(.debug_line)
+    26b3     26b3       ee     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixsfdi.c.o):(.debug_line)
+    27a1     27a1      104     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunssfdi.c.o):(.debug_line)
+    28a5     28a5      140     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunsdfsi.c.o):(.debug_line)
+    29e5     29e5      19d     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatdisf.c.o):(.debug_line)
+    2b82     2b82      186     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatundisf.c.o):(.debug_line)
+    2d08     2d08      118     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatunsidf.c.o):(.debug_line)
+    2e20     2e20       63     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fp_mode.c.o):(.debug_line)
+    2e83     2e83      344     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(muldf3.c.o):(.debug_line)
+    31c7     31c7      1ff     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(truncdfsf2.c.o):(.debug_line)
+    33c6     33c6      18d     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(udivdi3.c.o):(.debug_line)
+       0        0     5790     1 .debug_loc
+       0        0       13     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(srand.c.o):(.debug_loc)
+      13       13       39     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memcpy.c.o):(.debug_loc)
+      4c       4c       13     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(memset.c.o):(.debug_loc)
+      5f       5f       26     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strlen.c.o):(.debug_loc)
+      85       85       57     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vsprintf.c.o):(.debug_loc)
+      dc       dc       13     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(filestrput.c.o):(.debug_loc)
+      ef       ef     16af     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vfprintf.c.o):(.debug_loc)
+    179e     179e       3c     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(fputc.c.o):(.debug_loc)
+    17da     17da       31     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(strnlen.c.o):(.debug_loc)
+    180b     180b     1a27     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(dtoa_ryu.c.o):(.debug_loc)
+    3232     3232      5a8     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.debug_loc)
+    37da     37da       36     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_log10.c.o):(.debug_loc)
+    3810     3810       13     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_pow5bits.c.o):(.debug_loc)
+    3823     3823      39b     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_umul128.c.o):(.debug_loc)
+    3bbe     3bbe      82f     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(adddf3.c.o):(.debug_loc)
+    43ed     43ed      349     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(comparedf2.c.o):(.debug_loc)
+    4736     4736      179     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(extendsfdf2.c.o):(.debug_loc)
+    48af     48af       1e     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixsfdi.c.o):(.debug_loc)
+    48cd     48cd       26     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunssfdi.c.o):(.debug_loc)
+    48f3     48f3       7e     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunsdfsi.c.o):(.debug_loc)
+    4971     4971      1c1     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatdisf.c.o):(.debug_loc)
+    4b32     4b32      161     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatundisf.c.o):(.debug_loc)
+    4c93     4c93       58     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(floatunsidf.c.o):(.debug_loc)
+    4ceb     4ceb      682     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(muldf3.c.o):(.debug_loc)
+    536d     536d      20a     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(truncdfsf2.c.o):(.debug_loc)
+    5577     5577      219     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(udivdi3.c.o):(.debug_loc)
+       0        0      938     1 .debug_ranges
+       0        0      3d0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(vfprintf.c.o):(.debug_ranges)
+     3d0      3d0      3c0     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(dtoa_ryu.c.o):(.debug_ranges)
+     790      790       58     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_table.c.o):(.debug_ranges)
+     7e8      7e8       18     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_log10.c.o):(.debug_ranges)
+     800      800       18     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libc.a(ryu_umul128.c.o):(.debug_ranges)
+     818      818       18     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(adddf3.c.o):(.debug_ranges)
+     830      830       28     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(extendsfdf2.c.o):(.debug_ranges)
+     858      858       20     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(fixunsdfsi.c.o):(.debug_ranges)
+     878      878       90     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(muldf3.c.o):(.debug_ranges)
+     908      908       30     1         C:\Users\Mindmotiv\Desktop\beckhoff\VeRaBuild\publish/VeRa_Lib/clang\libbuiltins.a(truncdfsf2.c.o):(.debug_ranges)
+       0        0     6450     4 .symtab
+       0        0     6450     4         <internal>:(.symtab)
+       0        0       c0     1 .shstrtab
+       0        0       c0     1         <internal>:(.shstrtab)
+       0        0     6b4c     1 .strtab
+       0        0     6b4c     1         <internal>:(.strtab)

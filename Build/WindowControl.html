@@ -1,0 +1,81 @@
+<!DOCTYPE html><html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>Data Overview for Project WindowControl</title>
+    <style type="text/css">
+      tr:nth-child(odd) { background-color:#fff; }
+      tr:nth-child(even) { background-color:#eee; }
+      td, th { border-bottom: 1px solid grey; padding:3px 20px; vertical-align:top; }
+	  h1 { margin-top: 1.5em; font-size: 18pt; }
+	  .val { white-space: nowrap; width: 150px; overflow: hidden; text-overflow: ellipsis; }
+	  .val:hover { white-space: normal; overflow: visible;}
+     </style>
+  </head>
+  <body>
+    <h1>Signals</h1>
+    <table border="0" cellspacing="0" cellpadding="0" style="border:1px solid grey;text-align:left;">
+      <tr style="background-color:#7af;">
+        <th>Name</th>
+        <th>DataType</th>
+        <th>Min</th>
+        <th>Max</th>
+        <th>DefaultValue</th>
+        <th>Unit</th>
+        <th>Description</th>
+        <th>FieldSize</th>
+      </tr>
+    </table>
+    <h1>Parameters</h1>
+    <table border="0" cellspacing="0" cellpadding="0" style="border:1px solid grey;text-align:left;">
+      <tr style="background-color:#7af;">
+        <th>Name</th>
+        <th>DataType</th>
+        <th>Min</th>
+        <th>Max</th>
+        <th>DefaultValue</th>
+        <th>Unit</th>
+        <th>Description</th>
+        <th>FieldSize</th>
+      </tr>
+      <tr>
+        <td>armature_position</td>
+        <td>double</td>
+        <td>0.0</td>
+        <td>100.0</td>
+        <td>
+          <div class="val">0.0</div>
+        </td>
+        <td>
+        </td>
+        <td>Window Starting Position</td>
+        <td>1 x 1</td>
+      </tr>
+      <tr>
+        <td>energy_save_speed</td>
+        <td>double</td>
+        <td>0.0</td>
+        <td>255.0</td>
+        <td>
+          <div class="val">10.0</div>
+        </td>
+        <td>
+        </td>
+        <td>Threshold when driver information should happen</td>
+        <td>1 x 1</td>
+      </tr>
+      <tr>
+        <td>window_speed</td>
+        <td>double</td>
+        <td>0.0</td>
+        <td>100.0</td>
+        <td>
+          <div class="val">0.25</div>
+        </td>
+        <td>
+        </td>
+        <td>Window move speed per second</td>
+        <td>1 x 1</td>
+      </tr>
+    </table>
+  </body>
+</html>

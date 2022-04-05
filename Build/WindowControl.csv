@@ -1,0 +1,4 @@
+Name;Class;DataType;DefaultValue;Description;Unit;Min;Max;NumCols;NumRows
+armature_position;Parameter;double;0.0;Window Starting Position;;0.0;100.0;1;1
+energy_save_speed;Parameter;double;10.0;Threshold when driver information should happen;;0.0;255.0;1;1
+window_speed;Parameter;double;0.25;Window move speed per second;;0.0;100.0;1;1
